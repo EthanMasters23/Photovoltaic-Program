@@ -1,0 +1,278 @@
+2024-05-23 20:11:52,312 - INFO - data_summary - Starting Irradiance data summary...
+2024-05-23 20:11:52,313 - INFO - DataSummary - Loading previously compiled Irradiance data for current summary of all available data.
+2024-05-23 20:12:20,083 - INFO - DataSummary - ------------------------ Observation Times Summary Before Resampling ------------------------
+2024-05-23 20:14:35,938 - INFO - DataSummary - Table of monthly time elapsed between observations (NaN included pre resampling): 
+         (10 - 20)s  (0 - 10)s  (50 - 60)s  (30 - 40)s  (1 - 5)min  (20 - 30)s  (5 - 10)min  (10 - 20)min  (40 - 50)s  ( > hour)s  (20 - 30)min  (30 - 59)min
+2019 9     198855.0    20103.0         9.0        15.0        45.0        18.0          6.0           3.0         5.0         5.0           2.0           1.0
+     10    227380.0     9575.0        12.0         3.0        22.0         2.0          2.0           2.0         NaN         NaN           NaN           1.0
+     11    201589.0     8492.0         3.0         1.0        25.0         1.0          NaN           NaN         1.0         1.0           NaN           NaN
+     12    192933.0     8121.0         2.0         2.0        28.0         4.0          NaN           NaN         NaN         1.0           1.0           2.0
+2020 1     202789.0     8370.0         3.0         3.0        28.0         7.0          1.0           1.0         1.0         3.0           NaN           1.0
+     2     173027.0     7410.0         2.0         5.0        27.0         8.0          8.0           2.0         1.0         4.0           NaN           NaN
+     3     177974.0     7493.0         3.0         3.0        26.0        13.0          1.0           NaN         NaN         2.0           NaN           NaN
+     4     219479.0     9238.0         NaN         1.0        30.0         5.0          NaN           NaN         NaN         NaN           NaN           NaN
+     5     172626.0   170343.0         4.0         3.0        27.0        22.0          NaN           2.0         3.0         1.0           NaN           NaN
+     6          7.0    52771.0         3.0         5.0     39197.0         3.0          NaN           1.0         2.0         1.0           1.0           NaN
+     7       6991.0     1621.0         2.0         1.0     31647.0         2.0          2.0           NaN         3.0         2.0           NaN           NaN
+     8       7011.0     6667.0         2.0      7275.0      9503.0         3.0          2.0           1.0         1.0         4.0           NaN           NaN
+     9     209956.0     8949.0         6.0       975.0      1812.0        46.0          NaN           NaN         2.0         NaN           NaN           NaN
+     10    228532.0     9614.0         8.0         3.0        20.0         6.0          1.0           1.0         6.0         NaN           NaN           NaN
+     11    220411.0     9274.0         2.0         2.0        23.0         7.0          NaN           NaN         4.0         NaN           NaN           NaN
+     12    227207.0     9556.0         4.0         3.0        24.0         7.0          1.0           1.0         7.0         NaN           NaN           NaN
+2021 1     227098.0     9556.0         4.0         NaN        25.0        12.0          NaN           NaN         3.0         NaN           NaN           NaN
+     2     205071.0     8623.0         4.0         2.0        22.0        11.0          2.0           NaN         1.0         NaN           NaN           NaN
+     3     224893.0     9457.0         4.0         2.0        33.0        15.0          4.0           2.0         1.0         1.0           NaN           NaN
+     4     217680.0     9155.0         2.0         NaN        27.0         5.0         10.0           5.0         1.0         1.0           1.0           NaN
+     5     225925.0     9498.0         5.0         3.0        38.0        14.0          3.0           3.0         2.0         NaN           NaN           1.0
+     6     219090.0     9201.0         6.0         9.0        51.0        21.0          1.0           NaN         6.0         1.0           2.0           NaN
+     7     229689.0     9653.0         1.0         2.0        31.0        23.0          NaN           NaN         NaN         NaN           NaN           NaN
+     8     229377.0     9647.0         4.0         2.0        37.0        12.0          6.0           3.0         NaN         NaN           NaN           NaN
+     9     222102.0     9337.0         1.0         3.0        27.0        18.0          2.0           NaN         3.0         NaN           NaN           NaN
+     10    228402.0     9604.0         NaN         4.0        30.0        17.0          4.0           NaN         2.0         NaN           NaN           NaN
+     11    164621.0    10598.0         1.0         3.0        17.0        13.0          1.0           NaN         NaN         2.0           1.0           NaN
+     12    226693.0     9515.0         NaN         2.0        19.0        22.0          3.0           NaN         NaN         1.0           NaN           NaN
+2022 1     226889.0     9534.0         1.0         3.0        31.0        22.0          NaN           NaN         1.0         NaN           NaN           NaN
+     2     203610.0     8558.0         NaN         5.0        30.0        24.0          NaN           NaN         4.0         NaN           NaN           NaN
+     3     218493.0     9177.0         1.0         5.0        34.0        23.0          NaN           NaN         NaN         NaN           NaN           NaN
+     4     206121.0     8667.0         NaN         4.0        31.0        41.0          1.0           NaN         1.0         NaN           1.0           NaN
+     5     214395.0     9001.0         NaN        18.0        35.0        85.0          NaN           NaN         2.0         NaN           NaN           NaN
+     6     202762.0     8523.0         2.0         5.0        20.0       110.0          1.0           NaN         6.0         NaN           NaN           NaN
+     7     221020.0     9281.0         NaN        14.0         1.0        40.0          NaN           NaN        13.0         NaN           NaN           NaN
+     8     211843.0     8888.0         6.0        27.0         3.0       124.0          NaN           NaN         9.0         NaN           NaN           NaN
+     9     189677.0     7965.0         3.0        22.0         2.0       130.0          2.0           NaN        13.0         1.0           NaN           1.0
+     10    194246.0     8161.0        12.0        14.0         1.0       111.0          NaN           NaN         3.0         NaN           NaN           NaN
+     11     88549.0     3721.0         3.0         3.0         6.0        26.0          NaN           NaN         1.0         1.0           NaN           NaN
+     12    197108.0     8279.0         5.0        22.0        19.0       142.0          NaN           NaN         7.0         1.0           NaN           NaN
+2023 1     201183.0     8456.0        11.0        11.0        10.0       276.0          NaN           NaN        11.0         NaN           1.0           NaN
+     2     182507.0     7671.0         7.0        13.0        10.0       216.0          NaN           NaN        10.0         NaN           NaN           NaN
+     3     194690.0     8216.0         6.0        15.0        11.0       165.0          NaN           NaN         9.0         3.0           NaN           NaN
+2024-05-23 20:14:35,938 - INFO - DataSummary - ------------------------ Variable Summary ------------------------
+2024-05-23 20:14:36,163 - INFO - DataSummary - 
+           GlobalIR
+count  5.099932e+06
+mean   1.282925e+02
+std    2.278479e+02
+min    0.000000e+00
+25%    0.000000e+00
+50%    0.000000e+00
+75%    1.526000e+02
+max    1.458000e+03
+2024-05-23 20:14:36,394 - INFO - DataSummary - 
+           DirectIR
+count  5.099932e+06
+mean   5.654742e+01
+std    9.064525e+01
+min    0.000000e+00
+25%    0.000000e+00
+50%    0.000000e+00
+75%    8.685000e+01
+max    7.294000e+02
+2024-05-23 20:14:36,622 - INFO - DataSummary - 
+          DiffuseIR
+count  5.099932e+06
+mean   7.174507e+01
+std    1.724530e+02
+min    0.000000e+00
+25%    0.000000e+00
+50%    0.000000e+00
+75%    7.600000e+00
+max    1.159700e+03
+2024-05-23 20:14:36,886 - INFO - DataSummary - 
+          WindSpeed
+count  5.095833e+06
+mean   1.214944e+00
+std    1.176539e+00
+min    0.000000e+00
+25%    1.700000e-01
+50%    1.040000e+00
+75%    1.755000e+00
+max    1.000000e+01
+2024-05-23 20:14:39,179 - INFO - DataSummary - 
+        Temperature
+count  5.095839e+06
+mean   1.107429e+01
+std    8.145981e+00
+min   -1.150000e+01
+25%    5.000000e+00
+50%    9.900000e+00
+75%    1.620000e+01
+max    4.130000e+01
+2024-05-23 20:14:39,179 - INFO - DataSummary - ------------------------ Average Peak Values / Time ------------------------
+2024-05-23 20:15:44,033 - INFO - DataSummary - Average Peak GlobalIR Value in a Day: 671.47.
+2024-05-23 20:15:44,034 - INFO - DataSummary - Average Peak GlobalIR Time in a Day: 11:19:51.
+2024-05-23 20:15:45,512 - INFO - DataSummary - Average Peak DirectIR Value in a Day: 296.84.
+2024-05-23 20:15:45,512 - INFO - DataSummary - Average Peak DirectIR Time in a Day: 11:02:55.
+2024-05-23 20:15:46,914 - INFO - DataSummary - Average Peak DiffuseIR Value in a Day: 445.99.
+2024-05-23 20:15:46,914 - INFO - DataSummary - Average Peak DiffuseIR Time in a Day: 11:21:16.
+2024-05-23 20:15:48,362 - INFO - DataSummary - Average Peak WindSpeed Value in a Day: 4.7.
+2024-05-23 20:15:48,362 - INFO - DataSummary - Average Peak WindSpeed Time in a Day: 12:44:39.
+2024-05-23 20:15:49,818 - INFO - DataSummary - Average Peak Temperature Value in a Day: 17.19.
+2024-05-23 20:15:49,818 - INFO - DataSummary - Average Peak Temperature Time in a Day: 12:53:55.
+2024-05-23 20:15:49,819 - INFO - DataSummary - ------------------------ Average Sunrise / Sunset Times ------------------------
+2024-05-23 20:19:00,832 - INFO - DataSummary - Average sunrise time: 05:43:04.
+2024-05-23 20:19:00,836 - INFO - DataSummary - Average sunset time: 17:26:50.
+2024-05-23 20:19:00,849 - INFO - DataSummary - ------------------------ Summary of outliers pre-processing ------------------------
+2024-05-23 20:19:01,049 - INFO - DataSummary - GlobalIR number of outliers 134822, min: 811.8499999999999, max: 1458.0
+2024-05-23 20:19:01,200 - INFO - DataSummary - DirectIR number of outliers 116582, min: 328.5, max: 729.4
+2024-05-23 20:19:01,386 - INFO - DataSummary - DiffuseIR number of outliers 179676, min: 589.125, max: 1159.7
+2024-05-23 20:19:01,506 - INFO - DataSummary - WindSpeed number of outliers 59095, min: 4.744999999999999, max: 10.0
+2024-05-23 20:19:01,597 - INFO - DataSummary - Temperature number of outliers 11789, min: 35.53333333333333, max: 41.3
+2024-05-23 20:19:01,618 - INFO - DataSummary - ------------------------ Summary of outliers post-processing ------------------------
+2024-05-23 20:19:02,142 - INFO - DataSummary - GlobalIR number of outliers 233749, min: 833.5, max: 1467.9
+2024-05-23 20:19:02,366 - INFO - DataSummary - DirectIR number of outliers 205238, min: 328.6, max: 729.4
+2024-05-23 20:19:02,644 - INFO - DataSummary - DiffuseIR number of outliers 310604, min: 612.7, max: 1160.7
+2024-05-23 20:19:02,838 - INFO - DataSummary - WindSpeed number of outliers 97625, min: -10.42, max: 15.94
+2024-05-23 20:19:02,963 - INFO - DataSummary - Temperature number of outliers 19280, min: 35.8, max: 41.3
+2024-05-23 20:19:02,993 - INFO - DataSummary - ------------------------ Correlation Matrix ------------------------
+2024-05-23 20:19:37,070 - INFO - DataSummary - 
+             GlobalIR  DirectIR  DiffuseIR  WindSpeed  Temperature
+GlobalIR     1.000000  0.969112   0.979682   0.290625     0.494918
+DirectIR     0.969112  1.000000   0.927587   0.289560     0.466799
+DiffuseIR    0.979682  0.927587   1.000000   0.275958     0.490842
+WindSpeed    0.290625  0.289560   0.275958   1.000000     0.055324
+Temperature  0.494918  0.466799   0.490842   0.055324     1.000000
+2024-05-23 20:19:47,993 - INFO - data_summary - Complete.
+2024-05-23 20:19:47,995 - INFO - data_summary - Total runtime: 00:07:55
+2024-05-23 20:19:47,995 - INFO - data_summary - 
+# ====================================================================== #
+# =============================== New Run ============================== #
+# ====================================================================== #
+2024-05-23 21:19:14,963 - INFO - data_summary - Starting Irradiance data summary...
+2024-05-23 21:19:14,964 - INFO - DataSummary - Loading previously compiled Irradiance data for current summary of all available data.
+2024-05-23 21:19:42,399 - INFO - DataSummary - ------------------------ Observation Times Summary Before Resampling ------------------------
+2024-05-23 21:21:56,405 - INFO - DataSummary - Table of monthly time elapsed between observations (NaN included pre resampling): 
+         (10 - 20)s  (0 - 10)s  (50 - 60)s  (30 - 40)s  (1 - 5)min  (20 - 30)s  (5 - 10)min  (10 - 20)min  (40 - 50)s  ( > hour)s  (20 - 30)min  (30 - 59)min
+2019 9     198855.0    20103.0         9.0        15.0        45.0        18.0          6.0           3.0         5.0         5.0           2.0           1.0
+     10    227380.0     9575.0        12.0         3.0        22.0         2.0          2.0           2.0         NaN         NaN           NaN           1.0
+     11    201589.0     8492.0         3.0         1.0        25.0         1.0          NaN           NaN         1.0         1.0           NaN           NaN
+     12    192933.0     8121.0         2.0         2.0        28.0         4.0          NaN           NaN         NaN         1.0           1.0           2.0
+2020 1     202789.0     8370.0         3.0         3.0        28.0         7.0          1.0           1.0         1.0         3.0           NaN           1.0
+     2     173027.0     7410.0         2.0         5.0        27.0         8.0          8.0           2.0         1.0         4.0           NaN           NaN
+     3     177974.0     7493.0         3.0         3.0        26.0        13.0          1.0           NaN         NaN         2.0           NaN           NaN
+     4     219479.0     9238.0         NaN         1.0        30.0         5.0          NaN           NaN         NaN         NaN           NaN           NaN
+     5     172626.0   170343.0         4.0         3.0        27.0        22.0          NaN           2.0         3.0         1.0           NaN           NaN
+     6          7.0    52771.0         3.0         5.0     39197.0         3.0          NaN           1.0         2.0         1.0           1.0           NaN
+     7       6991.0     1621.0         2.0         1.0     31647.0         2.0          2.0           NaN         3.0         2.0           NaN           NaN
+     8       7011.0     6667.0         2.0      7275.0      9503.0         3.0          2.0           1.0         1.0         4.0           NaN           NaN
+     9     209956.0     8949.0         6.0       975.0      1812.0        46.0          NaN           NaN         2.0         NaN           NaN           NaN
+     10    228532.0     9614.0         8.0         3.0        20.0         6.0          1.0           1.0         6.0         NaN           NaN           NaN
+     11    220411.0     9274.0         2.0         2.0        23.0         7.0          NaN           NaN         4.0         NaN           NaN           NaN
+     12    227207.0     9556.0         4.0         3.0        24.0         7.0          1.0           1.0         7.0         NaN           NaN           NaN
+2021 1     227098.0     9556.0         4.0         NaN        25.0        12.0          NaN           NaN         3.0         NaN           NaN           NaN
+     2     205071.0     8623.0         4.0         2.0        22.0        11.0          2.0           NaN         1.0         NaN           NaN           NaN
+     3     224893.0     9457.0         4.0         2.0        33.0        15.0          4.0           2.0         1.0         1.0           NaN           NaN
+     4     217680.0     9155.0         2.0         NaN        27.0         5.0         10.0           5.0         1.0         1.0           1.0           NaN
+     5     225925.0     9498.0         5.0         3.0        38.0        14.0          3.0           3.0         2.0         NaN           NaN           1.0
+     6     219090.0     9201.0         6.0         9.0        51.0        21.0          1.0           NaN         6.0         1.0           2.0           NaN
+     7     229689.0     9653.0         1.0         2.0        31.0        23.0          NaN           NaN         NaN         NaN           NaN           NaN
+     8     229377.0     9647.0         4.0         2.0        37.0        12.0          6.0           3.0         NaN         NaN           NaN           NaN
+     9     222102.0     9337.0         1.0         3.0        27.0        18.0          2.0           NaN         3.0         NaN           NaN           NaN
+     10    228402.0     9604.0         NaN         4.0        30.0        17.0          4.0           NaN         2.0         NaN           NaN           NaN
+     11    164621.0    10598.0         1.0         3.0        17.0        13.0          1.0           NaN         NaN         2.0           1.0           NaN
+     12    226693.0     9515.0         NaN         2.0        19.0        22.0          3.0           NaN         NaN         1.0           NaN           NaN
+2022 1     226889.0     9534.0         1.0         3.0        31.0        22.0          NaN           NaN         1.0         NaN           NaN           NaN
+     2     203610.0     8558.0         NaN         5.0        30.0        24.0          NaN           NaN         4.0         NaN           NaN           NaN
+     3     218493.0     9177.0         1.0         5.0        34.0        23.0          NaN           NaN         NaN         NaN           NaN           NaN
+     4     206121.0     8667.0         NaN         4.0        31.0        41.0          1.0           NaN         1.0         NaN           1.0           NaN
+     5     214395.0     9001.0         NaN        18.0        35.0        85.0          NaN           NaN         2.0         NaN           NaN           NaN
+     6     202762.0     8523.0         2.0         5.0        20.0       110.0          1.0           NaN         6.0         NaN           NaN           NaN
+     7     221020.0     9281.0         NaN        14.0         1.0        40.0          NaN           NaN        13.0         NaN           NaN           NaN
+     8     211843.0     8888.0         6.0        27.0         3.0       124.0          NaN           NaN         9.0         NaN           NaN           NaN
+     9     189677.0     7965.0         3.0        22.0         2.0       130.0          2.0           NaN        13.0         1.0           NaN           1.0
+     10    194246.0     8161.0        12.0        14.0         1.0       111.0          NaN           NaN         3.0         NaN           NaN           NaN
+     11     88549.0     3721.0         3.0         3.0         6.0        26.0          NaN           NaN         1.0         1.0           NaN           NaN
+     12    197108.0     8279.0         5.0        22.0        19.0       142.0          NaN           NaN         7.0         1.0           NaN           NaN
+2023 1     201183.0     8456.0        11.0        11.0        10.0       276.0          NaN           NaN        11.0         NaN           1.0           NaN
+     2     182507.0     7671.0         7.0        13.0        10.0       216.0          NaN           NaN        10.0         NaN           NaN           NaN
+     3     194690.0     8216.0         6.0        15.0        11.0       165.0          NaN           NaN         9.0         3.0           NaN           NaN
+2024-05-23 21:21:56,406 - INFO - DataSummary - ------------------------ Variable Summary ------------------------
+2024-05-23 21:21:56,626 - INFO - DataSummary - 
+           GlobalIR
+count  5.099932e+06
+mean   1.282925e+02
+std    2.278479e+02
+min    0.000000e+00
+25%    0.000000e+00
+50%    0.000000e+00
+75%    1.526000e+02
+max    1.458000e+03
+2024-05-23 21:21:56,844 - INFO - DataSummary - 
+           DirectIR
+count  5.099932e+06
+mean   5.654742e+01
+std    9.064525e+01
+min    0.000000e+00
+25%    0.000000e+00
+50%    0.000000e+00
+75%    8.685000e+01
+max    7.294000e+02
+2024-05-23 21:21:57,074 - INFO - DataSummary - 
+          DiffuseIR
+count  5.099932e+06
+mean   7.174507e+01
+std    1.724530e+02
+min    0.000000e+00
+25%    0.000000e+00
+50%    0.000000e+00
+75%    7.600000e+00
+max    1.159700e+03
+2024-05-23 21:21:57,342 - INFO - DataSummary - 
+          WindSpeed
+count  5.095833e+06
+mean   1.214944e+00
+std    1.176539e+00
+min    0.000000e+00
+25%    1.700000e-01
+50%    1.040000e+00
+75%    1.755000e+00
+max    1.000000e+01
+2024-05-23 21:21:57,564 - INFO - DataSummary - 
+        Temperature
+count  5.095839e+06
+mean   1.107429e+01
+std    8.145981e+00
+min   -1.150000e+01
+25%    5.000000e+00
+50%    9.900000e+00
+75%    1.620000e+01
+max    4.130000e+01
+2024-05-23 21:21:57,564 - INFO - DataSummary - ------------------------ Average Peak Values / Time ------------------------
+2024-05-23 21:21:59,200 - INFO - DataSummary - Average Peak GlobalIR Value in a Day: 671.47.
+2024-05-23 21:21:59,200 - INFO - DataSummary - Average Peak GlobalIR Time in a Day: 11:19:51.
+2024-05-23 21:22:00,663 - INFO - DataSummary - Average Peak DirectIR Value in a Day: 296.84.
+2024-05-23 21:22:00,664 - INFO - DataSummary - Average Peak DirectIR Time in a Day: 11:02:55.
+2024-05-23 21:22:02,061 - INFO - DataSummary - Average Peak DiffuseIR Value in a Day: 445.99.
+2024-05-23 21:22:02,061 - INFO - DataSummary - Average Peak DiffuseIR Time in a Day: 11:21:16.
+2024-05-23 21:22:03,466 - INFO - DataSummary - Average Peak WindSpeed Value in a Day: 4.7.
+2024-05-23 21:22:03,466 - INFO - DataSummary - Average Peak WindSpeed Time in a Day: 12:44:39.
+2024-05-23 21:22:04,901 - INFO - DataSummary - Average Peak Temperature Value in a Day: 17.19.
+2024-05-23 21:22:04,902 - INFO - DataSummary - Average Peak Temperature Time in a Day: 12:53:55.
+2024-05-23 21:22:04,902 - INFO - DataSummary - ------------------------ Average Sunrise / Sunset Times ------------------------
+2024-05-23 21:25:17,857 - INFO - DataSummary - Average sunrise time: 05:43:04.
+2024-05-23 21:25:17,862 - INFO - DataSummary - Average sunset time: 17:26:50.
+2024-05-23 21:25:17,878 - INFO - DataSummary - ------------------------ Summary of outliers pre-processing ------------------------
+2024-05-23 21:25:18,083 - INFO - DataSummary - GlobalIR number of outliers 134822, min: 811.8499999999999, max: 1458.0
+2024-05-23 21:25:18,236 - INFO - DataSummary - DirectIR number of outliers 116582, min: 328.5, max: 729.4
+2024-05-23 21:25:18,424 - INFO - DataSummary - DiffuseIR number of outliers 179676, min: 589.125, max: 1159.7
+2024-05-23 21:25:18,545 - INFO - DataSummary - WindSpeed number of outliers 59095, min: 4.744999999999999, max: 10.0
+2024-05-23 21:25:18,640 - INFO - DataSummary - Temperature number of outliers 11789, min: 35.53333333333333, max: 41.3
+2024-05-23 21:25:18,661 - INFO - DataSummary - ------------------------ Summary of outliers post-processing ------------------------
+2024-05-23 21:25:19,184 - INFO - DataSummary - GlobalIR number of outliers 233749, min: 833.5, max: 1467.9
+2024-05-23 21:25:19,406 - INFO - DataSummary - DirectIR number of outliers 205238, min: 328.6, max: 729.4
+2024-05-23 21:25:19,685 - INFO - DataSummary - DiffuseIR number of outliers 310604, min: 612.7, max: 1160.7
+2024-05-23 21:25:19,873 - INFO - DataSummary - WindSpeed number of outliers 97625, min: -10.42, max: 15.94
+2024-05-23 21:25:19,994 - INFO - DataSummary - Temperature number of outliers 19280, min: 35.8, max: 41.3
+2024-05-23 21:25:20,027 - INFO - DataSummary - ------------------------ Correlation Matrix ------------------------
+2024-05-23 21:25:53,637 - INFO - DataSummary - 
+             GlobalIR  DirectIR  DiffuseIR  WindSpeed  Temperature
+GlobalIR     1.000000  0.969112   0.979682   0.290625     0.494918
+DirectIR     0.969112  1.000000   0.927587   0.289560     0.466799
+DiffuseIR    0.979682  0.927587   1.000000   0.275958     0.490842
+WindSpeed    0.290625  0.289560   0.275958   1.000000     0.055324
+Temperature  0.494918  0.466799   0.490842   0.055324     1.000000
+2024-05-23 21:26:04,834 - INFO - data_summary - Complete.
+2024-05-23 21:26:04,835 - INFO - data_summary - Total runtime: 00:06:49
+2024-05-23 21:26:04,835 - INFO - data_summary - 
+# ====================================================================== #
+# =============================== New Run ============================== #
+# ====================================================================== #

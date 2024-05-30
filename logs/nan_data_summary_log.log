@@ -1,0 +1,930 @@
+2024-05-22 13:54:55,252 - INFO - nan_data_summary - Starting NaN Data Summary Program on Irradiance...
+2024-05-22 13:54:55,254 - INFO - NaNSummary - Summary for all available Irradiance data.
+2024-05-22 13:55:35,587 - INFO - NaNSummary - ------------------------ Summary of NaN Values ------------------------
+2024-05-22 13:55:35,985 - INFO - NaNSummary - Percentage of NaN values due to System Outage: 5.235%
+2024-05-22 13:55:35,985 - INFO - NaNSummary - Precentage of MAR NaN values: 1.833%
+2024-05-22 13:55:35,985 - INFO - NaNSummary - Precentage of Total NaN values: 7.068%
+2024-05-22 13:55:35,985 - INFO - NaNSummary - --- Missing values by variable ---
+2024-05-22 13:55:35,993 - INFO - NaNSummary - GlobalIR, Missing: 295806 (5.235%)
+2024-05-22 13:55:36,001 - INFO - NaNSummary - DirectIR, Missing: 295806 (5.235%)
+2024-05-22 13:55:36,010 - INFO - NaNSummary - DiffuseIR, Missing: 295806 (5.235%)
+2024-05-22 13:55:36,018 - INFO - NaNSummary - WindSpeed, Missing: 554726 (9.817%)
+2024-05-22 13:55:36,026 - INFO - NaNSummary - Temperature, Missing: 554720 (9.817%)
+2024-05-22 13:55:36,026 - INFO - NaNSummary - --- Missing values by day ---
+2024-05-22 13:55:36,188 - INFO - NaNSummary - 1, Missing: 99908 (10.757%)
+2024-05-22 13:55:36,233 - INFO - NaNSummary - 2, Missing: 85155 (9.168%)
+2024-05-22 13:55:36,271 - INFO - NaNSummary - 3, Missing: 83909 (9.034%)
+2024-05-22 13:55:36,315 - INFO - NaNSummary - 4, Missing: 67557 (7.274%)
+2024-05-22 13:55:36,353 - INFO - NaNSummary - 5, Missing: 85989 (9.258%)
+2024-05-22 13:55:36,388 - INFO - NaNSummary - 6, Missing: 59312 (6.386%)
+2024-05-22 13:55:36,424 - INFO - NaNSummary - 7, Missing: 57871 (6.231%)
+2024-05-22 13:55:36,461 - INFO - NaNSummary - 8, Missing: 47097 (5.071%)
+2024-05-22 13:55:36,504 - INFO - NaNSummary - 9, Missing: 62943 (6.777%)
+2024-05-22 13:55:36,556 - INFO - NaNSummary - 10, Missing: 55340 (5.958%)
+2024-05-22 13:55:36,602 - INFO - NaNSummary - 11, Missing: 55193 (5.942%)
+2024-05-22 13:55:36,654 - INFO - NaNSummary - 12, Missing: 58284 (6.275%)
+2024-05-22 13:55:36,707 - INFO - NaNSummary - 13, Missing: 52914 (5.697%)
+2024-05-22 13:55:36,747 - INFO - NaNSummary - 14, Missing: 62321 (6.71%)
+2024-05-22 13:55:36,795 - INFO - NaNSummary - 15, Missing: 61743 (6.648%)
+2024-05-22 13:55:36,836 - INFO - NaNSummary - 16, Missing: 54258 (5.842%)
+2024-05-22 13:55:36,875 - INFO - NaNSummary - 17, Missing: 69206 (7.451%)
+2024-05-22 13:55:36,913 - INFO - NaNSummary - 18, Missing: 58394 (6.287%)
+2024-05-22 13:55:36,949 - INFO - NaNSummary - 19, Missing: 46047 (4.958%)
+2024-05-22 13:55:36,985 - INFO - NaNSummary - 20, Missing: 47210 (5.083%)
+2024-05-22 13:55:37,023 - INFO - NaNSummary - 21, Missing: 55085 (5.931%)
+2024-05-22 13:55:37,079 - INFO - NaNSummary - 22, Missing: 52932 (5.699%)
+2024-05-22 13:55:37,133 - INFO - NaNSummary - 23, Missing: 56564 (6.09%)
+2024-05-22 13:55:37,168 - INFO - NaNSummary - 24, Missing: 55267 (5.95%)
+2024-05-22 13:55:37,205 - INFO - NaNSummary - 25, Missing: 71151 (7.661%)
+2024-05-22 13:55:37,242 - INFO - NaNSummary - 26, Missing: 64588 (6.954%)
+2024-05-22 13:55:37,289 - INFO - NaNSummary - 27, Missing: 82689 (8.903%)
+2024-05-22 13:55:37,327 - INFO - NaNSummary - 28, Missing: 93355 (10.051%)
+2024-05-22 13:55:37,364 - INFO - NaNSummary - 29, Missing: 79334 (9.182%)
+2024-05-22 13:55:37,408 - INFO - NaNSummary - 30, Missing: 75207 (8.928%)
+2024-05-22 13:55:37,440 - INFO - NaNSummary - 31, Missing: 40041 (7.415%)
+2024-05-22 13:55:37,484 - INFO - NaNSummary - --- Missing values by month ---
+2024-05-22 13:55:37,618 - INFO - NaNSummary - 1, Missing: 48148 (1.798%)
+2024-05-22 13:55:37,679 - INFO - NaNSummary - 2, Missing: 73777 (3.023%)
+2024-05-22 13:55:37,746 - INFO - NaNSummary - 3, Missing: 131171 (4.897%)
+2024-05-22 13:55:37,800 - INFO - NaNSummary - 4, Missing: 5887 (0.303%)
+2024-05-22 13:55:37,849 - INFO - NaNSummary - 5, Missing: 42087 (2.095%)
+2024-05-22 13:55:37,897 - INFO - NaNSummary - 6, Missing: 369816 (19.023%)
+2024-05-22 13:55:37,945 - INFO - NaNSummary - 7, Missing: 389728 (19.401%)
+2024-05-22 13:55:38,000 - INFO - NaNSummary - 8, Missing: 420522 (20.934%)
+2024-05-22 13:55:38,072 - INFO - NaNSummary - 9, Missing: 80232 (3.095%)
+2024-05-22 13:55:38,140 - INFO - NaNSummary - 10, Missing: 5823 (0.217%)
+2024-05-22 13:55:38,204 - INFO - NaNSummary - 11, Missing: 353955 (13.656%)
+2024-05-22 13:55:38,274 - INFO - NaNSummary - 12, Missing: 75718 (2.827%)
+2024-05-22 13:55:38,275 - INFO - NaNSummary - --- Missing values by year ---
+2024-05-22 13:55:38,398 - INFO - NaNSummary - 2019, Missing: 145943 (5.538%)
+2024-05-22 13:55:38,610 - INFO - NaNSummary - 2020, Missing: 1413462 (17.879%)
+2024-05-22 13:55:38,781 - INFO - NaNSummary - 2021, Missing: 161192 (2.045%)
+2024-05-22 13:55:38,961 - INFO - NaNSummary - 2022, Missing: 250741 (3.18%)
+2024-05-22 13:55:39,012 - INFO - NaNSummary - 2023, Missing: 25526 (1.313%)
+2024-05-22 13:55:39,012 - INFO - NaNSummary - ------------------------ Summary of NaN Gaps ------------------------
+2024-05-22 13:56:13,561 - INFO - NaNSummary - --- Statistics for DiffuseIR ---
+2024-05-22 13:56:13,562 - INFO - NaNSummary - Number of gaps: 59984
+2024-05-22 13:56:13,562 - INFO - NaNSummary - Percentage of single observation missing: 8.649%
+2024-05-22 13:56:13,562 - INFO - NaNSummary - Percentage of 20s gaps: 82.519%
+2024-05-22 13:56:13,562 - INFO - NaNSummary - Percentage of 40s gaps: 7.59%
+2024-05-22 13:56:13,562 - INFO - NaNSummary - Percentage of 60s gaps: 0.17%
+2024-05-22 13:56:13,562 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.407%
+2024-05-22 13:56:13,562 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.665%
+2024-05-22 13:56:13,563 - INFO - NaNSummary - Number of outliers: 109, min (seconds): 3340.0, max (seconds): 56220.0
+2024-05-22 13:56:13,568 - INFO - NaNSummary - --- Statistics for DirectIR ---
+2024-05-22 13:56:13,568 - INFO - NaNSummary - Number of gaps: 59984
+2024-05-22 13:56:13,568 - INFO - NaNSummary - Percentage of single observation missing: 8.649%
+2024-05-22 13:56:13,568 - INFO - NaNSummary - Percentage of 20s gaps: 82.519%
+2024-05-22 13:56:13,568 - INFO - NaNSummary - Percentage of 40s gaps: 7.59%
+2024-05-22 13:56:13,568 - INFO - NaNSummary - Percentage of 60s gaps: 0.17%
+2024-05-22 13:56:13,568 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.407%
+2024-05-22 13:56:13,568 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.665%
+2024-05-22 13:56:13,569 - INFO - NaNSummary - Number of outliers: 109, min (seconds): 3340.0, max (seconds): 56220.0
+2024-05-22 13:56:13,573 - INFO - NaNSummary - --- Statistics for GlobalIR ---
+2024-05-22 13:56:13,574 - INFO - NaNSummary - Number of gaps: 59984
+2024-05-22 13:56:13,574 - INFO - NaNSummary - Percentage of single observation missing: 8.649%
+2024-05-22 13:56:13,574 - INFO - NaNSummary - Percentage of 20s gaps: 82.519%
+2024-05-22 13:56:13,574 - INFO - NaNSummary - Percentage of 40s gaps: 7.59%
+2024-05-22 13:56:13,574 - INFO - NaNSummary - Percentage of 60s gaps: 0.17%
+2024-05-22 13:56:13,574 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.407%
+2024-05-22 13:56:13,574 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.665%
+2024-05-22 13:56:13,574 - INFO - NaNSummary - Number of outliers: 109, min (seconds): 3340.0, max (seconds): 56220.0
+2024-05-22 13:56:13,580 - INFO - NaNSummary - --- Statistics for Temperature ---
+2024-05-22 13:56:13,580 - INFO - NaNSummary - Number of gaps: 93354
+2024-05-22 13:56:13,580 - INFO - NaNSummary - Percentage of single observation missing: 9.815%
+2024-05-22 13:56:13,580 - INFO - NaNSummary - Percentage of 20s gaps: 80.759%
+2024-05-22 13:56:13,580 - INFO - NaNSummary - Percentage of 40s gaps: 7.627%
+2024-05-22 13:56:13,581 - INFO - NaNSummary - Percentage of 60s gaps: 0.327%
+2024-05-22 13:56:13,581 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.759%
+2024-05-22 13:56:13,581 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.712%
+2024-05-22 13:56:13,581 - INFO - NaNSummary - Number of outliers: 27, min (seconds): 19640.0, max (seconds): 2017540.0
+2024-05-22 13:56:13,587 - INFO - NaNSummary - --- Statistics for WindSpeed ---
+2024-05-22 13:56:13,587 - INFO - NaNSummary - Number of gaps: 93357
+2024-05-22 13:56:13,587 - INFO - NaNSummary - Percentage of single observation missing: 9.817%
+2024-05-22 13:56:13,587 - INFO - NaNSummary - Percentage of 20s gaps: 80.757%
+2024-05-22 13:56:13,587 - INFO - NaNSummary - Percentage of 40s gaps: 7.627%
+2024-05-22 13:56:13,587 - INFO - NaNSummary - Percentage of 60s gaps: 0.328%
+2024-05-22 13:56:13,587 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.759%
+2024-05-22 13:56:13,587 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.712%
+2024-05-22 13:56:13,587 - INFO - NaNSummary - Number of outliers: 27, min (seconds): 19640.0, max (seconds): 2017540.0
+2024-05-22 13:56:13,703 - INFO - nan_data_summary - Complete.
+2024-05-22 13:56:13,704 - INFO - nan_data_summary - Total runtime: 00:01:18
+2024-05-22 13:56:13,704 - INFO - nan_data_summary - 
+# ====================================================================== #
+# =============================== New Run ============================== #
+# ====================================================================== #
+2024-05-22 14:01:20,289 - INFO - nan_data_summary - Starting NaN Data Summary Program on Deger...
+2024-05-22 14:01:20,290 - INFO - NaNSummary - Summary for all available Deger data.
+2024-05-22 14:02:08,583 - INFO - NaNSummary - ------------------------ Summary of NaN Values ------------------------
+2024-05-22 14:02:10,881 - INFO - NaNSummary - Percentage of NaN values due to System Outage: 9.562%
+2024-05-22 14:02:10,883 - INFO - NaNSummary - Precentage of MAR NaN values: 0.86%
+2024-05-22 14:02:10,883 - INFO - NaNSummary - Precentage of Total NaN values: 10.422%
+2024-05-22 14:02:10,883 - INFO - NaNSummary - --- Missing values by variable ---
+2024-05-22 14:02:10,892 - INFO - NaNSummary - MonoSi_Vin, Missing: 502611 (9.568%)
+2024-05-22 14:02:10,900 - INFO - NaNSummary - MonoSi_Iin, Missing: 504565 (9.605%)
+2024-05-22 14:02:10,908 - INFO - NaNSummary - MonoSi_Vout, Missing: 502640 (9.568%)
+2024-05-22 14:02:10,921 - INFO - NaNSummary - MonoSi_Iout, Missing: 502694 (9.569%)
+2024-05-22 14:02:10,930 - INFO - NaNSummary - PolySi_Vin, Missing: 502596 (9.568%)
+2024-05-22 14:02:10,940 - INFO - NaNSummary - PolySi_Iin, Missing: 504893 (9.611%)
+2024-05-22 14:02:10,949 - INFO - NaNSummary - PolySi_Vout, Missing: 502631 (9.568%)
+2024-05-22 14:02:10,956 - INFO - NaNSummary - PolySi_Iout, Missing: 503883 (9.592%)
+2024-05-22 14:02:10,963 - INFO - NaNSummary - TFSi_a_Vin, Missing: 502583 (9.567%)
+2024-05-22 14:02:10,971 - INFO - NaNSummary - TFSi_a_Iin, Missing: 506287 (9.638%)
+2024-05-22 14:02:10,978 - INFO - NaNSummary - TFSi_a_Vout, Missing: 502606 (9.568%)
+2024-05-22 14:02:10,985 - INFO - NaNSummary - TFSi_a_Iout, Missing: 502354 (9.563%)
+2024-05-22 14:02:10,992 - INFO - NaNSummary - TFcigs_Vin, Missing: 502816 (9.572%)
+2024-05-22 14:02:10,998 - INFO - NaNSummary - TFcigs_Iin, Missing: 513640 (9.778%)
+2024-05-22 14:02:11,006 - INFO - NaNSummary - TFcigs_Vout, Missing: 502623 (9.568%)
+2024-05-22 14:02:11,014 - INFO - NaNSummary - TFcigs_Iout, Missing: 1380793 (26.285%)
+2024-05-22 14:02:11,022 - INFO - NaNSummary - TempF_Mono, Missing: 502280 (9.562%)
+2024-05-22 14:02:11,029 - INFO - NaNSummary - TempF_Poly, Missing: 502280 (9.562%)
+2024-05-22 14:02:11,036 - INFO - NaNSummary - TempF_Amor, Missing: 502280 (9.562%)
+2024-05-22 14:02:11,043 - INFO - NaNSummary - TempF_Cigs, Missing: 502280 (9.562%)
+2024-05-22 14:02:11,043 - INFO - NaNSummary - --- Missing values by day ---
+2024-05-22 14:02:11,231 - INFO - NaNSummary - 1, Missing: 529139 (15.311%)
+2024-05-22 14:02:11,296 - INFO - NaNSummary - 2, Missing: 440330 (12.741%)
+2024-05-22 14:02:11,368 - INFO - NaNSummary - 3, Missing: 418527 (12.11%)
+2024-05-22 14:02:11,435 - INFO - NaNSummary - 4, Missing: 323374 (9.357%)
+2024-05-22 14:02:11,507 - INFO - NaNSummary - 5, Missing: 438306 (12.682%)
+2024-05-22 14:02:11,577 - INFO - NaNSummary - 6, Missing: 365334 (10.571%)
+2024-05-22 14:02:11,643 - INFO - NaNSummary - 7, Missing: 354815 (10.267%)
+2024-05-22 14:02:11,710 - INFO - NaNSummary - 8, Missing: 277447 (8.028%)
+2024-05-22 14:02:11,780 - INFO - NaNSummary - 9, Missing: 357978 (10.358%)
+2024-05-22 14:02:11,846 - INFO - NaNSummary - 10, Missing: 324576 (9.392%)
+2024-05-22 14:02:11,919 - INFO - NaNSummary - 11, Missing: 323652 (9.365%)
+2024-05-22 14:02:11,987 - INFO - NaNSummary - 12, Missing: 336647 (9.741%)
+2024-05-22 14:02:12,057 - INFO - NaNSummary - 13, Missing: 302057 (8.74%)
+2024-05-22 14:02:12,129 - INFO - NaNSummary - 14, Missing: 348571 (10.086%)
+2024-05-22 14:02:12,202 - INFO - NaNSummary - 15, Missing: 362316 (10.484%)
+2024-05-22 14:02:12,277 - INFO - NaNSummary - 16, Missing: 327928 (9.489%)
+2024-05-22 14:02:12,346 - INFO - NaNSummary - 17, Missing: 335143 (9.697%)
+2024-05-22 14:02:12,422 - INFO - NaNSummary - 18, Missing: 321998 (9.317%)
+2024-05-22 14:02:12,492 - INFO - NaNSummary - 19, Missing: 274192 (7.934%)
+2024-05-22 14:02:12,562 - INFO - NaNSummary - 20, Missing: 287867 (8.329%)
+2024-05-22 14:02:12,637 - INFO - NaNSummary - 21, Missing: 328181 (9.496%)
+2024-05-22 14:02:12,715 - INFO - NaNSummary - 22, Missing: 327757 (9.484%)
+2024-05-22 14:02:12,780 - INFO - NaNSummary - 23, Missing: 326870 (9.458%)
+2024-05-22 14:02:12,847 - INFO - NaNSummary - 24, Missing: 304597 (8.814%)
+2024-05-22 14:02:12,914 - INFO - NaNSummary - 25, Missing: 317108 (9.176%)
+2024-05-22 14:02:12,993 - INFO - NaNSummary - 26, Missing: 307075 (8.885%)
+2024-05-22 14:02:13,061 - INFO - NaNSummary - 27, Missing: 364447 (10.545%)
+2024-05-22 14:02:13,127 - INFO - NaNSummary - 28, Missing: 451620 (13.068%)
+2024-05-22 14:02:13,195 - INFO - NaNSummary - 29, Missing: 463494 (14.499%)
+2024-05-22 14:02:13,272 - INFO - NaNSummary - 30, Missing: 466357 (14.993%)
+2024-05-22 14:02:13,316 - INFO - NaNSummary - 31, Missing: 241632 (12.16%)
+2024-05-22 14:02:13,357 - INFO - NaNSummary - --- Missing values by month ---
+2024-05-22 14:02:13,574 - INFO - NaNSummary - 1, Missing: 434240 (4.053%)
+2024-05-22 14:02:13,764 - INFO - NaNSummary - 2, Missing: 560956 (5.746%)
+2024-05-22 14:02:13,934 - INFO - NaNSummary - 3, Missing: 835355 (7.797%)
+2024-05-22 14:02:14,050 - INFO - NaNSummary - 4, Missing: 84321 (1.084%)
+2024-05-22 14:02:14,141 - INFO - NaNSummary - 5, Missing: 54414 (1.016%)
+2024-05-22 14:02:14,261 - INFO - NaNSummary - 6, Missing: 1747710 (22.476%)
+2024-05-22 14:02:14,386 - INFO - NaNSummary - 7, Missing: 2005569 (24.96%)
+2024-05-22 14:02:14,511 - INFO - NaNSummary - 8, Missing: 2278634 (28.358%)
+2024-05-22 14:02:14,631 - INFO - NaNSummary - 9, Missing: 268501 (3.453%)
+2024-05-22 14:02:14,800 - INFO - NaNSummary - 10, Missing: 147613 (1.378%)
+2024-05-22 14:02:15,000 - INFO - NaNSummary - 11, Missing: 2361735 (22.779%)
+2024-05-22 14:02:15,135 - INFO - NaNSummary - 12, Missing: 170287 (2.119%)
+2024-05-22 14:02:15,135 - INFO - NaNSummary - --- Missing values by year ---
+2024-05-22 14:02:15,278 - INFO - NaNSummary - 2019, Missing: 300686 (5.705%)
+2024-05-22 14:02:15,822 - INFO - NaNSummary - 2020, Missing: 7484268 (25.858%)
+2024-05-22 14:02:16,405 - INFO - NaNSummary - 2021, Missing: 1051747 (3.335%)
+2024-05-22 14:02:16,866 - INFO - NaNSummary - 2022, Missing: 1879617 (5.96%)
+2024-05-22 14:02:16,986 - INFO - NaNSummary - 2023, Missing: 233017 (2.997%)
+2024-05-22 14:02:16,986 - INFO - NaNSummary - ------------------------ Summary of NaN Gaps ------------------------
+2024-05-22 14:04:53,121 - INFO - NaNSummary - --- Statistics for MonoSi_Iin ---
+2024-05-22 14:04:53,122 - INFO - NaNSummary - Number of gaps: 88904
+2024-05-22 14:04:53,122 - INFO - NaNSummary - Percentage of single observation missing: 6.078%
+2024-05-22 14:04:53,122 - INFO - NaNSummary - Percentage of 20s gaps: 85.158%
+2024-05-22 14:04:53,122 - INFO - NaNSummary - Percentage of 40s gaps: 7.621%
+2024-05-22 14:04:53,122 - INFO - NaNSummary - Percentage of 60s gaps: 0.207%
+2024-05-22 14:04:53,122 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.442%
+2024-05-22 14:04:53,122 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.494%
+2024-05-22 14:04:53,122 - INFO - NaNSummary - Number of outliers: 23, min (seconds): 19640.0, max (seconds): 2017540.0
+2024-05-22 14:04:53,126 - INFO - NaNSummary - --- Statistics for MonoSi_Iout ---
+2024-05-22 14:04:53,127 - INFO - NaNSummary - Number of gaps: 88817
+2024-05-22 14:04:53,127 - INFO - NaNSummary - Percentage of single observation missing: 6.24%
+2024-05-22 14:04:53,127 - INFO - NaNSummary - Percentage of 20s gaps: 85.209%
+2024-05-22 14:04:53,127 - INFO - NaNSummary - Percentage of 40s gaps: 7.589%
+2024-05-22 14:04:53,127 - INFO - NaNSummary - Percentage of 60s gaps: 0.182%
+2024-05-22 14:04:53,127 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.4%
+2024-05-22 14:04:53,127 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.381%
+2024-05-22 14:04:53,127 - INFO - NaNSummary - Number of outliers: 23, min (seconds): 19640.0, max (seconds): 2017540.0
+2024-05-22 14:04:53,132 - INFO - NaNSummary - --- Statistics for MonoSi_Vin ---
+2024-05-22 14:04:53,133 - INFO - NaNSummary - Number of gaps: 88841
+2024-05-22 14:04:53,133 - INFO - NaNSummary - Percentage of single observation missing: 6.247%
+2024-05-22 14:04:53,133 - INFO - NaNSummary - Percentage of 20s gaps: 85.226%
+2024-05-22 14:04:53,133 - INFO - NaNSummary - Percentage of 40s gaps: 7.594%
+2024-05-22 14:04:53,133 - INFO - NaNSummary - Percentage of 60s gaps: 0.183%
+2024-05-22 14:04:53,133 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.369%
+2024-05-22 14:04:53,133 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.379%
+2024-05-22 14:04:53,133 - INFO - NaNSummary - Number of outliers: 23, min (seconds): 19640.0, max (seconds): 2017540.0
+2024-05-22 14:04:53,137 - INFO - NaNSummary - --- Statistics for MonoSi_Vout ---
+2024-05-22 14:04:53,137 - INFO - NaNSummary - Number of gaps: 88862
+2024-05-22 14:04:53,137 - INFO - NaNSummary - Percentage of single observation missing: 6.257%
+2024-05-22 14:04:53,137 - INFO - NaNSummary - Percentage of 20s gaps: 85.222%
+2024-05-22 14:04:53,137 - INFO - NaNSummary - Percentage of 40s gaps: 7.589%
+2024-05-22 14:04:53,137 - INFO - NaNSummary - Percentage of 60s gaps: 0.183%
+2024-05-22 14:04:53,137 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.369%
+2024-05-22 14:04:53,137 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.379%
+2024-05-22 14:04:53,137 - INFO - NaNSummary - Number of outliers: 23, min (seconds): 19640.0, max (seconds): 2017540.0
+2024-05-22 14:04:53,141 - INFO - NaNSummary - --- Statistics for PolySi_Iin ---
+2024-05-22 14:04:53,141 - INFO - NaNSummary - Number of gaps: 88638
+2024-05-22 14:04:53,141 - INFO - NaNSummary - Percentage of single observation missing: 6.028%
+2024-05-22 14:04:53,142 - INFO - NaNSummary - Percentage of 20s gaps: 85.401%
+2024-05-22 14:04:53,142 - INFO - NaNSummary - Percentage of 40s gaps: 7.608%
+2024-05-22 14:04:53,142 - INFO - NaNSummary - Percentage of 60s gaps: 0.185%
+2024-05-22 14:04:53,142 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.389%
+2024-05-22 14:04:53,142 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.388%
+2024-05-22 14:04:53,142 - INFO - NaNSummary - Number of outliers: 24, min (seconds): 19640.0, max (seconds): 2017540.0
+2024-05-22 14:04:53,146 - INFO - NaNSummary - --- Statistics for PolySi_Iout ---
+2024-05-22 14:04:53,146 - INFO - NaNSummary - Number of gaps: 89370
+2024-05-22 14:04:53,146 - INFO - NaNSummary - Percentage of single observation missing: 6.494%
+2024-05-22 14:04:53,146 - INFO - NaNSummary - Percentage of 20s gaps: 84.837%
+2024-05-22 14:04:53,146 - INFO - NaNSummary - Percentage of 40s gaps: 7.62%
+2024-05-22 14:04:53,146 - INFO - NaNSummary - Percentage of 60s gaps: 0.22%
+2024-05-22 14:04:53,146 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.441%
+2024-05-22 14:04:53,146 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.387%
+2024-05-22 14:04:53,146 - INFO - NaNSummary - Number of outliers: 23, min (seconds): 19640.0, max (seconds): 2017540.0
+2024-05-22 14:04:53,150 - INFO - NaNSummary - --- Statistics for PolySi_Vin ---
+2024-05-22 14:04:53,150 - INFO - NaNSummary - Number of gaps: 88822
+2024-05-22 14:04:53,150 - INFO - NaNSummary - Percentage of single observation missing: 6.219%
+2024-05-22 14:04:53,150 - INFO - NaNSummary - Percentage of 20s gaps: 85.257%
+2024-05-22 14:04:53,150 - INFO - NaNSummary - Percentage of 40s gaps: 7.592%
+2024-05-22 14:04:53,150 - INFO - NaNSummary - Percentage of 60s gaps: 0.182%
+2024-05-22 14:04:53,150 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.37%
+2024-05-22 14:04:53,150 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.379%
+2024-05-22 14:04:53,150 - INFO - NaNSummary - Number of outliers: 23, min (seconds): 19640.0, max (seconds): 2017540.0
+2024-05-22 14:04:53,154 - INFO - NaNSummary - --- Statistics for PolySi_Vout ---
+2024-05-22 14:04:53,154 - INFO - NaNSummary - Number of gaps: 88862
+2024-05-22 14:04:53,154 - INFO - NaNSummary - Percentage of single observation missing: 6.268%
+2024-05-22 14:04:53,154 - INFO - NaNSummary - Percentage of 20s gaps: 85.212%
+2024-05-22 14:04:53,155 - INFO - NaNSummary - Percentage of 40s gaps: 7.587%
+2024-05-22 14:04:53,155 - INFO - NaNSummary - Percentage of 60s gaps: 0.183%
+2024-05-22 14:04:53,155 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.37%
+2024-05-22 14:04:53,155 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.379%
+2024-05-22 14:04:53,155 - INFO - NaNSummary - Number of outliers: 23, min (seconds): 19640.0, max (seconds): 2017540.0
+2024-05-22 14:04:53,159 - INFO - NaNSummary - --- Statistics for TFSi_a_Iin ---
+2024-05-22 14:04:53,159 - INFO - NaNSummary - Number of gaps: 90394
+2024-05-22 14:04:53,159 - INFO - NaNSummary - Percentage of single observation missing: 7.744%
+2024-05-22 14:04:53,159 - INFO - NaNSummary - Percentage of 20s gaps: 83.49%
+2024-05-22 14:04:53,159 - INFO - NaNSummary - Percentage of 40s gaps: 7.473%
+2024-05-22 14:04:53,159 - INFO - NaNSummary - Percentage of 60s gaps: 0.211%
+2024-05-22 14:04:53,159 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.6%
+2024-05-22 14:04:53,159 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.482%
+2024-05-22 14:04:53,159 - INFO - NaNSummary - Number of outliers: 23, min (seconds): 19640.0, max (seconds): 2017540.0
+2024-05-22 14:04:53,163 - INFO - NaNSummary - --- Statistics for TFSi_a_Iout ---
+2024-05-22 14:04:53,163 - INFO - NaNSummary - Number of gaps: 88583
+2024-05-22 14:04:53,163 - INFO - NaNSummary - Percentage of single observation missing: 6.009%
+2024-05-22 14:04:53,163 - INFO - NaNSummary - Percentage of 20s gaps: 85.437%
+2024-05-22 14:04:53,163 - INFO - NaNSummary - Percentage of 40s gaps: 7.611%
+2024-05-22 14:04:53,163 - INFO - NaNSummary - Percentage of 60s gaps: 0.182%
+2024-05-22 14:04:53,163 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.38%
+2024-05-22 14:04:53,163 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.38%
+2024-05-22 14:04:53,164 - INFO - NaNSummary - Number of outliers: 23, min (seconds): 19640.0, max (seconds): 2017540.0
+2024-05-22 14:04:53,167 - INFO - NaNSummary - --- Statistics for TFSi_a_Vin ---
+2024-05-22 14:04:53,167 - INFO - NaNSummary - Number of gaps: 88819
+2024-05-22 14:04:53,168 - INFO - NaNSummary - Percentage of single observation missing: 6.225%
+2024-05-22 14:04:53,168 - INFO - NaNSummary - Percentage of 20s gaps: 85.252%
+2024-05-22 14:04:53,168 - INFO - NaNSummary - Percentage of 40s gaps: 7.592%
+2024-05-22 14:04:53,168 - INFO - NaNSummary - Percentage of 60s gaps: 0.181%
+2024-05-22 14:04:53,168 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.37%
+2024-05-22 14:04:53,168 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.379%
+2024-05-22 14:04:53,168 - INFO - NaNSummary - Number of outliers: 23, min (seconds): 19640.0, max (seconds): 2017540.0
+2024-05-22 14:04:53,172 - INFO - NaNSummary - --- Statistics for TFSi_a_Vout ---
+2024-05-22 14:04:53,172 - INFO - NaNSummary - Number of gaps: 88839
+2024-05-22 14:04:53,172 - INFO - NaNSummary - Percentage of single observation missing: 6.245%
+2024-05-22 14:04:53,172 - INFO - NaNSummary - Percentage of 20s gaps: 85.231%
+2024-05-22 14:04:53,172 - INFO - NaNSummary - Percentage of 40s gaps: 7.594%
+2024-05-22 14:04:53,172 - INFO - NaNSummary - Percentage of 60s gaps: 0.182%
+2024-05-22 14:04:53,172 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.369%
+2024-05-22 14:04:53,172 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.379%
+2024-05-22 14:04:53,172 - INFO - NaNSummary - Number of outliers: 23, min (seconds): 19640.0, max (seconds): 2017540.0
+2024-05-22 14:04:53,176 - INFO - NaNSummary - --- Statistics for TFcigs_Iin ---
+2024-05-22 14:04:53,176 - INFO - NaNSummary - Number of gaps: 97456
+2024-05-22 14:04:53,176 - INFO - NaNSummary - Percentage of single observation missing: 14.487%
+2024-05-22 14:04:53,176 - INFO - NaNSummary - Percentage of 20s gaps: 77.361%
+2024-05-22 14:04:53,176 - INFO - NaNSummary - Percentage of 40s gaps: 6.919%
+2024-05-22 14:04:53,177 - INFO - NaNSummary - Percentage of 60s gaps: 0.185%
+2024-05-22 14:04:53,177 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.596%
+2024-05-22 14:04:53,177 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.453%
+2024-05-22 14:04:53,177 - INFO - NaNSummary - Number of outliers: 23, min (seconds): 19640.0, max (seconds): 2017540.0
+2024-05-22 14:04:53,202 - INFO - NaNSummary - --- Statistics for TFcigs_Iout ---
+2024-05-22 14:04:53,202 - INFO - NaNSummary - Number of gaps: 726144
+2024-05-22 14:04:53,202 - INFO - NaNSummary - Percentage of single observation missing: 68.898%
+2024-05-22 14:04:53,202 - INFO - NaNSummary - Percentage of 20s gaps: 23.571%
+2024-05-22 14:04:53,202 - INFO - NaNSummary - Percentage of 40s gaps: 4.691%
+2024-05-22 14:04:53,202 - INFO - NaNSummary - Percentage of 60s gaps: 1.052%
+2024-05-22 14:04:53,202 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 1.281%
+2024-05-22 14:04:53,202 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.507%
+2024-05-22 14:04:53,202 - INFO - NaNSummary - Number of outliers: 28, min (seconds): 8320.0, max (seconds): 2017600.0
+2024-05-22 14:04:53,208 - INFO - NaNSummary - --- Statistics for TFcigs_Vin ---
+2024-05-22 14:04:53,208 - INFO - NaNSummary - Number of gaps: 88982
+2024-05-22 14:04:53,208 - INFO - NaNSummary - Percentage of single observation missing: 6.346%
+2024-05-22 14:04:53,208 - INFO - NaNSummary - Percentage of 20s gaps: 85.128%
+2024-05-22 14:04:53,208 - INFO - NaNSummary - Percentage of 40s gaps: 7.59%
+2024-05-22 14:04:53,208 - INFO - NaNSummary - Percentage of 60s gaps: 0.184%
+2024-05-22 14:04:53,208 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.372%
+2024-05-22 14:04:53,208 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.379%
+2024-05-22 14:04:53,208 - INFO - NaNSummary - Number of outliers: 23, min (seconds): 19640.0, max (seconds): 2017540.0
+2024-05-22 14:04:53,213 - INFO - NaNSummary - --- Statistics for TFcigs_Vout ---
+2024-05-22 14:04:53,213 - INFO - NaNSummary - Number of gaps: 88844
+2024-05-22 14:04:53,213 - INFO - NaNSummary - Percentage of single observation missing: 6.236%
+2024-05-22 14:04:53,213 - INFO - NaNSummary - Percentage of 20s gaps: 85.243%
+2024-05-22 14:04:53,213 - INFO - NaNSummary - Percentage of 40s gaps: 7.591%
+2024-05-22 14:04:53,214 - INFO - NaNSummary - Percentage of 60s gaps: 0.181%
+2024-05-22 14:04:53,214 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.37%
+2024-05-22 14:04:53,214 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.379%
+2024-05-22 14:04:53,214 - INFO - NaNSummary - Number of outliers: 23, min (seconds): 19640.0, max (seconds): 2017540.0
+2024-05-22 14:04:53,218 - INFO - NaNSummary - --- Statistics for TempF_Amor ---
+2024-05-22 14:04:53,218 - INFO - NaNSummary - Number of gaps: 88545
+2024-05-22 14:04:53,218 - INFO - NaNSummary - Percentage of single observation missing: 5.957%
+2024-05-22 14:04:53,218 - INFO - NaNSummary - Percentage of 20s gaps: 85.497%
+2024-05-22 14:04:53,218 - INFO - NaNSummary - Percentage of 40s gaps: 7.613%
+2024-05-22 14:04:53,218 - INFO - NaNSummary - Percentage of 60s gaps: 0.183%
+2024-05-22 14:04:53,218 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.37%
+2024-05-22 14:04:53,218 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.379%
+2024-05-22 14:04:53,218 - INFO - NaNSummary - Number of outliers: 23, min (seconds): 19640.0, max (seconds): 2017540.0
+2024-05-22 14:04:53,223 - INFO - NaNSummary - --- Statistics for TempF_Cigs ---
+2024-05-22 14:04:53,223 - INFO - NaNSummary - Number of gaps: 88545
+2024-05-22 14:04:53,223 - INFO - NaNSummary - Percentage of single observation missing: 5.957%
+2024-05-22 14:04:53,223 - INFO - NaNSummary - Percentage of 20s gaps: 85.497%
+2024-05-22 14:04:53,223 - INFO - NaNSummary - Percentage of 40s gaps: 7.613%
+2024-05-22 14:04:53,223 - INFO - NaNSummary - Percentage of 60s gaps: 0.183%
+2024-05-22 14:04:53,223 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.37%
+2024-05-22 14:04:53,223 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.379%
+2024-05-22 14:04:53,223 - INFO - NaNSummary - Number of outliers: 23, min (seconds): 19640.0, max (seconds): 2017540.0
+2024-05-22 14:04:53,228 - INFO - NaNSummary - --- Statistics for TempF_Mono ---
+2024-05-22 14:04:53,228 - INFO - NaNSummary - Number of gaps: 88545
+2024-05-22 14:04:53,228 - INFO - NaNSummary - Percentage of single observation missing: 5.957%
+2024-05-22 14:04:53,228 - INFO - NaNSummary - Percentage of 20s gaps: 85.497%
+2024-05-22 14:04:53,228 - INFO - NaNSummary - Percentage of 40s gaps: 7.613%
+2024-05-22 14:04:53,229 - INFO - NaNSummary - Percentage of 60s gaps: 0.183%
+2024-05-22 14:04:53,229 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.37%
+2024-05-22 14:04:53,229 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.379%
+2024-05-22 14:04:53,229 - INFO - NaNSummary - Number of outliers: 23, min (seconds): 19640.0, max (seconds): 2017540.0
+2024-05-22 14:04:53,233 - INFO - NaNSummary - --- Statistics for TempF_Poly ---
+2024-05-22 14:04:53,233 - INFO - NaNSummary - Number of gaps: 88545
+2024-05-22 14:04:53,233 - INFO - NaNSummary - Percentage of single observation missing: 5.957%
+2024-05-22 14:04:53,234 - INFO - NaNSummary - Percentage of 20s gaps: 85.497%
+2024-05-22 14:04:53,234 - INFO - NaNSummary - Percentage of 40s gaps: 7.613%
+2024-05-22 14:04:53,234 - INFO - NaNSummary - Percentage of 60s gaps: 0.183%
+2024-05-22 14:04:53,234 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.37%
+2024-05-22 14:04:53,234 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.379%
+2024-05-22 14:04:53,234 - INFO - NaNSummary - Number of outliers: 23, min (seconds): 19640.0, max (seconds): 2017540.0
+2024-05-22 14:04:53,779 - INFO - nan_data_summary - Complete.
+2024-05-22 14:04:53,779 - INFO - nan_data_summary - Total runtime: 00:03:33
+2024-05-22 14:04:53,779 - INFO - nan_data_summary - 
+# ====================================================================== #
+# =============================== New Run ============================== #
+# ====================================================================== #
+2024-05-22 14:18:06,790 - INFO - nan_data_summary - Starting NaN Data Summary Program on Fixed...
+2024-05-22 14:18:06,791 - INFO - NaNSummary - Summary for all available Fixed data.
+2024-05-22 14:18:41,659 - INFO - NaNSummary - ------------------------ Summary of NaN Values ------------------------
+2024-05-22 14:18:43,543 - INFO - NaNSummary - Percentage of NaN values due to System Outage: 10.431%
+2024-05-22 14:18:43,543 - INFO - NaNSummary - Precentage of MAR NaN values: 1.572%
+2024-05-22 14:18:43,543 - INFO - NaNSummary - Precentage of Total NaN values: 12.003%
+2024-05-22 14:18:43,543 - INFO - NaNSummary - --- Missing values by variable ---
+2024-05-22 14:18:43,549 - INFO - NaNSummary - MonoSi_Vin, Missing: 533970 (10.431%)
+2024-05-22 14:18:43,555 - INFO - NaNSummary - MonoSi_Iin, Missing: 542253 (10.593%)
+2024-05-22 14:18:43,560 - INFO - NaNSummary - MonoSi_Vout, Missing: 533970 (10.431%)
+2024-05-22 14:18:43,566 - INFO - NaNSummary - MonoSi_Iout, Missing: 659083 (12.875%)
+2024-05-22 14:18:43,572 - INFO - NaNSummary - PolySi_Vin, Missing: 533970 (10.431%)
+2024-05-22 14:18:43,578 - INFO - NaNSummary - PolySi_Iin, Missing: 542116 (10.59%)
+2024-05-22 14:18:43,584 - INFO - NaNSummary - PolySi_Vout, Missing: 533970 (10.431%)
+2024-05-22 14:18:43,590 - INFO - NaNSummary - PolySi_Iout, Missing: 533970 (10.431%)
+2024-05-22 14:18:43,596 - INFO - NaNSummary - TFSi_a_Vin, Missing: 533970 (10.431%)
+2024-05-22 14:18:43,602 - INFO - NaNSummary - TFSi_a_Iin, Missing: 540858 (10.565%)
+2024-05-22 14:18:43,609 - INFO - NaNSummary - TFSi_a_Vout, Missing: 533970 (10.431%)
+2024-05-22 14:18:43,615 - INFO - NaNSummary - TFSi_a_Iout, Missing: 533970 (10.431%)
+2024-05-22 14:18:43,622 - INFO - NaNSummary - TFcigs_Vin, Missing: 897989 (17.542%)
+2024-05-22 14:18:43,628 - INFO - NaNSummary - TFcigs_Iin, Missing: 902721 (17.634%)
+2024-05-22 14:18:43,635 - INFO - NaNSummary - TFcigs_Vout, Missing: 897989 (17.542%)
+2024-05-22 14:18:43,641 - INFO - NaNSummary - TFcigs_Iout, Missing: 897989 (17.542%)
+2024-05-22 14:18:43,647 - INFO - NaNSummary - TempF_Mono, Missing: 533970 (10.431%)
+2024-05-22 14:18:43,654 - INFO - NaNSummary - TempF_Poly, Missing: 533970 (10.431%)
+2024-05-22 14:18:43,660 - INFO - NaNSummary - TempF_Amor, Missing: 533970 (10.431%)
+2024-05-22 14:18:43,666 - INFO - NaNSummary - TempF_Cigs, Missing: 533970 (10.431%)
+2024-05-22 14:18:43,666 - INFO - NaNSummary - --- Missing values by day ---
+2024-05-22 14:18:43,820 - INFO - NaNSummary - 1, Missing: 618982 (18.37%)
+2024-05-22 14:18:43,877 - INFO - NaNSummary - 2, Missing: 535241 (15.884%)
+2024-05-22 14:18:43,929 - INFO - NaNSummary - 3, Missing: 514501 (15.269%)
+2024-05-22 14:18:43,985 - INFO - NaNSummary - 4, Missing: 420745 (12.486%)
+2024-05-22 14:18:44,040 - INFO - NaNSummary - 5, Missing: 511470 (15.179%)
+2024-05-22 14:18:44,105 - INFO - NaNSummary - 6, Missing: 391079 (11.606%)
+2024-05-22 14:18:44,168 - INFO - NaNSummary - 7, Missing: 374948 (11.127%)
+2024-05-22 14:18:44,232 - INFO - NaNSummary - 8, Missing: 304065 (9.024%)
+2024-05-22 14:18:44,281 - INFO - NaNSummary - 9, Missing: 384866 (11.422%)
+2024-05-22 14:18:44,345 - INFO - NaNSummary - 10, Missing: 351379 (10.428%)
+2024-05-22 14:18:44,422 - INFO - NaNSummary - 11, Missing: 350900 (10.414%)
+2024-05-22 14:18:44,494 - INFO - NaNSummary - 12, Missing: 363667 (10.793%)
+2024-05-22 14:18:44,564 - INFO - NaNSummary - 13, Missing: 329645 (9.783%)
+2024-05-22 14:18:44,629 - INFO - NaNSummary - 14, Missing: 376049 (11.16%)
+2024-05-22 14:18:44,717 - INFO - NaNSummary - 15, Missing: 389103 (11.547%)
+2024-05-22 14:18:44,814 - INFO - NaNSummary - 16, Missing: 353680 (10.496%)
+2024-05-22 14:18:44,912 - INFO - NaNSummary - 17, Missing: 427523 (12.688%)
+2024-05-22 14:18:44,991 - INFO - NaNSummary - 18, Missing: 380276 (11.285%)
+2024-05-22 14:18:45,053 - INFO - NaNSummary - 19, Missing: 321468 (9.54%)
+2024-05-22 14:18:45,141 - INFO - NaNSummary - 20, Missing: 325274 (9.653%)
+2024-05-22 14:18:45,222 - INFO - NaNSummary - 21, Missing: 357100 (10.598%)
+2024-05-22 14:18:45,292 - INFO - NaNSummary - 22, Missing: 354903 (10.532%)
+2024-05-22 14:18:45,362 - INFO - NaNSummary - 23, Missing: 354113 (10.509%)
+2024-05-22 14:18:45,428 - INFO - NaNSummary - 24, Missing: 331303 (9.832%)
+2024-05-22 14:18:45,489 - INFO - NaNSummary - 25, Missing: 408297 (12.117%)
+2024-05-22 14:18:45,570 - INFO - NaNSummary - 26, Missing: 374283 (11.108%)
+2024-05-22 14:18:45,652 - INFO - NaNSummary - 27, Missing: 392416 (11.646%)
+2024-05-22 14:18:45,745 - INFO - NaNSummary - 28, Missing: 470015 (13.949%)
+2024-05-22 14:18:45,840 - INFO - NaNSummary - 29, Missing: 477940 (15.366%)
+2024-05-22 14:18:45,921 - INFO - NaNSummary - 30, Missing: 483563 (15.991%)
+2024-05-22 14:18:45,966 - INFO - NaNSummary - 31, Missing: 259844 (13.67%)
+2024-05-22 14:18:45,999 - INFO - NaNSummary - --- Missing values by month ---
+2024-05-22 14:18:46,240 - INFO - NaNSummary - 1, Missing: 297954 (2.781%)
+2024-05-22 14:18:46,391 - INFO - NaNSummary - 2, Missing: 470226 (4.816%)
+2024-05-22 14:18:46,541 - INFO - NaNSummary - 3, Missing: 752677 (7.025%)
+2024-05-22 14:18:46,646 - INFO - NaNSummary - 4, Missing: 31895 (0.41%)
+2024-05-22 14:18:46,728 - INFO - NaNSummary - 5, Missing: 17139 (0.32%)
+2024-05-22 14:18:46,826 - INFO - NaNSummary - 6, Missing: 1706521 (21.946%)
+2024-05-22 14:18:46,943 - INFO - NaNSummary - 7, Missing: 1965800 (24.465%)
+2024-05-22 14:18:47,064 - INFO - NaNSummary - 8, Missing: 2236776 (27.837%)
+2024-05-22 14:18:47,237 - INFO - NaNSummary - 9, Missing: 563629 (5.436%)
+2024-05-22 14:18:47,356 - INFO - NaNSummary - 10, Missing: 570671 (7.102%)
+2024-05-22 14:18:47,479 - INFO - NaNSummary - 11, Missing: 2746122 (35.315%)
+2024-05-22 14:18:47,597 - INFO - NaNSummary - 12, Missing: 929228 (11.564%)
+2024-05-22 14:18:47,597 - INFO - NaNSummary - --- Missing values by year ---
+2024-05-22 14:18:47,764 - INFO - NaNSummary - 2019, Missing: 2363679 (22.424%)
+2024-05-22 14:18:48,022 - INFO - NaNSummary - 2020, Missing: 7401499 (35.253%)
+2024-05-22 14:18:48,437 - INFO - NaNSummary - 2021, Missing: 759264 (2.408%)
+2024-05-22 14:18:48,821 - INFO - NaNSummary - 2022, Missing: 1614708 (5.12%)
+2024-05-22 14:18:48,953 - INFO - NaNSummary - 2023, Missing: 149488 (1.922%)
+2024-05-22 14:18:48,953 - INFO - NaNSummary - ------------------------ Summary of NaN Gaps ------------------------
+2024-05-22 14:21:31,530 - INFO - NaNSummary - --- Statistics for MonoSi_Iin ---
+2024-05-22 14:21:31,530 - INFO - NaNSummary - Number of gaps: 94730
+2024-05-22 14:21:31,530 - INFO - NaNSummary - Percentage of single observation missing: 13.055%
+2024-05-22 14:21:31,530 - INFO - NaNSummary - Percentage of 20s gaps: 78.1%
+2024-05-22 14:21:31,530 - INFO - NaNSummary - Percentage of 40s gaps: 6.958%
+2024-05-22 14:21:31,530 - INFO - NaNSummary - Percentage of 60s gaps: 0.165%
+2024-05-22 14:21:31,530 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 1.331%
+2024-05-22 14:21:31,531 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.392%
+2024-05-22 14:21:31,531 - INFO - NaNSummary - Number of outliers: 26, min (seconds): 19640.0, max (seconds): 2017540.0
+2024-05-22 14:21:31,535 - INFO - NaNSummary - --- Statistics for MonoSi_Iout ---
+2024-05-22 14:21:31,535 - INFO - NaNSummary - Number of gaps: 86199
+2024-05-22 14:21:31,535 - INFO - NaNSummary - Percentage of single observation missing: 5.49%
+2024-05-22 14:21:31,535 - INFO - NaNSummary - Percentage of 20s gaps: 85.911%
+2024-05-22 14:21:31,535 - INFO - NaNSummary - Percentage of 40s gaps: 7.646%
+2024-05-22 14:21:31,535 - INFO - NaNSummary - Percentage of 60s gaps: 0.18%
+2024-05-22 14:21:31,536 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.369%
+2024-05-22 14:21:31,536 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.405%
+2024-05-22 14:21:31,536 - INFO - NaNSummary - Number of outliers: 25, min (seconds): 25940.0, max (seconds): 2591980.0
+2024-05-22 14:21:31,540 - INFO - NaNSummary - --- Statistics for MonoSi_Vin ---
+2024-05-22 14:21:31,541 - INFO - NaNSummary - Number of gaps: 88581
+2024-05-22 14:21:31,541 - INFO - NaNSummary - Percentage of single observation missing: 5.979%
+2024-05-22 14:21:31,541 - INFO - NaNSummary - Percentage of 20s gaps: 85.46%
+2024-05-22 14:21:31,541 - INFO - NaNSummary - Percentage of 40s gaps: 7.604%
+2024-05-22 14:21:31,541 - INFO - NaNSummary - Percentage of 60s gaps: 0.175%
+2024-05-22 14:21:31,541 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.378%
+2024-05-22 14:21:31,541 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.404%
+2024-05-22 14:21:31,541 - INFO - NaNSummary - Number of outliers: 26, min (seconds): 19640.0, max (seconds): 2017540.0
+2024-05-22 14:21:31,546 - INFO - NaNSummary - --- Statistics for MonoSi_Vout ---
+2024-05-22 14:21:31,546 - INFO - NaNSummary - Number of gaps: 88581
+2024-05-22 14:21:31,546 - INFO - NaNSummary - Percentage of single observation missing: 5.979%
+2024-05-22 14:21:31,547 - INFO - NaNSummary - Percentage of 20s gaps: 85.46%
+2024-05-22 14:21:31,547 - INFO - NaNSummary - Percentage of 40s gaps: 7.604%
+2024-05-22 14:21:31,547 - INFO - NaNSummary - Percentage of 60s gaps: 0.175%
+2024-05-22 14:21:31,547 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.378%
+2024-05-22 14:21:31,547 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.404%
+2024-05-22 14:21:31,547 - INFO - NaNSummary - Number of outliers: 26, min (seconds): 19640.0, max (seconds): 2017540.0
+2024-05-22 14:21:31,552 - INFO - NaNSummary - --- Statistics for PolySi_Iin ---
+2024-05-22 14:21:31,552 - INFO - NaNSummary - Number of gaps: 94226
+2024-05-22 14:21:31,552 - INFO - NaNSummary - Percentage of single observation missing: 12.572%
+2024-05-22 14:21:31,552 - INFO - NaNSummary - Percentage of 20s gaps: 78.42%
+2024-05-22 14:21:31,552 - INFO - NaNSummary - Percentage of 40s gaps: 6.993%
+2024-05-22 14:21:31,552 - INFO - NaNSummary - Percentage of 60s gaps: 0.166%
+2024-05-22 14:21:31,552 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 1.453%
+2024-05-22 14:21:31,552 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.397%
+2024-05-22 14:21:31,552 - INFO - NaNSummary - Number of outliers: 26, min (seconds): 19640.0, max (seconds): 2017540.0
+2024-05-22 14:21:31,557 - INFO - NaNSummary - --- Statistics for PolySi_Iout ---
+2024-05-22 14:21:31,557 - INFO - NaNSummary - Number of gaps: 88581
+2024-05-22 14:21:31,557 - INFO - NaNSummary - Percentage of single observation missing: 5.979%
+2024-05-22 14:21:31,557 - INFO - NaNSummary - Percentage of 20s gaps: 85.46%
+2024-05-22 14:21:31,557 - INFO - NaNSummary - Percentage of 40s gaps: 7.604%
+2024-05-22 14:21:31,557 - INFO - NaNSummary - Percentage of 60s gaps: 0.175%
+2024-05-22 14:21:31,557 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.378%
+2024-05-22 14:21:31,557 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.404%
+2024-05-22 14:21:31,557 - INFO - NaNSummary - Number of outliers: 26, min (seconds): 19640.0, max (seconds): 2017540.0
+2024-05-22 14:21:31,562 - INFO - NaNSummary - --- Statistics for PolySi_Vin ---
+2024-05-22 14:21:31,562 - INFO - NaNSummary - Number of gaps: 88581
+2024-05-22 14:21:31,562 - INFO - NaNSummary - Percentage of single observation missing: 5.979%
+2024-05-22 14:21:31,562 - INFO - NaNSummary - Percentage of 20s gaps: 85.46%
+2024-05-22 14:21:31,562 - INFO - NaNSummary - Percentage of 40s gaps: 7.604%
+2024-05-22 14:21:31,562 - INFO - NaNSummary - Percentage of 60s gaps: 0.175%
+2024-05-22 14:21:31,562 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.378%
+2024-05-22 14:21:31,562 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.404%
+2024-05-22 14:21:31,562 - INFO - NaNSummary - Number of outliers: 26, min (seconds): 19640.0, max (seconds): 2017540.0
+2024-05-22 14:21:31,567 - INFO - NaNSummary - --- Statistics for PolySi_Vout ---
+2024-05-22 14:21:31,567 - INFO - NaNSummary - Number of gaps: 88581
+2024-05-22 14:21:31,567 - INFO - NaNSummary - Percentage of single observation missing: 5.979%
+2024-05-22 14:21:31,567 - INFO - NaNSummary - Percentage of 20s gaps: 85.46%
+2024-05-22 14:21:31,567 - INFO - NaNSummary - Percentage of 40s gaps: 7.604%
+2024-05-22 14:21:31,567 - INFO - NaNSummary - Percentage of 60s gaps: 0.175%
+2024-05-22 14:21:31,567 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.378%
+2024-05-22 14:21:31,567 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.404%
+2024-05-22 14:21:31,567 - INFO - NaNSummary - Number of outliers: 26, min (seconds): 19640.0, max (seconds): 2017540.0
+2024-05-22 14:21:31,572 - INFO - NaNSummary - --- Statistics for TFSi_a_Iin ---
+2024-05-22 14:21:31,572 - INFO - NaNSummary - Number of gaps: 93746
+2024-05-22 14:21:31,572 - INFO - NaNSummary - Percentage of single observation missing: 11.777%
+2024-05-22 14:21:31,572 - INFO - NaNSummary - Percentage of 20s gaps: 79.441%
+2024-05-22 14:21:31,572 - INFO - NaNSummary - Percentage of 40s gaps: 7.118%
+2024-05-22 14:21:31,573 - INFO - NaNSummary - Percentage of 60s gaps: 0.164%
+2024-05-22 14:21:31,573 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 1.115%
+2024-05-22 14:21:31,573 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.385%
+2024-05-22 14:21:31,573 - INFO - NaNSummary - Number of outliers: 26, min (seconds): 19640.0, max (seconds): 2017540.0
+2024-05-22 14:21:31,577 - INFO - NaNSummary - --- Statistics for TFSi_a_Iout ---
+2024-05-22 14:21:31,577 - INFO - NaNSummary - Number of gaps: 88581
+2024-05-22 14:21:31,577 - INFO - NaNSummary - Percentage of single observation missing: 5.979%
+2024-05-22 14:21:31,578 - INFO - NaNSummary - Percentage of 20s gaps: 85.46%
+2024-05-22 14:21:31,578 - INFO - NaNSummary - Percentage of 40s gaps: 7.604%
+2024-05-22 14:21:31,578 - INFO - NaNSummary - Percentage of 60s gaps: 0.175%
+2024-05-22 14:21:31,578 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.378%
+2024-05-22 14:21:31,578 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.404%
+2024-05-22 14:21:31,578 - INFO - NaNSummary - Number of outliers: 26, min (seconds): 19640.0, max (seconds): 2017540.0
+2024-05-22 14:21:31,583 - INFO - NaNSummary - --- Statistics for TFSi_a_Vin ---
+2024-05-22 14:21:31,583 - INFO - NaNSummary - Number of gaps: 88581
+2024-05-22 14:21:31,583 - INFO - NaNSummary - Percentage of single observation missing: 5.979%
+2024-05-22 14:21:31,583 - INFO - NaNSummary - Percentage of 20s gaps: 85.46%
+2024-05-22 14:21:31,583 - INFO - NaNSummary - Percentage of 40s gaps: 7.604%
+2024-05-22 14:21:31,583 - INFO - NaNSummary - Percentage of 60s gaps: 0.175%
+2024-05-22 14:21:31,583 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.378%
+2024-05-22 14:21:31,583 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.404%
+2024-05-22 14:21:31,583 - INFO - NaNSummary - Number of outliers: 26, min (seconds): 19640.0, max (seconds): 2017540.0
+2024-05-22 14:21:31,589 - INFO - NaNSummary - --- Statistics for TFSi_a_Vout ---
+2024-05-22 14:21:31,589 - INFO - NaNSummary - Number of gaps: 88581
+2024-05-22 14:21:31,589 - INFO - NaNSummary - Percentage of single observation missing: 5.979%
+2024-05-22 14:21:31,589 - INFO - NaNSummary - Percentage of 20s gaps: 85.46%
+2024-05-22 14:21:31,589 - INFO - NaNSummary - Percentage of 40s gaps: 7.604%
+2024-05-22 14:21:31,589 - INFO - NaNSummary - Percentage of 60s gaps: 0.175%
+2024-05-22 14:21:31,589 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.378%
+2024-05-22 14:21:31,589 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.404%
+2024-05-22 14:21:31,589 - INFO - NaNSummary - Number of outliers: 26, min (seconds): 19640.0, max (seconds): 2017540.0
+2024-05-22 14:21:31,594 - INFO - NaNSummary - --- Statistics for TFcigs_Iin ---
+2024-05-22 14:21:31,594 - INFO - NaNSummary - Number of gaps: 91210
+2024-05-22 14:21:31,594 - INFO - NaNSummary - Percentage of single observation missing: 9.605%
+2024-05-22 14:21:31,594 - INFO - NaNSummary - Percentage of 20s gaps: 81.396%
+2024-05-22 14:21:31,594 - INFO - NaNSummary - Percentage of 40s gaps: 7.2%
+2024-05-22 14:21:31,594 - INFO - NaNSummary - Percentage of 60s gaps: 0.174%
+2024-05-22 14:21:31,594 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 1.18%
+2024-05-22 14:21:31,594 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.445%
+2024-05-22 14:21:31,594 - INFO - NaNSummary - Number of outliers: 15, min (seconds): 57600.0, max (seconds): 7952440.0
+2024-05-22 14:21:31,599 - INFO - NaNSummary - --- Statistics for TFcigs_Iout ---
+2024-05-22 14:21:31,599 - INFO - NaNSummary - Number of gaps: 88472
+2024-05-22 14:21:31,599 - INFO - NaNSummary - Percentage of single observation missing: 5.976%
+2024-05-22 14:21:31,599 - INFO - NaNSummary - Percentage of 20s gaps: 85.536%
+2024-05-22 14:21:31,599 - INFO - NaNSummary - Percentage of 40s gaps: 7.548%
+2024-05-22 14:21:31,599 - INFO - NaNSummary - Percentage of 60s gaps: 0.171%
+2024-05-22 14:21:31,599 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.376%
+2024-05-22 14:21:31,599 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.393%
+2024-05-22 14:21:31,599 - INFO - NaNSummary - Number of outliers: 15, min (seconds): 57600.0, max (seconds): 7952440.0
+2024-05-22 14:21:31,604 - INFO - NaNSummary - --- Statistics for TFcigs_Vin ---
+2024-05-22 14:21:31,604 - INFO - NaNSummary - Number of gaps: 88472
+2024-05-22 14:21:31,604 - INFO - NaNSummary - Percentage of single observation missing: 5.976%
+2024-05-22 14:21:31,604 - INFO - NaNSummary - Percentage of 20s gaps: 85.536%
+2024-05-22 14:21:31,604 - INFO - NaNSummary - Percentage of 40s gaps: 7.548%
+2024-05-22 14:21:31,604 - INFO - NaNSummary - Percentage of 60s gaps: 0.171%
+2024-05-22 14:21:31,604 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.376%
+2024-05-22 14:21:31,604 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.393%
+2024-05-22 14:21:31,604 - INFO - NaNSummary - Number of outliers: 15, min (seconds): 57600.0, max (seconds): 7952440.0
+2024-05-22 14:21:31,608 - INFO - NaNSummary - --- Statistics for TFcigs_Vout ---
+2024-05-22 14:21:31,608 - INFO - NaNSummary - Number of gaps: 88472
+2024-05-22 14:21:31,609 - INFO - NaNSummary - Percentage of single observation missing: 5.976%
+2024-05-22 14:21:31,609 - INFO - NaNSummary - Percentage of 20s gaps: 85.536%
+2024-05-22 14:21:31,609 - INFO - NaNSummary - Percentage of 40s gaps: 7.548%
+2024-05-22 14:21:31,609 - INFO - NaNSummary - Percentage of 60s gaps: 0.171%
+2024-05-22 14:21:31,609 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.376%
+2024-05-22 14:21:31,609 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.393%
+2024-05-22 14:21:31,609 - INFO - NaNSummary - Number of outliers: 15, min (seconds): 57600.0, max (seconds): 7952440.0
+2024-05-22 14:21:31,613 - INFO - NaNSummary - --- Statistics for TempF_Amor ---
+2024-05-22 14:21:31,613 - INFO - NaNSummary - Number of gaps: 88581
+2024-05-22 14:21:31,613 - INFO - NaNSummary - Percentage of single observation missing: 5.979%
+2024-05-22 14:21:31,613 - INFO - NaNSummary - Percentage of 20s gaps: 85.46%
+2024-05-22 14:21:31,614 - INFO - NaNSummary - Percentage of 40s gaps: 7.604%
+2024-05-22 14:21:31,614 - INFO - NaNSummary - Percentage of 60s gaps: 0.175%
+2024-05-22 14:21:31,614 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.378%
+2024-05-22 14:21:31,614 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.404%
+2024-05-22 14:21:31,614 - INFO - NaNSummary - Number of outliers: 26, min (seconds): 19640.0, max (seconds): 2017540.0
+2024-05-22 14:21:31,618 - INFO - NaNSummary - --- Statistics for TempF_Cigs ---
+2024-05-22 14:21:31,618 - INFO - NaNSummary - Number of gaps: 88581
+2024-05-22 14:21:31,618 - INFO - NaNSummary - Percentage of single observation missing: 5.979%
+2024-05-22 14:21:31,618 - INFO - NaNSummary - Percentage of 20s gaps: 85.46%
+2024-05-22 14:21:31,618 - INFO - NaNSummary - Percentage of 40s gaps: 7.604%
+2024-05-22 14:21:31,618 - INFO - NaNSummary - Percentage of 60s gaps: 0.175%
+2024-05-22 14:21:31,618 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.378%
+2024-05-22 14:21:31,618 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.404%
+2024-05-22 14:21:31,619 - INFO - NaNSummary - Number of outliers: 26, min (seconds): 19640.0, max (seconds): 2017540.0
+2024-05-22 14:21:31,623 - INFO - NaNSummary - --- Statistics for TempF_Mono ---
+2024-05-22 14:21:31,623 - INFO - NaNSummary - Number of gaps: 88581
+2024-05-22 14:21:31,623 - INFO - NaNSummary - Percentage of single observation missing: 5.979%
+2024-05-22 14:21:31,623 - INFO - NaNSummary - Percentage of 20s gaps: 85.46%
+2024-05-22 14:21:31,623 - INFO - NaNSummary - Percentage of 40s gaps: 7.604%
+2024-05-22 14:21:31,623 - INFO - NaNSummary - Percentage of 60s gaps: 0.175%
+2024-05-22 14:21:31,623 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.378%
+2024-05-22 14:21:31,623 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.404%
+2024-05-22 14:21:31,623 - INFO - NaNSummary - Number of outliers: 26, min (seconds): 19640.0, max (seconds): 2017540.0
+2024-05-22 14:21:31,628 - INFO - NaNSummary - --- Statistics for TempF_Poly ---
+2024-05-22 14:21:31,628 - INFO - NaNSummary - Number of gaps: 88581
+2024-05-22 14:21:31,628 - INFO - NaNSummary - Percentage of single observation missing: 5.979%
+2024-05-22 14:21:31,628 - INFO - NaNSummary - Percentage of 20s gaps: 85.46%
+2024-05-22 14:21:31,628 - INFO - NaNSummary - Percentage of 40s gaps: 7.604%
+2024-05-22 14:21:31,628 - INFO - NaNSummary - Percentage of 60s gaps: 0.175%
+2024-05-22 14:21:31,628 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.378%
+2024-05-22 14:21:31,628 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.404%
+2024-05-22 14:21:31,628 - INFO - NaNSummary - Number of outliers: 26, min (seconds): 19640.0, max (seconds): 2017540.0
+2024-05-22 14:21:32,095 - INFO - nan_data_summary - Complete.
+2024-05-22 14:21:32,095 - INFO - nan_data_summary - Total runtime: 00:03:25
+2024-05-22 14:21:32,095 - INFO - nan_data_summary - 
+# ====================================================================== #
+# =============================== New Run ============================== #
+# ====================================================================== #
+2024-05-22 18:26:36,227 - INFO - nan_data_summary - Starting NaN Data Summary Program on Irradiance...
+2024-05-22 18:26:36,229 - INFO - NaNSummary - Summary for all available Irradiance data.
+2024-05-22 18:27:16,714 - INFO - NaNSummary - ------------------------ Summary of NaN Values ------------------------
+2024-05-22 18:27:17,076 - INFO - NaNSummary - Percentage of NaN values due to System Outage: 9.745%
+2024-05-22 18:27:17,076 - INFO - NaNSummary - Precentage of MAR NaN values: 0.029%
+2024-05-22 18:27:17,077 - INFO - NaNSummary - Precentage of Total NaN values: 9.774%
+2024-05-22 18:27:17,077 - INFO - NaNSummary - --- Missing values by variable ---
+2024-05-22 18:27:17,085 - INFO - NaNSummary - GlobalIR, Missing: 550627 (9.745%)
+2024-05-22 18:27:17,093 - INFO - NaNSummary - DirectIR, Missing: 550627 (9.745%)
+2024-05-22 18:27:17,101 - INFO - NaNSummary - DiffuseIR, Missing: 550627 (9.745%)
+2024-05-22 18:27:17,109 - INFO - NaNSummary - WindSpeed, Missing: 554726 (9.817%)
+2024-05-22 18:27:17,117 - INFO - NaNSummary - Temperature, Missing: 554720 (9.817%)
+2024-05-22 18:27:17,117 - INFO - NaNSummary - --- Missing values by day ---
+2024-05-22 18:27:17,268 - INFO - NaNSummary - 1, Missing: 146870 (15.813%)
+2024-05-22 18:27:17,302 - INFO - NaNSummary - 2, Missing: 124605 (13.416%)
+2024-05-22 18:27:17,337 - INFO - NaNSummary - 3, Missing: 118790 (12.79%)
+2024-05-22 18:27:17,369 - INFO - NaNSummary - 4, Missing: 95310 (10.262%)
+2024-05-22 18:27:17,403 - INFO - NaNSummary - 5, Missing: 116565 (12.55%)
+2024-05-22 18:27:17,436 - INFO - NaNSummary - 6, Missing: 83609 (9.002%)
+2024-05-22 18:27:17,470 - INFO - NaNSummary - 7, Missing: 79705 (8.582%)
+2024-05-22 18:27:17,505 - INFO - NaNSummary - 8, Missing: 62433 (6.722%)
+2024-05-22 18:27:17,541 - INFO - NaNSummary - 9, Missing: 82110 (8.84%)
+2024-05-22 18:27:17,593 - INFO - NaNSummary - 10, Missing: 73754 (7.941%)
+2024-05-22 18:27:17,625 - INFO - NaNSummary - 11, Missing: 73565 (7.92%)
+2024-05-22 18:27:17,661 - INFO - NaNSummary - 12, Missing: 76755 (8.264%)
+2024-05-22 18:27:17,695 - INFO - NaNSummary - 13, Missing: 69129 (7.443%)
+2024-05-22 18:27:17,727 - INFO - NaNSummary - 14, Missing: 84692 (9.118%)
+2024-05-22 18:27:17,760 - INFO - NaNSummary - 15, Missing: 84945 (9.146%)
+2024-05-22 18:27:17,793 - INFO - NaNSummary - 16, Missing: 74265 (7.996%)
+2024-05-22 18:27:17,828 - INFO - NaNSummary - 17, Missing: 92717 (9.982%)
+2024-05-22 18:27:17,863 - INFO - NaNSummary - 18, Missing: 81380 (8.762%)
+2024-05-22 18:27:17,896 - INFO - NaNSummary - 19, Missing: 66255 (7.133%)
+2024-05-22 18:27:17,927 - INFO - NaNSummary - 20, Missing: 67145 (7.229%)
+2024-05-22 18:27:17,961 - INFO - NaNSummary - 21, Missing: 75185 (8.095%)
+2024-05-22 18:27:17,992 - INFO - NaNSummary - 22, Missing: 74535 (8.025%)
+2024-05-22 18:27:18,026 - INFO - NaNSummary - 23, Missing: 76982 (8.288%)
+2024-05-22 18:27:18,059 - INFO - NaNSummary - 24, Missing: 74953 (8.07%)
+2024-05-22 18:27:18,091 - INFO - NaNSummary - 25, Missing: 93993 (10.12%)
+2024-05-22 18:27:18,125 - INFO - NaNSummary - 26, Missing: 86686 (9.333%)
+2024-05-22 18:27:18,160 - INFO - NaNSummary - 27, Missing: 111894 (12.047%)
+2024-05-22 18:27:18,198 - INFO - NaNSummary - 28, Missing: 129643 (13.958%)
+2024-05-22 18:27:18,230 - INFO - NaNSummary - 29, Missing: 115607 (13.38%)
+2024-05-22 18:27:18,266 - INFO - NaNSummary - 30, Missing: 111015 (13.178%)
+2024-05-22 18:27:18,291 - INFO - NaNSummary - 31, Missing: 56235 (10.414%)
+2024-05-22 18:27:18,336 - INFO - NaNSummary - --- Missing values by month ---
+2024-05-22 18:27:18,471 - INFO - NaNSummary - 1, Missing: 76834 (2.869%)
+2024-05-22 18:27:18,528 - INFO - NaNSummary - 2, Missing: 117523 (4.815%)
+2024-05-22 18:27:18,592 - INFO - NaNSummary - 3, Missing: 187913 (7.016%)
+2024-05-22 18:27:18,645 - INFO - NaNSummary - 4, Missing: 7720 (0.397%)
+2024-05-22 18:27:18,701 - INFO - NaNSummary - 5, Missing: 55305 (2.753%)
+2024-05-22 18:27:18,751 - INFO - NaNSummary - 6, Missing: 455409 (23.426%)
+2024-05-22 18:27:18,804 - INFO - NaNSummary - 7, Missing: 495178 (24.65%)
+2024-05-22 18:27:18,854 - INFO - NaNSummary - 8, Missing: 558690 (27.812%)
+2024-05-22 18:27:18,921 - INFO - NaNSummary - 9, Missing: 109125 (4.21%)
+2024-05-22 18:27:18,989 - INFO - NaNSummary - 10, Missing: 10335 (0.386%)
+2024-05-22 18:27:19,060 - INFO - NaNSummary - 11, Missing: 568080 (21.917%)
+2024-05-22 18:27:19,126 - INFO - NaNSummary - 12, Missing: 119215 (4.451%)
+2024-05-22 18:27:19,126 - INFO - NaNSummary - --- Missing values by year ---
+2024-05-22 18:27:19,239 - INFO - NaNSummary - 2019, Missing: 225125 (8.543%)
+2024-05-22 18:27:19,464 - INFO - NaNSummary - 2020, Missing: 1875087 (23.718%)
+2024-05-22 18:27:19,629 - INFO - NaNSummary - 2021, Missing: 221786 (2.813%)
+2024-05-22 18:27:19,799 - INFO - NaNSummary - 2022, Missing: 402196 (5.101%)
+2024-05-22 18:27:19,851 - INFO - NaNSummary - 2023, Missing: 37133 (1.91%)
+2024-05-22 18:27:19,851 - INFO - NaNSummary - ------------------------ Summary of NaN Gaps ------------------------
+2024-05-22 18:28:04,014 - INFO - NaNSummary - --- Statistics for DiffuseIR ---
+2024-05-22 18:28:04,014 - INFO - NaNSummary - Number of gaps: 91490
+2024-05-22 18:28:04,014 - INFO - NaNSummary - Percentage of single observation missing: 8.265%
+2024-05-22 18:28:04,014 - INFO - NaNSummary - Percentage of 20s gaps: 82.622%
+2024-05-22 18:28:04,014 - INFO - NaNSummary - Percentage of 40s gaps: 7.643%
+2024-05-22 18:28:04,014 - INFO - NaNSummary - Percentage of 60s gaps: 0.271%
+2024-05-22 18:28:04,014 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.616%
+2024-05-22 18:28:04,014 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.581%
+2024-05-22 18:28:04,015 - INFO - NaNSummary - Number of outliers: 27, min (seconds): 19640.0, max (seconds): 2017540.0
+2024-05-22 18:28:04,019 - INFO - NaNSummary - --- Statistics for DirectIR ---
+2024-05-22 18:28:04,020 - INFO - NaNSummary - Number of gaps: 91490
+2024-05-22 18:28:04,020 - INFO - NaNSummary - Percentage of single observation missing: 8.265%
+2024-05-22 18:28:04,020 - INFO - NaNSummary - Percentage of 20s gaps: 82.622%
+2024-05-22 18:28:04,020 - INFO - NaNSummary - Percentage of 40s gaps: 7.643%
+2024-05-22 18:28:04,020 - INFO - NaNSummary - Percentage of 60s gaps: 0.271%
+2024-05-22 18:28:04,020 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.616%
+2024-05-22 18:28:04,020 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.581%
+2024-05-22 18:28:04,020 - INFO - NaNSummary - Number of outliers: 27, min (seconds): 19640.0, max (seconds): 2017540.0
+2024-05-22 18:28:04,025 - INFO - NaNSummary - --- Statistics for GlobalIR ---
+2024-05-22 18:28:04,025 - INFO - NaNSummary - Number of gaps: 91490
+2024-05-22 18:28:04,026 - INFO - NaNSummary - Percentage of single observation missing: 8.265%
+2024-05-22 18:28:04,026 - INFO - NaNSummary - Percentage of 20s gaps: 82.622%
+2024-05-22 18:28:04,026 - INFO - NaNSummary - Percentage of 40s gaps: 7.643%
+2024-05-22 18:28:04,026 - INFO - NaNSummary - Percentage of 60s gaps: 0.271%
+2024-05-22 18:28:04,026 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.616%
+2024-05-22 18:28:04,026 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.581%
+2024-05-22 18:28:04,026 - INFO - NaNSummary - Number of outliers: 27, min (seconds): 19640.0, max (seconds): 2017540.0
+2024-05-22 18:28:04,031 - INFO - NaNSummary - --- Statistics for Temperature ---
+2024-05-22 18:28:04,031 - INFO - NaNSummary - Number of gaps: 93354
+2024-05-22 18:28:04,032 - INFO - NaNSummary - Percentage of single observation missing: 9.815%
+2024-05-22 18:28:04,032 - INFO - NaNSummary - Percentage of 20s gaps: 80.759%
+2024-05-22 18:28:04,032 - INFO - NaNSummary - Percentage of 40s gaps: 7.627%
+2024-05-22 18:28:04,032 - INFO - NaNSummary - Percentage of 60s gaps: 0.327%
+2024-05-22 18:28:04,032 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.759%
+2024-05-22 18:28:04,032 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.712%
+2024-05-22 18:28:04,032 - INFO - NaNSummary - Number of outliers: 27, min (seconds): 19640.0, max (seconds): 2017540.0
+2024-05-22 18:28:04,037 - INFO - NaNSummary - --- Statistics for WindSpeed ---
+2024-05-22 18:28:04,037 - INFO - NaNSummary - Number of gaps: 93357
+2024-05-22 18:28:04,038 - INFO - NaNSummary - Percentage of single observation missing: 9.817%
+2024-05-22 18:28:04,038 - INFO - NaNSummary - Percentage of 20s gaps: 80.757%
+2024-05-22 18:28:04,038 - INFO - NaNSummary - Percentage of 40s gaps: 7.627%
+2024-05-22 18:28:04,038 - INFO - NaNSummary - Percentage of 60s gaps: 0.328%
+2024-05-22 18:28:04,038 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.759%
+2024-05-22 18:28:04,038 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.712%
+2024-05-22 18:28:04,038 - INFO - NaNSummary - Number of outliers: 27, min (seconds): 19640.0, max (seconds): 2017540.0
+2024-05-22 18:28:04,146 - INFO - nan_data_summary - Complete.
+2024-05-22 18:28:04,146 - INFO - nan_data_summary - Total runtime: 00:01:27
+2024-05-22 18:28:04,146 - INFO - nan_data_summary - 
+# ====================================================================== #
+# =============================== New Run ============================== #
+# ====================================================================== #
+2024-05-22 18:28:28,218 - INFO - nan_data_summary_table - Starting summary of Irradiance for total available data...
+2024-05-22 18:51:38,479 - INFO - NaNDataSummaryTable - 
+            Total NaN %  System Outage NaN %  GlobalIR  DirectIR  DiffuseIR  WindSpeed  Temperature
+Month                                                                                              
+2019-09-01        8.955                8.955     1.791     1.791      1.791      1.791        1.791
+2019-10-01        1.155                1.155     0.231     0.231      0.231      0.231        0.231
+2019-11-01        8.755                8.755     1.751     1.751      1.751      1.751        1.751
+2019-12-01       15.328               15.328     3.066     3.066      3.066      3.066        3.066
+2020-01-01       10.619               10.619     2.124     2.124      2.124      2.124        2.124
+2020-02-01       18.334               18.334     3.667     3.667      3.667      3.667        3.667
+2020-03-01       21.758               21.758     4.352     4.352      4.352      4.352        4.352
+2020-04-01        0.130                0.130     0.026     0.026      0.026      0.026        0.026
+2020-05-01        7.660                7.660     1.532     1.532      1.532      1.532        1.532
+2020-06-01       64.298               64.298    12.860    12.860     12.860     12.860       12.860
+2020-07-01       74.049               74.049    14.810    14.810     14.810     14.810       14.810
+2020-08-01       83.035               83.035    16.607    16.607     16.607     16.607       16.607
+2020-09-01        3.461                3.461     0.692     0.692      0.692      0.692        0.692
+2020-10-01        0.114                0.114     0.023     0.023      0.023      0.023        0.023
+2020-11-01        0.079                0.079     0.016     0.016      0.016      0.016        0.016
+2020-12-01        0.147                0.147     0.029     0.029      0.029      0.029        0.029
+2021-01-01        1.812                1.812     0.362     0.362      0.362      0.362        0.362
+2021-02-01        0.336                0.336     0.067     0.067      0.067      0.067        0.067
+2021-03-01        0.768                0.768     0.154     0.154      0.154      0.154        0.154
+2021-04-01        0.819                0.819     0.164     0.164      0.164      0.164        0.164
+2021-05-01        0.403                0.403     0.081     0.081      0.081      0.081        0.081
+2021-06-01       11.674               11.674     2.335     2.335      2.335      2.335        2.335
+2021-07-01        0.120                0.120     0.024     0.024      0.024      0.024        0.024
+2021-08-01        0.346                0.346     0.069     0.069      0.069      0.069        0.069
+2021-09-01        0.173                0.173     0.035     0.035      0.035      0.035        0.035
+2021-10-01        0.233                0.233     0.047     0.047      0.047      0.047        0.047
+2021-11-01       24.387               24.387     4.877     4.877      4.877      4.877        4.877
+2021-12-01        0.295                0.295     0.059     0.059      0.059      0.059        0.059
+2022-01-01        0.157                0.157     0.031     0.031      0.031      0.031        0.031
+2022-02-01        0.187                0.187     0.037     0.037      0.037      0.037        0.037
+2022-03-01        0.196                0.196     0.039     0.039      0.039      0.039        0.039
+2022-04-01        0.242                0.242     0.048     0.048      0.048      0.048        0.048
+2022-05-01        0.196                0.196     0.039     0.039      0.039      0.039        0.039
+2022-06-01        0.154                0.154     0.031     0.031      0.031      0.031        0.031
+2022-07-01        0.031                0.031     0.006     0.006      0.006      0.006        0.006
+2022-08-01        0.057                0.057     0.011     0.011      0.011      0.011        0.011
+2022-09-01        4.252                4.252     0.850     0.850      0.850      0.850        0.850
+2022-10-01        0.043                0.043     0.009     0.009      0.009      0.009        0.009
+2022-11-01       54.446               54.446    10.889    10.889     10.889     10.889       10.889
+2022-12-01        2.034                2.034     0.407     0.407      0.407      0.407        0.407
+2023-01-01        0.143                0.143     0.029     0.029      0.029      0.029        0.029
+2023-02-01        0.066                0.066     0.013     0.013      0.013      0.013        0.013
+2023-03-01        5.344                5.343     1.069     1.069      1.069      1.070        1.069
+2024-05-22 18:51:41,032 - INFO - nan_data_summary_table - Complete.
+2024-05-22 18:51:41,032 - INFO - nan_data_summary_table - Total runtime: 00:23:12
+2024-05-22 18:51:41,032 - INFO - nan_data_summary_table - 
+
+# ====================================================================== #
+# =============================== New Run ============================== #
+# ====================================================================== #
+
+2024-05-22 19:50:10,836 - INFO - nan_data_summary - Starting NaN Data Summary Program on Irradiance...
+2024-05-22 19:50:10,837 - INFO - NaNSummary - Summary for all available Irradiance data.
+2024-05-22 19:50:50,616 - INFO - NaNSummary - ------------------------ Summary of NaN Values ------------------------
+2024-05-22 19:50:50,984 - INFO - NaNSummary - Percentage of NaN values due to System Outage: 9.745%
+2024-05-22 19:50:50,985 - INFO - NaNSummary - Precentage of MAR NaN values: 0.029%
+2024-05-22 19:50:50,985 - INFO - NaNSummary - Precentage of Total NaN values: 9.774%
+2024-05-22 19:50:50,985 - INFO - NaNSummary - --- Missing values by variable ---
+2024-05-22 19:50:50,992 - INFO - NaNSummary - GlobalIR, Missing: 550627 (9.745%)
+2024-05-22 19:50:51,000 - INFO - NaNSummary - DirectIR, Missing: 550627 (9.745%)
+2024-05-22 19:50:51,008 - INFO - NaNSummary - DiffuseIR, Missing: 550627 (9.745%)
+2024-05-22 19:50:51,016 - INFO - NaNSummary - WindSpeed, Missing: 554726 (9.817%)
+2024-05-22 19:50:51,024 - INFO - NaNSummary - Temperature, Missing: 554720 (9.817%)
+2024-05-22 19:50:51,024 - INFO - NaNSummary - --- Missing values by day ---
+2024-05-22 19:50:51,188 - INFO - NaNSummary - 1, Missing: 146870 (15.813%)
+2024-05-22 19:50:51,223 - INFO - NaNSummary - 2, Missing: 124605 (13.416%)
+2024-05-22 19:50:51,268 - INFO - NaNSummary - 3, Missing: 118790 (12.79%)
+2024-05-22 19:50:51,305 - INFO - NaNSummary - 4, Missing: 95310 (10.262%)
+2024-05-22 19:50:51,346 - INFO - NaNSummary - 5, Missing: 116565 (12.55%)
+2024-05-22 19:50:51,380 - INFO - NaNSummary - 6, Missing: 83609 (9.002%)
+2024-05-22 19:50:51,422 - INFO - NaNSummary - 7, Missing: 79705 (8.582%)
+2024-05-22 19:50:51,459 - INFO - NaNSummary - 8, Missing: 62433 (6.722%)
+2024-05-22 19:50:51,491 - INFO - NaNSummary - 9, Missing: 82110 (8.84%)
+2024-05-22 19:50:51,531 - INFO - NaNSummary - 10, Missing: 73754 (7.941%)
+2024-05-22 19:50:51,568 - INFO - NaNSummary - 11, Missing: 73565 (7.92%)
+2024-05-22 19:50:51,602 - INFO - NaNSummary - 12, Missing: 76755 (8.264%)
+2024-05-22 19:50:51,635 - INFO - NaNSummary - 13, Missing: 69129 (7.443%)
+2024-05-22 19:50:51,669 - INFO - NaNSummary - 14, Missing: 84692 (9.118%)
+2024-05-22 19:50:51,703 - INFO - NaNSummary - 15, Missing: 84945 (9.146%)
+2024-05-22 19:50:51,738 - INFO - NaNSummary - 16, Missing: 74265 (7.996%)
+2024-05-22 19:50:51,773 - INFO - NaNSummary - 17, Missing: 92717 (9.982%)
+2024-05-22 19:50:51,808 - INFO - NaNSummary - 18, Missing: 81380 (8.762%)
+2024-05-22 19:50:51,840 - INFO - NaNSummary - 19, Missing: 66255 (7.133%)
+2024-05-22 19:50:51,876 - INFO - NaNSummary - 20, Missing: 67145 (7.229%)
+2024-05-22 19:50:51,910 - INFO - NaNSummary - 21, Missing: 75185 (8.095%)
+2024-05-22 19:50:51,948 - INFO - NaNSummary - 22, Missing: 74535 (8.025%)
+2024-05-22 19:50:51,982 - INFO - NaNSummary - 23, Missing: 76982 (8.288%)
+2024-05-22 19:50:52,024 - INFO - NaNSummary - 24, Missing: 74953 (8.07%)
+2024-05-22 19:50:52,064 - INFO - NaNSummary - 25, Missing: 93993 (10.12%)
+2024-05-22 19:50:52,100 - INFO - NaNSummary - 26, Missing: 86686 (9.333%)
+2024-05-22 19:50:52,133 - INFO - NaNSummary - 27, Missing: 111894 (12.047%)
+2024-05-22 19:50:52,175 - INFO - NaNSummary - 28, Missing: 129643 (13.958%)
+2024-05-22 19:50:52,207 - INFO - NaNSummary - 29, Missing: 115607 (13.38%)
+2024-05-22 19:50:52,250 - INFO - NaNSummary - 30, Missing: 111015 (13.178%)
+2024-05-22 19:50:52,285 - INFO - NaNSummary - 31, Missing: 56235 (10.414%)
+2024-05-22 19:50:52,333 - INFO - NaNSummary - --- Missing values by month ---
+2024-05-22 19:50:52,467 - INFO - NaNSummary - 1, Missing: 76834 (2.869%)
+2024-05-22 19:50:52,529 - INFO - NaNSummary - 2, Missing: 117523 (4.815%)
+2024-05-22 19:50:52,591 - INFO - NaNSummary - 3, Missing: 187913 (7.016%)
+2024-05-22 19:50:52,645 - INFO - NaNSummary - 4, Missing: 7720 (0.397%)
+2024-05-22 19:50:52,698 - INFO - NaNSummary - 5, Missing: 55305 (2.753%)
+2024-05-22 19:50:52,743 - INFO - NaNSummary - 6, Missing: 455409 (23.426%)
+2024-05-22 19:50:52,793 - INFO - NaNSummary - 7, Missing: 495178 (24.65%)
+2024-05-22 19:50:52,839 - INFO - NaNSummary - 8, Missing: 558690 (27.812%)
+2024-05-22 19:50:52,902 - INFO - NaNSummary - 9, Missing: 109125 (4.21%)
+2024-05-22 19:50:52,966 - INFO - NaNSummary - 10, Missing: 10335 (0.386%)
+2024-05-22 19:50:53,031 - INFO - NaNSummary - 11, Missing: 568080 (21.917%)
+2024-05-22 19:50:53,093 - INFO - NaNSummary - 12, Missing: 119215 (4.451%)
+2024-05-22 19:50:53,094 - INFO - NaNSummary - --- Missing values by year ---
+2024-05-22 19:50:53,203 - INFO - NaNSummary - 2019, Missing: 225125 (8.543%)
+2024-05-22 19:50:53,419 - INFO - NaNSummary - 2020, Missing: 1875087 (23.718%)
+2024-05-22 19:50:53,587 - INFO - NaNSummary - 2021, Missing: 221786 (2.813%)
+2024-05-22 19:50:53,750 - INFO - NaNSummary - 2022, Missing: 402196 (5.101%)
+2024-05-22 19:50:53,800 - INFO - NaNSummary - 2023, Missing: 37133 (1.91%)
+2024-05-22 19:50:53,800 - INFO - NaNSummary - ------------------------ Summary of NaN Gaps ------------------------
+2024-05-22 19:51:46,333 - INFO - NaNSummary - --- Statistics for DiffuseIR ---
+2024-05-22 19:51:46,334 - INFO - NaNSummary - Number of gaps: 91490
+2024-05-22 19:51:46,335 - INFO - NaNSummary - Percentage of single observation missing: 8.265%
+2024-05-22 19:51:46,335 - INFO - NaNSummary - Percentage of 20s gaps: 82.622%
+2024-05-22 19:51:46,335 - INFO - NaNSummary - Percentage of 40s gaps: 7.643%
+2024-05-22 19:51:46,335 - INFO - NaNSummary - Percentage of 60s gaps: 0.271%
+2024-05-22 19:51:46,335 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.616%
+2024-05-22 19:51:46,336 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.581%
+2024-05-22 19:51:46,336 - INFO - NaNSummary - Number of outliers: 27, min (seconds): 19640.0, max (seconds): 2017540.0
+2024-05-22 19:51:46,350 - INFO - NaNSummary - --- Statistics for DirectIR ---
+2024-05-22 19:51:46,350 - INFO - NaNSummary - Number of gaps: 91490
+2024-05-22 19:51:46,350 - INFO - NaNSummary - Percentage of single observation missing: 8.265%
+2024-05-22 19:51:46,350 - INFO - NaNSummary - Percentage of 20s gaps: 82.622%
+2024-05-22 19:51:46,350 - INFO - NaNSummary - Percentage of 40s gaps: 7.643%
+2024-05-22 19:51:46,351 - INFO - NaNSummary - Percentage of 60s gaps: 0.271%
+2024-05-22 19:51:46,351 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.616%
+2024-05-22 19:51:46,351 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.581%
+2024-05-22 19:51:46,351 - INFO - NaNSummary - Number of outliers: 27, min (seconds): 19640.0, max (seconds): 2017540.0
+2024-05-22 19:51:46,360 - INFO - NaNSummary - --- Statistics for GlobalIR ---
+2024-05-22 19:51:46,360 - INFO - NaNSummary - Number of gaps: 91490
+2024-05-22 19:51:46,360 - INFO - NaNSummary - Percentage of single observation missing: 8.265%
+2024-05-22 19:51:46,360 - INFO - NaNSummary - Percentage of 20s gaps: 82.622%
+2024-05-22 19:51:46,361 - INFO - NaNSummary - Percentage of 40s gaps: 7.643%
+2024-05-22 19:51:46,361 - INFO - NaNSummary - Percentage of 60s gaps: 0.271%
+2024-05-22 19:51:46,361 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.616%
+2024-05-22 19:51:46,361 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.581%
+2024-05-22 19:51:46,361 - INFO - NaNSummary - Number of outliers: 27, min (seconds): 19640.0, max (seconds): 2017540.0
+2024-05-22 19:51:46,368 - INFO - NaNSummary - --- Statistics for Temperature ---
+2024-05-22 19:51:46,368 - INFO - NaNSummary - Number of gaps: 93354
+2024-05-22 19:51:46,368 - INFO - NaNSummary - Percentage of single observation missing: 9.815%
+2024-05-22 19:51:46,368 - INFO - NaNSummary - Percentage of 20s gaps: 80.759%
+2024-05-22 19:51:46,368 - INFO - NaNSummary - Percentage of 40s gaps: 7.627%
+2024-05-22 19:51:46,368 - INFO - NaNSummary - Percentage of 60s gaps: 0.327%
+2024-05-22 19:51:46,368 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.759%
+2024-05-22 19:51:46,368 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.712%
+2024-05-22 19:51:46,369 - INFO - NaNSummary - Number of outliers: 27, min (seconds): 19640.0, max (seconds): 2017540.0
+2024-05-22 19:51:46,375 - INFO - NaNSummary - --- Statistics for WindSpeed ---
+2024-05-22 19:51:46,375 - INFO - NaNSummary - Number of gaps: 93357
+2024-05-22 19:51:46,375 - INFO - NaNSummary - Percentage of single observation missing: 9.817%
+2024-05-22 19:51:46,375 - INFO - NaNSummary - Percentage of 20s gaps: 80.757%
+2024-05-22 19:51:46,375 - INFO - NaNSummary - Percentage of 40s gaps: 7.627%
+2024-05-22 19:51:46,375 - INFO - NaNSummary - Percentage of 60s gaps: 0.328%
+2024-05-22 19:51:46,375 - INFO - NaNSummary - Percentage of (60s, 120s] gaps: 0.759%
+2024-05-22 19:51:46,375 - INFO - NaNSummary - Percentage of gaps larger than 120s: 0.712%
+2024-05-22 19:51:46,375 - INFO - NaNSummary - Number of outliers: 27, min (seconds): 19640.0, max (seconds): 2017540.0
+2024-05-22 19:51:46,550 - INFO - nan_data_summary - Complete.
+2024-05-22 19:51:46,550 - INFO - nan_data_summary - Total runtime: 00:01:35
+2024-05-22 19:51:46,550 - INFO - nan_data_summary - 
+# ====================================================================== #
+# =============================== New Run ============================== #
+# ====================================================================== #

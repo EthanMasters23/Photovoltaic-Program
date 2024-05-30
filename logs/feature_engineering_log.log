@@ -1,0 +1,695 @@
+2024-04-15 21:34:16,353 - INFO - __main__ - Starting feature engineering...
+2024-04-15 21:34:21,867 - INFO - __main__ - Engineering features using 'Irradiance_compiled_clean.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-04-15 21:34:22,038 - INFO - FeatureEngineering - ------------------ generating clean data series for model training ------------------
+2024-04-15 21:34:22,259 - INFO - FeatureEngineering - Number of weeks (W) in training data: 188
+2024-04-15 21:34:24,207 - INFO - FeatureEngineering - Number of clean weeks (W) for GlobalIR: 67
+2024-04-15 21:34:24,208 - INFO - FeatureEngineering - Percentage of week series in total weeks in week_training_data for GlobalIR: 35.64
+2024-04-15 21:34:26,024 - INFO - FeatureEngineering - Number of clean weeks (W) for DirectIR: 67
+2024-04-15 21:34:26,024 - INFO - FeatureEngineering - Percentage of week series in total weeks in week_training_data for DirectIR: 35.64
+2024-04-15 21:34:27,710 - INFO - FeatureEngineering - Number of clean weeks (W) for DiffuseIR: 67
+2024-04-15 21:34:27,710 - INFO - FeatureEngineering - Percentage of week series in total weeks in week_training_data for DiffuseIR: 35.64
+2024-04-15 21:34:27,840 - INFO - FeatureEngineering - Number of clean weeks (W) for WindSpeed: 18
+2024-04-15 21:34:27,840 - INFO - FeatureEngineering - Percentage of week series in total weeks in week_training_data for WindSpeed: 9.57
+2024-04-15 21:34:28,009 - INFO - FeatureEngineering - Number of clean weeks (W) for Temperature: 19
+2024-04-15 21:34:28,009 - INFO - FeatureEngineering - Percentage of week series in total weeks in week_training_data for Temperature: 10.11
+2024-04-15 21:34:28,009 - INFO - FeatureEngineering - Finished generating series of clean weeks (W) for model training.
+2024-04-15 22:28:55,119 - INFO - __main__ - Starting feature engineering...
+2024-04-15 22:29:02,332 - INFO - __main__ - Engineering features using 'Irradiance_compiled_clean.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-04-15 22:29:02,552 - INFO - FeatureEngineering - ------------------ generating clean data series for model training ------------------
+2024-04-15 22:29:02,915 - INFO - FeatureEngineering - Number of weeks (W) in training data: 188
+2024-04-15 22:31:40,082 - INFO - __main__ - Starting feature engineering...
+2024-04-15 22:31:47,427 - INFO - __main__ - Engineering features using 'Irradiance_compiled_clean.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-04-15 22:31:47,650 - INFO - FeatureEngineering - ------------------ generating clean data series for model training ------------------
+2024-04-15 22:31:48,010 - INFO - FeatureEngineering - Number of weeks (W) in training data: 188
+2024-04-15 22:31:48,602 - INFO - FeatureEngineering - Number of clean weeks (W) for GlobalIR: 67
+2024-04-15 22:31:48,602 - INFO - FeatureEngineering - Percentage of week series in total weeks in week_training_data for GlobalIR: 35.64
+2024-04-15 22:31:49,203 - INFO - FeatureEngineering - Number of clean weeks (W) for DirectIR: 67
+2024-04-15 22:31:49,203 - INFO - FeatureEngineering - Percentage of week series in total weeks in week_training_data for DirectIR: 35.64
+2024-04-15 22:31:49,853 - INFO - FeatureEngineering - Number of clean weeks (W) for DiffuseIR: 67
+2024-04-15 22:31:49,853 - INFO - FeatureEngineering - Percentage of week series in total weeks in week_training_data for DiffuseIR: 35.64
+2024-04-15 22:31:50,035 - INFO - FeatureEngineering - Number of clean weeks (W) for WindSpeed: 18
+2024-04-15 22:31:50,035 - INFO - FeatureEngineering - Percentage of week series in total weeks in week_training_data for WindSpeed: 9.57
+2024-04-15 22:31:50,231 - INFO - FeatureEngineering - Number of clean weeks (W) for Temperature: 19
+2024-04-15 22:31:50,231 - INFO - FeatureEngineering - Percentage of week series in total weeks in week_training_data for Temperature: 10.11
+2024-04-15 22:31:50,231 - INFO - FeatureEngineering - Finished generating series of clean weeks (W) for model training.
+2024-04-15 22:32:37,144 - INFO - __main__ - Starting feature engineering...
+2024-04-15 22:32:44,406 - INFO - __main__ - Engineering features using 'Irradiance_compiled_clean.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-04-15 22:32:44,628 - INFO - FeatureEngineering - ------------------ generating clean data series for model training ------------------
+2024-04-15 22:32:44,987 - INFO - FeatureEngineering - Number of weeks (W) in training data: 188
+2024-04-15 22:33:59,917 - INFO - __main__ - Starting feature engineering...
+2024-04-15 22:34:07,323 - INFO - __main__ - Engineering features using 'Irradiance_compiled_clean.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-04-15 22:34:07,586 - INFO - FeatureEngineering - ------------------ generating clean data series for model training ------------------
+2024-04-15 22:34:07,949 - INFO - FeatureEngineering - Number of weeks (W) in training data: 188
+2024-04-15 22:34:08,528 - INFO - FeatureEngineering - Number of clean weeks (W) for GlobalIR: 67
+2024-04-15 22:34:08,528 - INFO - FeatureEngineering - Percentage of week series in total weeks in week_training_data for GlobalIR: 35.64
+2024-04-15 22:34:09,112 - INFO - FeatureEngineering - Number of clean weeks (W) for DirectIR: 67
+2024-04-15 22:34:09,112 - INFO - FeatureEngineering - Percentage of week series in total weeks in week_training_data for DirectIR: 35.64
+2024-04-15 22:34:09,780 - INFO - FeatureEngineering - Number of clean weeks (W) for DiffuseIR: 67
+2024-04-15 22:34:09,780 - INFO - FeatureEngineering - Percentage of week series in total weeks in week_training_data for DiffuseIR: 35.64
+2024-04-15 22:34:09,956 - INFO - FeatureEngineering - Number of clean weeks (W) for WindSpeed: 18
+2024-04-15 22:34:09,956 - INFO - FeatureEngineering - Percentage of week series in total weeks in week_training_data for WindSpeed: 9.57
+2024-04-15 22:34:10,152 - INFO - FeatureEngineering - Number of clean weeks (W) for Temperature: 19
+2024-04-15 22:34:10,152 - INFO - FeatureEngineering - Percentage of week series in total weeks in week_training_data for Temperature: 10.11
+2024-04-15 22:34:10,153 - INFO - FeatureEngineering - Finished generating series of clean weeks (W) for model training.
+2024-04-15 22:38:23,126 - INFO - __main__ - Starting feature engineering...
+2024-04-15 22:38:30,601 - INFO - __main__ - Engineering features using 'Irradiance_compiled_clean.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-04-15 22:38:30,818 - INFO - FeatureEngineering - ------------------ generating clean data series for model training ------------------
+2024-04-15 22:38:31,178 - INFO - FeatureEngineering - Number of weeks (W) in training data: 188
+2024-04-15 22:38:31,324 - INFO - FeatureEngineering - Number of clean weeks (W) for GlobalIR: 67
+2024-04-15 22:38:31,324 - INFO - FeatureEngineering - Percentage of week series in total weeks in week_training_data for GlobalIR: 35.64
+2024-04-15 22:38:31,473 - INFO - FeatureEngineering - Number of clean weeks (W) for DirectIR: 67
+2024-04-15 22:38:31,474 - INFO - FeatureEngineering - Percentage of week series in total weeks in week_training_data for DirectIR: 35.64
+2024-04-15 22:38:31,623 - INFO - FeatureEngineering - Number of clean weeks (W) for DiffuseIR: 67
+2024-04-15 22:38:31,624 - INFO - FeatureEngineering - Percentage of week series in total weeks in week_training_data for DiffuseIR: 35.64
+2024-04-15 22:38:31,765 - INFO - FeatureEngineering - Number of clean weeks (W) for WindSpeed: 18
+2024-04-15 22:38:31,765 - INFO - FeatureEngineering - Percentage of week series in total weeks in week_training_data for WindSpeed: 9.57
+2024-04-15 22:38:31,906 - INFO - FeatureEngineering - Number of clean weeks (W) for Temperature: 19
+2024-04-15 22:38:31,907 - INFO - FeatureEngineering - Percentage of week series in total weeks in week_training_data for Temperature: 10.11
+2024-04-15 22:38:31,907 - INFO - FeatureEngineering - Finished generating series of clean weeks (W) for model training.
+2024-04-15 22:39:30,321 - INFO - __main__ - Starting feature engineering...
+2024-04-15 22:39:37,816 - INFO - __main__ - Engineering features using 'Irradiance_compiled_clean.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-04-15 22:39:38,039 - INFO - FeatureEngineering - ------------------ generating clean data series for model training ------------------
+2024-04-15 22:39:38,412 - INFO - FeatureEngineering - Number of weeks (W) in training data: 188
+2024-04-15 22:39:38,625 - INFO - FeatureEngineering - Number of clean weeks (W) for GlobalIR: 67
+2024-04-15 22:39:38,625 - INFO - FeatureEngineering - Percentage of week series in total weeks in week_training_data for GlobalIR: 35.64
+2024-04-15 22:39:38,861 - INFO - FeatureEngineering - Number of clean weeks (W) for DirectIR: 67
+2024-04-15 22:39:38,861 - INFO - FeatureEngineering - Percentage of week series in total weeks in week_training_data for DirectIR: 35.64
+2024-04-15 22:39:39,056 - INFO - FeatureEngineering - Number of clean weeks (W) for DiffuseIR: 67
+2024-04-15 22:39:39,056 - INFO - FeatureEngineering - Percentage of week series in total weeks in week_training_data for DiffuseIR: 35.64
+2024-04-15 22:39:39,203 - INFO - FeatureEngineering - Number of clean weeks (W) for WindSpeed: 18
+2024-04-15 22:39:39,203 - INFO - FeatureEngineering - Percentage of week series in total weeks in week_training_data for WindSpeed: 9.57
+2024-04-15 22:39:39,363 - INFO - FeatureEngineering - Number of clean weeks (W) for Temperature: 19
+2024-04-15 22:39:39,363 - INFO - FeatureEngineering - Percentage of week series in total weeks in week_training_data for Temperature: 10.11
+2024-04-15 22:39:39,363 - INFO - FeatureEngineering - Finished generating series of clean weeks (W) for model training.
+2024-04-15 22:39:43,368 - INFO - FeatureEngineering - Saved clean weeks (W) data frame as 'training_data_w.csv'.
+2024-04-15 22:39:43,368 - INFO - __main__ - Complete.
+2024-04-15 22:39:43,368 - INFO - __main__ - Total runtime: 13.05
+2024-04-15 22:39:43,368 - INFO - __main__ - 
+# ====================================================================== #
+# =============================== New Run ============================== #
+# ====================================================================== #
+
+2024-04-15 22:44:28,511 - INFO - __main__ - Starting feature engineering...
+2024-04-15 22:44:35,913 - INFO - __main__ - Engineering features using 'Irradiance_compiled_clean.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-04-15 22:44:36,132 - INFO - FeatureEngineering - ------------------ generating clean data series for model training ------------------
+2024-04-15 22:44:36,493 - INFO - FeatureEngineering - Number of hours (H) in training data: 31392
+2024-04-15 22:44:53,275 - INFO - FeatureEngineering - Number of clean hours (H) for GlobalIR: 15818
+2024-04-15 22:44:53,275 - INFO - FeatureEngineering - Percentage of hour series in total hours in hour_training_data for GlobalIR: 50.39
+2024-04-15 22:45:09,862 - INFO - FeatureEngineering - Number of clean hours (H) for DirectIR: 15818
+2024-04-15 22:45:09,862 - INFO - FeatureEngineering - Percentage of hour series in total hours in hour_training_data for DirectIR: 50.39
+2024-04-15 22:45:26,565 - INFO - FeatureEngineering - Number of clean hours (H) for DiffuseIR: 15818
+2024-04-15 22:45:26,565 - INFO - FeatureEngineering - Percentage of hour series in total hours in hour_training_data for DiffuseIR: 50.39
+2024-04-15 22:45:48,719 - INFO - FeatureEngineering - Number of clean hours (H) for WindSpeed: 18895
+2024-04-15 22:45:48,719 - INFO - FeatureEngineering - Percentage of hour series in total hours in hour_training_data for WindSpeed: 60.19
+2024-04-15 22:46:11,317 - INFO - FeatureEngineering - Number of clean hours (H) for Temperature: 28209
+2024-04-15 22:46:11,317 - INFO - FeatureEngineering - Percentage of hour series in total hours in hour_training_data for Temperature: 89.86
+2024-04-15 22:46:11,317 - INFO - FeatureEngineering - Finished generating series of clean hours (H) for model training.
+2024-04-15 22:46:25,604 - INFO - FeatureEngineering - Saved clean hours (H) data frame as 'training_data_h.csv'.
+2024-04-15 22:46:25,605 - INFO - __main__ - Complete.
+2024-04-15 22:46:25,605 - INFO - __main__ - Total runtime: 117.09
+2024-04-15 22:46:25,605 - INFO - __main__ - 
+# ====================================================================== #
+# =============================== New Run ============================== #
+# ====================================================================== #
+
+2024-04-15 22:49:24,017 - INFO - __main__ - Starting feature engineering...
+2024-04-15 22:49:31,174 - INFO - __main__ - Engineering features using 'Irradiance_compiled_clean.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-04-15 22:49:31,397 - INFO - FeatureEngineering - ------------------ generating clean data series for model training ------------------
+2024-04-15 22:49:31,832 - INFO - FeatureEngineering - Number of 30 minutes (30T) in training data: 1532160
+2024-04-15 23:56:25,650 - INFO - FeatureEngineering - Number of clean 30 minutes (30T) for GlobalIR: 737387
+2024-04-15 23:56:25,650 - INFO - FeatureEngineering - Percentage of 30 minute series in total 30 minutes in 30 minute_training_data for GlobalIR: 48.13
+2024-04-16 00:29:50,931 - INFO - FeatureEngineering - Number of clean 30 minutes (30T) for DirectIR: 737387
+2024-04-16 00:29:50,932 - INFO - FeatureEngineering - Percentage of 30 minute series in total 30 minutes in 30 minute_training_data for DirectIR: 48.13
+2024-04-16 00:43:34,043 - INFO - FeatureEngineering - Number of clean 30 minutes (30T) for DiffuseIR: 737387
+2024-04-16 00:43:34,044 - INFO - FeatureEngineering - Percentage of 30 minute series in total 30 minutes in 30 minute_training_data for DiffuseIR: 48.13
+2024-04-16 01:02:22,882 - INFO - FeatureEngineering - Number of clean 30 minutes (30T) for WindSpeed: 946286
+2024-04-16 01:02:22,884 - INFO - FeatureEngineering - Percentage of 30 minute series in total 30 minutes in 30 minute_training_data for WindSpeed: 61.76
+2024-04-16 01:21:28,015 - INFO - FeatureEngineering - Number of clean 30 minutes (30T) for Temperature: 1417055
+2024-04-16 01:21:28,017 - INFO - FeatureEngineering - Percentage of 30 minute series in total 30 minutes in 30 minute_training_data for Temperature: 92.49
+2024-04-16 01:21:28,018 - INFO - FeatureEngineering - Finished generating series of clean 30 minutes (30T) for model training.
+2024-04-16 01:28:29,450 - INFO - FeatureEngineering - Saved clean 30 minutes (30T) data frame as 'training_data_30t.csv'.
+2024-04-16 01:28:29,451 - INFO - __main__ - Complete.
+2024-04-16 01:28:29,452 - INFO - __main__ - Total runtime: 9545.43
+2024-04-16 01:28:29,452 - INFO - __main__ - 
+# ====================================================================== #
+# =============================== New Run ============================== #
+# ====================================================================== #
+
+2024-04-16 03:16:55,908 - INFO - __main__ - Starting feature engineering...
+2024-04-16 03:17:03,554 - INFO - __main__ - Engineering features using 'Irradiance_compiled_processed.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-04-16 03:17:03,803 - INFO - FeatureEngineering - ------------------ generating clean data series for model training ------------------
+2024-04-16 03:17:04,220 - INFO - FeatureEngineering - Number of hours (H) in training data: 31392
+2024-04-16 03:17:14,329 - INFO - FeatureEngineering - Number of clean hours (H) for GlobalIR: 14877
+2024-04-16 03:17:14,329 - INFO - FeatureEngineering - Percentage of hour series in total hours in hour_training_data for GlobalIR: 47.39
+2024-04-16 03:17:24,469 - INFO - FeatureEngineering - Number of clean hours (H) for DirectIR: 14877
+2024-04-16 03:17:24,469 - INFO - FeatureEngineering - Percentage of hour series in total hours in hour_training_data for DirectIR: 47.39
+2024-04-16 03:17:34,070 - INFO - FeatureEngineering - Number of clean hours (H) for DiffuseIR: 14877
+2024-04-16 03:17:34,070 - INFO - FeatureEngineering - Percentage of hour series in total hours in hour_training_data for DiffuseIR: 47.39
+2024-04-16 03:17:47,607 - INFO - FeatureEngineering - Number of clean hours (H) for WindSpeed: 26285
+2024-04-16 03:17:47,607 - INFO - FeatureEngineering - Percentage of hour series in total hours in hour_training_data for WindSpeed: 83.73
+2024-04-16 03:18:00,986 - INFO - FeatureEngineering - Number of clean hours (H) for Temperature: 26286
+2024-04-16 03:18:00,986 - INFO - FeatureEngineering - Percentage of hour series in total hours in hour_training_data for Temperature: 83.73
+2024-04-16 03:18:00,986 - INFO - FeatureEngineering - Finished generating series of clean hours (H) for model training.
+2024-04-16 03:18:14,107 - INFO - FeatureEngineering - Saved clean hours (H) data frame as 'training_data_h.csv'.
+2024-04-16 03:18:14,107 - INFO - __main__ - Complete.
+2024-04-16 03:18:14,107 - INFO - __main__ - Total runtime: 78.20
+2024-04-16 03:18:14,107 - INFO - __main__ - 
+# ====================================================================== #
+# =============================== New Run ============================== #
+# ====================================================================== #
+
+2024-04-16 23:43:08,581 - INFO - __main__ - Starting feature engineering...
+2024-04-16 23:43:19,324 - INFO - __main__ - Engineering features using 'Irradiance_compiled_processed.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-04-16 23:44:09,164 - INFO - FeatureEngineering - Saved training data frame as 'training_data_frame.csv'.
+2024-04-16 23:44:09,164 - INFO - __main__ - Complete.
+2024-04-16 23:44:09,164 - INFO - __main__ - Total runtime: 60.58
+2024-04-16 23:44:09,164 - INFO - __main__ - 
+# ====================================================================== #
+# =============================== New Run ============================== #
+# ====================================================================== #
+
+2024-04-17 21:44:28,212 - INFO - __main__ - Starting feature engineering...
+2024-04-17 21:44:39,648 - INFO - __main__ - Engineering features using 'Irradiance_compiled_processed.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-04-17 21:45:42,834 - INFO - FeatureEngineering - Generated time features with columns: Day: ['Winter', 'Spring', 'Summer', 'Fall'] and Seconds: ['Morning', 'Afternoon', 'Night'].
+2024-04-17 21:48:47,215 - INFO - FeatureEngineering - Generated Solar Position Feature.
+2024-04-17 21:48:49,726 - INFO - FeatureEngineering - Removed NaN rows.
+2024-04-17 21:50:25,530 - INFO - FeatureEngineering - Saved feature data frame as 'feature_data_frame.csv'.
+2024-04-17 21:50:25,530 - INFO - __main__ - Complete.
+2024-04-17 21:50:25,530 - INFO - __main__ - Total runtime: 357.32
+2024-04-17 21:50:25,530 - INFO - __main__ - 
+# ====================================================================== #
+# =============================== New Run ============================== #
+# ====================================================================== #
+
+2024-04-17 22:19:53,301 - INFO - __main__ - Starting feature engineering...
+2024-04-17 22:20:04,666 - INFO - __main__ - Engineering features using 'Irradiance_compiled_processed.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-04-17 22:20:04,985 - INFO - FeatureEngineering - ------------------ generating clean data series for model training ------------------
+2024-04-17 22:20:05,666 - INFO - FeatureEngineering - Number of 15 minutes (15T) in training data: 1883520
+2024-04-17 22:38:09,494 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for GlobalIR: 831331
+2024-04-17 22:38:09,494 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for GlobalIR: 44.14
+2024-04-17 22:50:12,830 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for DirectIR: 831331
+2024-04-17 22:50:12,830 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for DirectIR: 44.14
+2024-04-17 23:02:05,669 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for DiffuseIR: 831331
+2024-04-17 23:02:05,669 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for DiffuseIR: 44.14
+2024-04-17 23:19:01,964 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for WindSpeed: 1640548
+2024-04-17 23:19:01,965 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for WindSpeed: 87.1
+2024-04-17 23:32:09,859 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for Temperature: 1640582
+2024-04-17 23:32:09,863 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for Temperature: 87.1
+2024-04-17 23:32:09,863 - INFO - FeatureEngineering - Finished generating series of clean 15 minutes (15T) for model training.
+2024-04-17 23:35:20,525 - INFO - FeatureEngineering - Saved clean 15 minutes (15T) data frame as 'training_data_15t.csv'.
+2024-04-17 23:35:20,526 - INFO - __main__ - Complete.
+2024-04-17 23:35:20,526 - INFO - __main__ - Total runtime: 4527.22
+2024-04-17 23:35:20,526 - INFO - __main__ - 
+# ====================================================================== #
+# =============================== New Run ============================== #
+# ====================================================================== #
+
+2024-04-19 15:04:25,998 - INFO - __main__ - Starting feature engineering...
+2024-04-19 15:04:37,054 - INFO - __main__ - Engineering features using 'Irradiance_compiled_processed.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-04-19 15:06:37,523 - INFO - FeatureEngineering - Generated time features with columns: Day: ['Winter', 'Spring', 'Summer', 'Fall'] and Seconds: ['Morning', 'Afternoon', 'Night'].
+2024-04-19 15:09:46,081 - INFO - FeatureEngineering - Generated Solar Position Feature.
+2024-04-19 15:09:48,983 - INFO - FeatureEngineering - Removed NaN rows.
+2024-04-19 15:15:26,331 - INFO - FeatureEngineering - Removed night values.
+2024-04-19 15:21:41,868 - INFO - __main__ - Complete.
+2024-04-19 15:21:41,868 - INFO - __main__ - Total runtime: 00:17:15
+2024-04-19 15:21:41,868 - INFO - __main__ - 
+# ====================================================================== #
+# =============================== New Run ============================== #
+# ====================================================================== #
+2024-04-19 15:22:17,724 - INFO - __main__ - Starting feature engineering...
+2024-04-19 15:22:29,446 - INFO - __main__ - Engineering features using 'Irradiance_compiled_processed.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-04-19 15:24:28,505 - INFO - FeatureEngineering - Generated time features with columns: Day: ['Winter', 'Spring', 'Summer', 'Fall'] and Seconds: ['Morning', 'Afternoon', 'Night'].
+2024-04-19 15:27:35,870 - INFO - FeatureEngineering - Generated Solar Position Feature.
+2024-04-19 15:27:38,684 - INFO - FeatureEngineering - Removed NaN rows.
+2024-04-19 15:33:15,551 - INFO - FeatureEngineering - Removed night values.
+2024-04-19 15:40:12,195 - INFO - __main__ - Complete.
+2024-04-19 15:40:12,195 - INFO - __main__ - Total runtime: 00:17:54
+2024-04-19 15:40:12,195 - INFO - __main__ - 
+# ====================================================================== #
+# =============================== New Run ============================== #
+# ====================================================================== #
+2024-04-19 15:40:16,523 - INFO - __main__ - Starting feature engineering...
+2024-04-19 15:40:27,686 - INFO - __main__ - Engineering features using 'Irradiance_compiled_processed.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-04-19 15:42:28,824 - INFO - FeatureEngineering - Generated time features with columns: Day: ['Winter', 'Spring', 'Summer', 'Fall'] and Seconds: ['Morning', 'Afternoon', 'Night'].
+2024-04-19 15:45:38,030 - INFO - FeatureEngineering - Generated Solar Position Feature.
+2024-04-19 15:45:40,583 - INFO - FeatureEngineering - Removed NaN rows.
+2024-04-19 15:51:20,842 - INFO - FeatureEngineering - Removed night values.
+2024-04-19 16:04:19,797 - INFO - __main__ - Complete.
+2024-04-19 16:04:19,798 - INFO - __main__ - Total runtime: 00:24:03
+2024-04-19 16:04:19,798 - INFO - __main__ - 
+# ====================================================================== #
+# =============================== New Run ============================== #
+# ====================================================================== #
+2024-04-19 16:04:39,444 - INFO - __main__ - Starting feature engineering...
+2024-04-19 16:04:50,884 - INFO - __main__ - Engineering features using 'Irradiance_compiled_processed.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-04-19 16:06:50,835 - INFO - FeatureEngineering - Generated time features with columns: Day: ['Winter', 'Spring', 'Summer', 'Fall'] and Seconds: ['Morning', 'Afternoon', 'Night'].
+2024-04-19 16:09:57,813 - INFO - FeatureEngineering - Generated Solar Position Feature.
+2024-04-19 16:10:00,706 - INFO - FeatureEngineering - Removed NaN rows.
+2024-04-19 16:15:37,980 - INFO - FeatureEngineering - Removed night values.
+2024-04-19 16:37:07,257 - INFO - __main__ - Complete.
+2024-04-19 16:37:07,257 - INFO - __main__ - Total runtime: 00:32:27
+2024-04-19 16:37:07,257 - INFO - __main__ - 
+# ====================================================================== #
+# =============================== New Run ============================== #
+# ====================================================================== #
+2024-04-22 19:29:23,606 - INFO - __main__ - Starting feature engineering...
+2024-04-22 19:29:58,445 - INFO - __main__ - Engineering features using 'Irradiance_compiled_processed.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-04-22 19:30:58,588 - INFO - FeatureEngineering - Generated time features with columns: Day: ['Winter', 'Spring', 'Summer', 'Fall'] and Seconds: ['Morning', 'Afternoon', 'Night'].
+2024-04-22 19:34:12,766 - INFO - FeatureEngineering - Generated Solar Position Feature.
+2024-04-22 19:34:15,397 - INFO - FeatureEngineering - Removed NaN rows.
+2024-04-22 19:40:02,217 - INFO - FeatureEngineering - Removed night values.
+2024-04-22 19:40:02,217 - INFO - FeatureEngineering - ------------------ generating clean data series for model training ------------------
+2024-04-22 19:40:02,683 - INFO - FeatureEngineering - Number of 15 minutes (15T) in training data: 861356
+2024-04-22 22:30:19,889 - INFO - __main__ - Starting feature engineering...
+2024-04-22 22:30:55,742 - INFO - __main__ - Engineering features using 'Irradiance_compiled_processed.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-04-22 22:31:55,247 - INFO - FeatureEngineering - Generated time features with columns: Day: ['Winter', 'Spring', 'Summer', 'Fall'] and Seconds: ['Morning', 'Afternoon', 'Night'].
+2024-04-22 22:35:09,971 - INFO - FeatureEngineering - Generated Solar Position Feature.
+2024-04-22 22:35:12,323 - INFO - FeatureEngineering - Removed NaN rows.
+2024-04-22 22:41:01,012 - INFO - FeatureEngineering - Removed night values.
+2024-04-22 22:41:01,013 - INFO - FeatureEngineering - ------------------ generating clean data series for model training ------------------
+2024-04-22 22:41:01,322 - INFO - FeatureEngineering - Number of 15 minutes (15T) in training data: 861356
+2024-04-22 22:42:34,763 - INFO - __main__ - Starting feature engineering...
+2024-04-22 22:43:09,893 - INFO - __main__ - Engineering features using 'Irradiance_compiled_processed.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-04-22 22:44:09,401 - INFO - FeatureEngineering - Generated time features with columns: Day: ['Winter', 'Spring', 'Summer', 'Fall'] and Seconds: ['Morning', 'Afternoon', 'Night'].
+2024-04-22 22:47:25,904 - INFO - FeatureEngineering - Generated Solar Position Feature.
+2024-04-22 22:47:28,667 - INFO - FeatureEngineering - Removed NaN rows.
+2024-04-22 22:52:20,862 - INFO - FeatureEngineering - Removed night values.
+2024-04-22 22:52:20,862 - INFO - FeatureEngineering - ------------------ generating clean data series for model training ------------------
+2024-04-22 22:52:21,079 - INFO - FeatureEngineering - Number of 15 minutes (15T) in training data: 861356
+2024-04-22 22:57:35,923 - INFO - __main__ - Starting feature engineering...
+2024-04-22 22:57:58,716 - INFO - __main__ - Engineering features using 'Irradiance_compiled_processed.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-04-22 22:58:37,174 - INFO - FeatureEngineering - Generated time features with columns: Day: ['Winter', 'Spring', 'Summer', 'Fall'] and Seconds: ['Morning', 'Afternoon', 'Night'].
+2024-04-22 23:00:39,911 - INFO - FeatureEngineering - Generated Solar Position Feature.
+2024-04-22 23:00:42,415 - INFO - FeatureEngineering - Removed NaN rows.
+2024-04-22 23:04:12,240 - INFO - FeatureEngineering - Removed night values.
+2024-04-22 23:04:12,240 - INFO - FeatureEngineering - ------------------ generating clean data series for model training ------------------
+2024-04-22 23:04:12,425 - INFO - FeatureEngineering - Number of 15 minutes (15T) in training data: 861356
+2024-04-22 23:11:46,106 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for GlobalIR: 781895
+2024-04-22 23:11:46,113 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for GlobalIR: 90.77
+2024-04-22 23:19:21,344 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for DirectIR: 781895
+2024-04-22 23:19:21,348 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for DirectIR: 90.77
+2024-04-22 23:26:57,620 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for DiffuseIR: 781895
+2024-04-22 23:26:57,624 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for DiffuseIR: 90.77
+2024-04-22 23:35:05,937 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for WindSpeed: 861356
+2024-04-22 23:35:05,940 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for WindSpeed: 100.0
+2024-04-22 23:45:53,585 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for Temperature: 861356
+2024-04-22 23:45:53,589 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for Temperature: 100.0
+2024-04-22 23:45:53,589 - INFO - FeatureEngineering - Finished generating series of clean 15 minutes (15T) for model training.
+2024-04-22 23:49:14,198 - INFO - __main__ - Starting feature engineering...
+2024-04-22 23:49:42,594 - INFO - __main__ - Engineering features using 'Irradiance_compiled_processed.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-04-22 23:50:22,187 - INFO - FeatureEngineering - Generated time features with columns: Day: ['Winter', 'Spring', 'Summer', 'Fall'] and Seconds: ['Morning', 'Afternoon', 'Night'].
+2024-04-22 23:52:21,433 - INFO - FeatureEngineering - Generated Solar Position Feature.
+2024-04-22 23:52:23,852 - INFO - FeatureEngineering - Removed NaN rows.
+2024-04-22 23:55:47,436 - INFO - FeatureEngineering - Removed night values.
+2024-04-22 23:55:47,436 - INFO - FeatureEngineering - ------------------ generating clean data series for model training ------------------
+2024-04-22 23:55:47,752 - INFO - FeatureEngineering - Number of 15 minutes (15T) in training data: 861356
+2024-04-22 23:55:47,799 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for GlobalIR: 1
+2024-04-22 23:55:47,799 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for GlobalIR: 0.0
+2024-04-22 23:55:47,820 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for DirectIR: 1
+2024-04-22 23:55:47,820 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for DirectIR: 0.0
+2024-04-22 23:55:47,839 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for DiffuseIR: 1
+2024-04-22 23:55:47,839 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for DiffuseIR: 0.0
+2024-04-22 23:55:47,850 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for WindSpeed: 1
+2024-04-22 23:55:47,850 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for WindSpeed: 0.0
+2024-04-22 23:55:47,862 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for Temperature: 1
+2024-04-22 23:55:47,862 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for Temperature: 0.0
+2024-04-22 23:55:47,862 - INFO - FeatureEngineering - Finished generating series of clean 15 minutes (15T) for model training.
+2024-04-22 23:56:36,980 - INFO - __main__ - Starting feature engineering...
+2024-04-22 23:56:58,642 - INFO - __main__ - Engineering features using 'Irradiance_compiled_processed.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-04-22 23:57:35,847 - INFO - FeatureEngineering - Generated time features with columns: Day: ['Winter', 'Spring', 'Summer', 'Fall'] and Seconds: ['Morning', 'Afternoon', 'Night'].
+2024-04-22 23:59:32,714 - INFO - FeatureEngineering - Generated Solar Position Feature.
+2024-04-22 23:59:35,252 - INFO - FeatureEngineering - Removed NaN rows.
+2024-04-23 00:03:03,988 - INFO - FeatureEngineering - Removed night values.
+2024-04-23 00:03:03,989 - INFO - FeatureEngineering - ------------------ generating clean data series for model training ------------------
+2024-04-23 00:03:04,187 - INFO - FeatureEngineering - Number of 15 minutes (15T) in training data: 861356
+2024-04-23 00:03:04,212 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for GlobalIR: 1
+2024-04-23 00:03:04,212 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for GlobalIR: 0.0
+2024-04-23 00:03:04,224 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for DirectIR: 1
+2024-04-23 00:03:04,224 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for DirectIR: 0.0
+2024-04-23 00:03:04,235 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for DiffuseIR: 1
+2024-04-23 00:03:04,235 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for DiffuseIR: 0.0
+2024-04-23 00:03:04,237 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for WindSpeed: 1
+2024-04-23 00:03:04,238 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for WindSpeed: 0.0
+2024-04-23 00:03:04,240 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for Temperature: 1
+2024-04-23 00:03:04,240 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for Temperature: 0.0
+2024-04-23 00:03:04,241 - INFO - FeatureEngineering - Finished generating series of clean 15 minutes (15T) for model training.
+2024-04-23 00:04:56,121 - INFO - __main__ - Starting feature engineering...
+2024-04-23 00:05:17,950 - INFO - __main__ - Engineering features using 'Irradiance_compiled_processed.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-04-23 00:05:53,626 - INFO - FeatureEngineering - Generated time features with columns: Day: ['Winter', 'Spring', 'Summer', 'Fall'] and Seconds: ['Morning', 'Afternoon', 'Night'].
+2024-04-23 00:07:48,361 - INFO - FeatureEngineering - Generated Solar Position Feature.
+2024-04-23 00:07:50,922 - INFO - FeatureEngineering - Removed NaN rows.
+2024-04-23 00:11:14,667 - INFO - FeatureEngineering - Removed night values.
+2024-04-23 00:11:14,667 - INFO - FeatureEngineering - ------------------ generating clean data series for model training ------------------
+2024-04-23 00:11:14,851 - INFO - FeatureEngineering - Number of 15 minutes (15T) in training data: 861356
+2024-04-23 00:11:14,869 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for GlobalIR: 1
+2024-04-23 00:11:14,869 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for GlobalIR: 0.0
+2024-04-23 00:11:14,878 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for DirectIR: 1
+2024-04-23 00:11:14,878 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for DirectIR: 0.0
+2024-04-23 00:11:14,887 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for DiffuseIR: 1
+2024-04-23 00:11:14,887 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for DiffuseIR: 0.0
+2024-04-23 00:11:14,890 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for WindSpeed: 1
+2024-04-23 00:11:14,890 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for WindSpeed: 0.0
+2024-04-23 00:11:14,893 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for Temperature: 1
+2024-04-23 00:11:14,893 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for Temperature: 0.0
+2024-04-23 00:11:14,893 - INFO - FeatureEngineering - Finished generating series of clean 15 minutes (15T) for model training.
+2024-04-23 00:11:14,896 - INFO - FeatureEngineering - Saved clean 15 minutes (15T) data frame as 'training_data_15t.csv'.
+2024-04-23 00:11:42,008 - INFO - FeatureEngineering - Saved feature data frame as 'feature_data_frame.csv'.
+2024-04-23 00:11:56,170 - INFO - FeatureEngineering - Saved training data frame as 'training_data_frame.csv'.
+2024-04-23 00:42:07,741 - INFO - __main__ - Starting feature engineering...
+2024-04-23 00:42:29,163 - INFO - __main__ - Engineering features using 'Irradiance_compiled_processed.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-04-23 00:43:04,353 - INFO - FeatureEngineering - Generated time features with columns: Day: ['Winter', 'Spring', 'Summer', 'Fall'] and Seconds: ['Morning', 'Afternoon', 'Night'].
+2024-04-23 00:44:58,225 - INFO - FeatureEngineering - Generated Solar Position Feature.
+2024-04-23 00:45:00,470 - INFO - FeatureEngineering - Removed NaN rows.
+2024-04-23 00:48:23,797 - INFO - FeatureEngineering - Removed night values.
+2024-04-23 00:48:23,797 - INFO - FeatureEngineering - ------------------ generating clean data series for model training ------------------
+2024-04-23 00:48:23,981 - INFO - FeatureEngineering - Number of 15 minutes (15T) in training data: 861356
+2024-04-23 00:56:47,465 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for GlobalIR: 781895
+2024-04-23 00:56:47,467 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for GlobalIR: 90.77
+2024-04-23 01:06:46,383 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for DirectIR: 781895
+2024-04-23 01:06:46,390 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for DirectIR: 90.77
+2024-04-23 01:19:36,199 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for DiffuseIR: 781895
+2024-04-23 01:19:36,207 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for DiffuseIR: 90.77
+2024-04-23 01:32:27,223 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for WindSpeed: 861356
+2024-04-23 01:32:27,227 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for WindSpeed: 100.0
+2024-04-23 01:48:13,529 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for Temperature: 861356
+2024-04-23 01:48:13,534 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for Temperature: 100.0
+2024-04-23 01:48:13,534 - INFO - FeatureEngineering - Finished generating series of clean 15 minutes (15T) for model training.
+2024-04-23 02:32:01,443 - INFO - FeatureEngineering - Saved clean 15 minutes (15T) data frame as 'training_data_15t.csv'.
+2024-04-23 02:32:50,919 - INFO - FeatureEngineering - Saved feature data frame as 'feature_data_frame.csv'.
+2024-04-23 02:33:18,976 - INFO - FeatureEngineering - Saved training data frame as 'training_data_frame.csv'.
+2024-04-23 04:29:53,612 - INFO - __main__ - Complete.
+2024-04-23 04:29:53,614 - INFO - __main__ - Total runtime: 03:47:45
+2024-04-23 04:29:53,614 - INFO - __main__ - 
+# ====================================================================== #
+# =============================== New Run ============================== #
+# ====================================================================== #
+2024-04-23 12:14:54,747 - INFO - __main__ - Starting feature engineering...
+2024-04-23 12:15:29,986 - INFO - __main__ - Engineering features using 'Irradiance_compiled_processed.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-04-23 12:19:03,795 - INFO - __main__ - Starting feature engineering...
+2024-04-23 12:19:38,961 - INFO - __main__ - Starting feature engineering...
+2024-04-23 12:20:13,889 - INFO - __main__ - Engineering features using 'Irradiance_compiled_processed.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-04-23 12:29:40,378 - INFO - __main__ - Starting feature engineering...
+2024-04-23 12:30:15,849 - INFO - __main__ - Engineering features using 'Irradiance_compiled_processed.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-04-23 12:34:05,350 - INFO - FeatureEngineering - Generated time features with columns: Day: ['Winter', 'Summer'] and Seconds: ['Morning', 'Night'].
+2024-04-23 12:37:59,991 - INFO - FeatureEngineering - Generated Solar Position Feature.
+2024-04-23 12:38:03,246 - INFO - FeatureEngineering - Removed NaN rows.
+2024-04-23 17:19:32,257 - INFO - __main__ - Complete.
+2024-04-23 17:19:32,259 - INFO - __main__ - Total runtime: 04:49:51
+2024-04-23 17:19:32,259 - INFO - __main__ - 
+# ====================================================================== #
+# =============================== New Run ============================== #
+# ====================================================================== #
+2024-04-23 17:33:05,065 - INFO - __main__ - Starting feature engineering...
+2024-04-23 17:33:29,501 - INFO - __main__ - Engineering features using 'Irradiance_compiled_processed.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-04-23 17:36:26,962 - INFO - FeatureEngineering - Generated time features with columns: Day: ['Winter', 'Summer'] and Seconds: ['Morning', 'Night'].
+2024-04-23 17:38:13,877 - INFO - FeatureEngineering - Generated Solar Position Feature.
+2024-04-23 17:38:16,290 - INFO - FeatureEngineering - Removed NaN rows.
+2024-04-23 17:41:25,905 - INFO - FeatureEngineering - Removed night values.
+2024-04-23 17:41:46,073 - INFO - FeatureEngineering - Saved feature data frame as 'feature_data_frame.csv'.
+2024-04-23 17:42:00,367 - INFO - FeatureEngineering - Saved training data frame as 'training_data_frame.csv'.
+2024-04-23 17:42:19,494 - INFO - FeatureEngineering - ------------------ generating clean data series for model training ------------------
+2024-04-23 17:42:19,835 - INFO - FeatureEngineering - Number of 15 minutes (15T) in training data: 861356
+2024-04-23 17:45:28,354 - INFO - __main__ - Starting feature engineering...
+2024-04-23 17:45:50,551 - INFO - __main__ - Engineering features using 'Irradiance_compiled_processed.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-04-23 17:46:25,097 - INFO - FeatureEngineering - Generated time features with columns: Day: ['Winter', 'Summer'] and Seconds: ['Morning', 'Night'].
+2024-04-23 17:48:14,985 - INFO - FeatureEngineering - Generated Solar Position Feature.
+2024-04-23 17:48:17,334 - INFO - FeatureEngineering - Removed NaN rows.
+2024-04-23 17:51:35,175 - INFO - FeatureEngineering - Removed night values.
+2024-04-23 17:51:54,914 - INFO - FeatureEngineering - Saved feature data frame as 'feature_data_frame.csv'.
+2024-04-23 17:52:11,910 - INFO - FeatureEngineering - Saved training data frame as 'training_data_frame.csv'.
+2024-04-23 17:52:33,490 - INFO - FeatureEngineering - ------------------ generating clean data series for model training ------------------
+2024-04-23 17:52:33,675 - INFO - FeatureEngineering - Number of 15 minutes (15T) in training data: 861356
+2024-04-23 18:00:35,127 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for GlobalIR: 781895
+2024-04-23 18:00:35,129 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for GlobalIR: 90.77
+2024-04-23 18:09:16,134 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for DirectIR: 781895
+2024-04-23 18:09:16,135 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for DirectIR: 90.77
+2024-04-23 18:20:15,149 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for DiffuseIR: 781895
+2024-04-23 18:20:15,153 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for DiffuseIR: 90.77
+2024-04-23 18:31:11,978 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for WindSpeed: 861356
+2024-04-23 18:31:11,981 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for WindSpeed: 100.0
+2024-04-23 18:41:54,943 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for Temperature: 861356
+2024-04-23 18:41:54,948 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for Temperature: 100.0
+2024-04-23 18:41:54,949 - INFO - FeatureEngineering - Finished generating series of clean 15 minutes (15T) for model training.
+2024-04-23 19:09:41,343 - INFO - FeatureEngineering - Saved clean 15 minutes (15T) data frame as 'training_data_15t.csv'.
+2024-04-23 22:04:16,397 - INFO - __main__ - Complete.
+2024-04-23 22:04:16,401 - INFO - __main__ - Total runtime: 04:18:48
+2024-04-23 22:04:16,401 - INFO - __main__ - 
+# ====================================================================== #
+# =============================== New Run ============================== #
+# ====================================================================== #
+2024-04-23 22:30:14,246 - INFO - __main__ - Starting feature engineering...
+2024-04-23 22:30:48,465 - INFO - __main__ - Engineering features using 'Irradiance_compiled_processed.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-04-23 22:31:47,203 - INFO - FeatureEngineering - Generated time features with columns: Day: ['Winter', 'Summer'] and Seconds: ['Morning', 'Night'].
+2024-04-23 22:41:04,915 - INFO - FeatureEngineering - Generated Solar Position Feature.
+2024-04-23 22:41:07,524 - INFO - FeatureEngineering - Removed NaN rows.
+2024-04-24 00:00:40,929 - INFO - FeatureEngineering - Removed night values.
+2024-04-24 00:01:00,346 - INFO - __main__ - Starting feature engineering...
+2024-04-24 00:01:35,311 - INFO - __main__ - Engineering features using 'Irradiance_compiled_processed.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-04-24 00:02:35,569 - INFO - FeatureEngineering - Generated time features with columns: Day: ['Winter', 'Summer'] and Seconds: ['Morning', 'Night'].
+2024-04-24 00:05:46,364 - INFO - FeatureEngineering - Generated Solar Position Feature.
+2024-04-24 00:05:49,297 - INFO - FeatureEngineering - Removed NaN rows.
+2024-04-24 00:11:31,344 - INFO - FeatureEngineering - Removed night values.
+2024-04-24 00:12:06,462 - INFO - FeatureEngineering - Saved feature data frame as 'feature_data_frame.csv'.
+2024-04-24 00:12:30,899 - INFO - FeatureEngineering - Saved training data frame as 'training_data_frame.csv'.
+2024-04-24 00:17:13,180 - INFO - __main__ - Complete.
+2024-04-24 00:17:13,180 - INFO - __main__ - Total runtime: 00:16:12
+2024-04-24 00:17:13,180 - INFO - __main__ - 
+# ====================================================================== #
+# =============================== New Run ============================== #
+# ====================================================================== #
+2024-04-24 00:40:39,805 - INFO - __main__ - Starting feature engineering...
+2024-04-24 00:41:14,518 - INFO - __main__ - Engineering features using 'Irradiance_compiled_processed.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-04-24 00:44:23,484 - INFO - FeatureEngineering - Generated Solar Position Feature.
+2024-04-24 00:44:24,858 - INFO - FeatureEngineering - Generated time features with sin and cos transformation functions.
+2024-04-24 00:44:27,513 - INFO - FeatureEngineering - Removed NaN rows.
+2024-04-24 00:50:09,240 - INFO - FeatureEngineering - Removed night values.
+2024-04-24 00:50:44,314 - INFO - FeatureEngineering - Saved feature data frame as 'feature_data_frame.csv'.
+2024-04-24 00:51:08,904 - INFO - FeatureEngineering - Saved training data frame as 'training_data_frame.csv'.
+2024-04-24 00:51:40,662 - INFO - __main__ - Complete.
+2024-04-24 00:51:40,662 - INFO - __main__ - Total runtime: 00:11:00
+2024-04-24 00:51:40,662 - INFO - __main__ - 
+# ====================================================================== #
+# =============================== New Run ============================== #
+# ====================================================================== #
+2024-04-24 00:58:14,410 - INFO - __main__ - Starting feature engineering...
+2024-04-24 00:58:49,890 - INFO - __main__ - Engineering features using 'Irradiance_compiled_processed.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-04-24 00:58:51,491 - INFO - FeatureEngineering - Generated time features with sin and cos transformation functions.
+2024-04-24 01:05:09,390 - INFO - FeatureEngineering - Set night values to 0.
+2024-04-24 01:05:09,390 - INFO - FeatureEngineering - ------------------ generating clean data series for model training ------------------
+2024-04-24 01:05:10,234 - INFO - FeatureEngineering - Number of 15 minutes (15T) in training data: 1883520
+2024-04-24 01:26:22,228 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for GlobalIR: 831331
+2024-04-24 01:26:22,228 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for GlobalIR: 44.14
+2024-04-24 01:48:42,794 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for DirectIR: 831331
+2024-04-24 01:48:42,796 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for DirectIR: 44.14
+2024-04-24 02:10:51,360 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for DiffuseIR: 831331
+2024-04-24 02:10:51,365 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for DiffuseIR: 44.14
+2024-04-24 10:47:14,508 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for WindSpeed: 1640548
+2024-04-24 10:47:14,514 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for WindSpeed: 87.1
+2024-04-24 11:14:19,074 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for Temperature: 1640582
+2024-04-24 11:14:19,077 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for Temperature: 87.1
+2024-04-24 11:14:19,077 - INFO - FeatureEngineering - Finished generating series of clean 15 minutes (15T) for model training.
+2024-04-24 11:55:49,047 - INFO - FeatureEngineering - Saved clean 15 minutes (15T) data frame as 'training_data_15t.csv'.
+2024-04-24 11:55:49,064 - INFO - __main__ - Complete.
+2024-04-24 11:55:49,066 - INFO - __main__ - Total runtime: 10:57:34
+2024-04-24 11:55:49,066 - INFO - __main__ - 
+# ====================================================================== #
+# =============================== New Run ============================== #
+# ====================================================================== #
+2024-05-01 20:06:12,769 - INFO - __main__ - Starting feature engineering...
+2024-05-01 20:46:10,336 - INFO - __main__ - Starting feature engineering...
+2024-05-01 20:46:20,948 - INFO - __main__ - Engineering features using 'Irradiance_compiled_processed.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-05-01 20:46:21,269 - INFO - FeatureEngineering - ------------------ generating clean data series for model training ------------------
+2024-05-01 20:46:21,951 - INFO - FeatureEngineering - Number of 15 minutes (15T) in training data: 1883520
+2024-05-01 21:02:33,692 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for DirectIR: 795247
+2024-05-01 21:02:33,692 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for DirectIR: 42.22%
+2024-05-01 21:18:52,021 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for DiffuseIR: 795247
+2024-05-01 21:18:52,021 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for DiffuseIR: 42.22%
+2024-05-01 21:42:21,208 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for WindSpeed: 1640548
+2024-05-01 21:42:21,211 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for WindSpeed: 87.1%
+2024-05-01 22:05:43,713 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for Temperature: 1640582
+2024-05-01 22:05:43,716 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for Temperature: 87.1%
+2024-05-01 22:05:43,716 - INFO - FeatureEngineering - Finished generating series of clean 15 minutes (15T) for model training.
+2024-05-01 22:10:24,711 - INFO - FeatureEngineering - Saved clean 15 minutes (15T) data frame as 'training_data_15t.csv'.
+2024-05-01 22:10:24,713 - INFO - __main__ - Complete.
+2024-05-01 22:10:24,713 - INFO - __main__ - Total runtime: 01:24:14
+2024-05-01 22:10:24,713 - INFO - __main__ - 
+# ====================================================================== #
+# =============================== New Run ============================== #
+# ====================================================================== #
+2024-05-14 14:51:33,429 - INFO - pv_modules - Starting feature engineering...
+2024-05-14 14:52:11,964 - INFO - pv_modules - Engineering features using 'Irradiance_compiled_processed.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-05-14 14:52:12,313 - INFO - FeatureEngineering - ------------------ generating clean data series for model training ------------------
+2024-05-14 14:52:13,145 - INFO - FeatureEngineering - Number of 15 minutes (15T) in training data: 1883520
+2024-05-14 15:10:14,833 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for DirectIR: 773957
+2024-05-14 15:10:14,833 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for DirectIR: 41.09%
+2024-05-14 15:23:09,587 - INFO - pv_modules - Starting feature engineering...
+2024-05-14 15:23:46,491 - INFO - pv_modules - Engineering features using 'Irradiance_compiled_processed.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-05-14 15:23:46,821 - INFO - FeatureEngineering - ------------------ generating clean data series for model training ------------------
+2024-05-14 15:23:47,463 - INFO - FeatureEngineering - Number of 15 minutes (15T) in training data: 1883520
+2024-05-14 15:39:55,018 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for DirectIR: 773957
+2024-05-14 15:39:55,019 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for DirectIR: 41.09%
+2024-05-14 15:56:17,075 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for DiffuseIR: 773957
+2024-05-14 15:56:17,075 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for DiffuseIR: 41.09%
+2024-05-14 16:19:12,534 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for WindSpeed: 1596408
+2024-05-14 16:19:12,534 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for WindSpeed: 84.76%
+2024-05-14 16:43:22,014 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for Temperature: 1596442
+2024-05-14 16:43:22,017 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for Temperature: 84.76%
+2024-05-14 16:43:22,017 - INFO - FeatureEngineering - Finished generating series of clean 15 minutes (15T) for model training.
+2024-05-14 16:49:11,477 - INFO - FeatureEngineering - Saved clean 15 minutes (15T) data frame as 'training_data_15t.csv'.
+2024-05-14 16:49:11,484 - INFO - pv_modules - Complete.
+2024-05-14 16:49:11,485 - INFO - pv_modules - Total runtime: 01:26:01
+2024-05-14 16:49:11,485 - INFO - pv_modules - 
+# ====================================================================== #
+# =============================== New Run ============================== #
+# ====================================================================== #
+2024-05-14 17:14:42,501 - INFO - __main__ - Starting feature engineering...
+2024-05-14 17:15:18,916 - INFO - __main__ - Engineering features using 'Irradiance_compiled_processed.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-05-14 17:15:19,245 - INFO - FeatureEngineering - ------------------ generating clean data series for model training ------------------
+2024-05-14 17:15:19,993 - INFO - FeatureEngineering - Number of 15 minutes (15T) in training data: 1883520
+2024-05-14 17:21:34,837 - INFO - __main__ - Starting feature engineering...
+2024-05-14 17:22:12,990 - INFO - __main__ - Engineering features using 'Irradiance_compiled_processed.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-05-14 17:22:13,316 - INFO - FeatureEngineering - ------------------ generating clean data series for model training ------------------
+2024-05-14 17:22:13,962 - INFO - FeatureEngineering - Number of 15 minutes (15T) in training data: 1883520
+2024-05-14 17:23:05,740 - INFO - __main__ - Starting feature engineering...
+2024-05-14 17:23:42,204 - INFO - __main__ - Engineering features using 'Irradiance_compiled_processed.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-05-14 17:23:42,534 - INFO - FeatureEngineering - ------------------ generating clean data series for model training ------------------
+2024-05-14 17:23:43,254 - INFO - FeatureEngineering - Number of 15 minutes (15T) in training data: 1883520
+2024-05-14 17:24:31,021 - INFO - __main__ - Starting feature engineering...
+2024-05-14 17:25:07,331 - INFO - __main__ - Engineering features using 'Irradiance_compiled_processed.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-05-14 17:25:07,660 - INFO - FeatureEngineering - ------------------ generating clean data series for model training ------------------
+2024-05-14 17:25:08,331 - INFO - FeatureEngineering - Number of 15 minutes (15T) in training data: 1883520
+2024-05-14 17:27:47,419 - INFO - __main__ - Starting feature engineering...
+2024-05-14 17:28:23,303 - INFO - __main__ - Engineering features using 'Irradiance_compiled_processed.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-05-14 17:28:23,635 - INFO - FeatureEngineering - ------------------ generating clean data series for model training ------------------
+2024-05-14 17:28:24,299 - INFO - FeatureEngineering - Number of 15 minutes (15T) in training data: 1883520
+2024-05-14 17:50:58,224 - INFO - __main__ - Starting feature engineering...
+2024-05-14 17:51:34,623 - INFO - __main__ - Engineering features using 'Irradiance_compiled_processed.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-05-14 17:51:34,955 - INFO - FeatureEngineering - ------------------ generating clean data series for model training ------------------
+2024-05-14 17:51:35,716 - INFO - FeatureEngineering - Number of 15 minutes (15T) in training data: 1883520
+2024-05-17 20:58:17,280 - INFO - __main__ - Starting feature engineering...
+2024-05-17 20:58:25,567 - INFO - __main__ - Engineering features using 'Irradiance_compiled_processed.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-05-17 20:58:25,820 - INFO - FeatureEngineering - ------------------ generating clean data series for model training ------------------
+2024-05-17 20:58:26,310 - INFO - FeatureEngineering - Number of 15 minutes (15T) in training data: 1883520
+2024-05-17 21:11:44,253 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for GlobalIR: 1710470
+2024-05-17 21:11:44,253 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for GlobalIR: 90.81%
+2024-05-17 21:21:19,354 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for DirectIR: 773957
+2024-05-17 21:21:19,354 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for DirectIR: 41.09%
+2024-05-17 21:30:56,720 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for DiffuseIR: 773957
+2024-05-17 21:30:56,720 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for DiffuseIR: 41.09%
+2024-05-17 21:56:21,770 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for WindSpeed: 1596408
+2024-05-17 21:56:21,770 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for WindSpeed: 84.76%
+2024-05-17 22:09:29,270 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for Temperature: 1596442
+2024-05-17 22:09:29,273 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for Temperature: 84.76%
+2024-05-17 22:09:29,275 - INFO - FeatureEngineering - Finished generating series of clean 15 minutes (15T) for model training.
+2024-05-17 22:12:57,385 - INFO - FeatureEngineering - Saved clean 15 minutes (15T) data frame as 'Temperature_training_data_15t.json'.
+2024-05-17 22:12:57,389 - INFO - __main__ - Complete.
+2024-05-17 22:12:57,390 - INFO - __main__ - Total runtime: 01:14:40
+2024-05-17 22:12:57,390 - INFO - __main__ - 
+# ====================================================================== #
+# =============================== New Run ============================== #
+# ====================================================================== #
+2024-05-21 20:32:38,957 - INFO - __main__ - Starting feature engineering...
+2024-05-21 20:32:50,016 - INFO - __main__ - Engineering features using 'Irradiance_compiled_processed.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-05-21 20:32:50,347 - INFO - FeatureEngineering - ------------------ generating clean data series for model training ------------------
+2024-05-21 20:32:51,117 - INFO - FeatureEngineering - Number of 15 minutes (15T) in training data: 1883520
+2024-05-21 20:34:15,953 - INFO - __main__ - Starting feature engineering...
+2024-05-21 20:34:26,959 - INFO - __main__ - Engineering features using 'Irradiance_compiled_processed.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-05-21 20:34:27,299 - INFO - FeatureEngineering - ------------------ generating clean data series for model training ------------------
+2024-05-21 20:34:27,985 - INFO - FeatureEngineering - Number of 15 minutes (15T) in training data: 1883520
+2024-05-21 20:35:14,944 - INFO - __main__ - Starting feature engineering...
+2024-05-21 20:35:26,165 - INFO - __main__ - Engineering features using 'Irradiance_compiled_processed.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-05-21 20:35:26,504 - INFO - FeatureEngineering - ------------------ generating clean data series for model training ------------------
+2024-05-21 20:35:27,155 - INFO - FeatureEngineering - Number of 15 minutes (15T) in training data: 1883520
+2024-05-21 20:37:31,692 - INFO - __main__ - Starting feature engineering...
+2024-05-21 20:37:42,626 - INFO - __main__ - Engineering features using 'Irradiance_compiled_processed.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-05-21 20:37:42,958 - INFO - FeatureEngineering - ------------------ generating clean data series for model training ------------------
+2024-05-21 20:37:43,609 - INFO - FeatureEngineering - Number of 15 minutes (15T) in training data: 1883520
+2024-05-21 20:42:12,986 - INFO - __main__ - Starting feature engineering...
+2024-05-21 20:42:24,369 - INFO - __main__ - Engineering features using 'Irradiance_compiled_processed.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-05-21 20:42:24,700 - INFO - FeatureEngineering - ------------------ generating clean data series for model training ------------------
+2024-05-21 20:42:25,347 - INFO - FeatureEngineering - Number of 15 minutes (15T) in training data: 1883520
+2024-05-21 20:52:26,733 - INFO - __main__ - Starting feature engineering...
+2024-05-21 20:52:37,868 - INFO - __main__ - Engineering features using 'Irradiance_compiled_processed.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-05-21 20:52:38,198 - INFO - FeatureEngineering - ------------------ generating clean data series for model training ------------------
+2024-05-21 20:52:38,844 - INFO - FeatureEngineering - Number of 15 minutes (15T) in training data: 1883520
+2024-05-21 21:05:53,243 - INFO - FeatureEngineering - There are no clean 15 minutes (15T) for GlobalIR.
+2024-05-21 21:07:58,757 - INFO - __main__ - Starting feature engineering...
+2024-05-21 21:08:10,360 - INFO - __main__ - Engineering features using 'Irradiance_compiled_processed.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-05-21 21:08:10,738 - INFO - FeatureEngineering - ------------------ generating clean data series for model training ------------------
+2024-05-21 21:08:11,428 - INFO - FeatureEngineering - Number of 15 minutes (15T) in training data: 1883520
+2024-05-21 21:08:38,833 - INFO - __main__ - Starting feature engineering...
+2024-05-21 21:08:49,840 - INFO - __main__ - Engineering features using 'Irradiance_compiled_processed.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-05-21 21:08:50,184 - INFO - FeatureEngineering - ------------------ generating clean data series for model training ------------------
+2024-05-21 21:08:50,838 - INFO - FeatureEngineering - Number of 15 minutes (15T) in training data: 1883520
+2024-05-21 21:22:10,708 - INFO - FeatureEngineering - There are no clean 15 minutes (15T) for GlobalIR.
+2024-05-21 21:22:10,713 - INFO - FeatureEngineering - Saved clean 15 minutes (15T) data frame.
+2024-05-21 21:35:18,342 - INFO - FeatureEngineering - There are no clean 15 minutes (15T) for DirectIR.
+2024-05-21 21:35:18,345 - INFO - FeatureEngineering - Saved clean 15 minutes (15T) data frame.
+2024-05-21 21:49:07,992 - INFO - FeatureEngineering - There are no clean 15 minutes (15T) for DiffuseIR.
+2024-05-21 21:49:07,993 - INFO - FeatureEngineering - Saved clean 15 minutes (15T) data frame.
+2024-05-21 22:06:15,377 - INFO - FeatureEngineering - There are no clean 15 minutes (15T) for WindSpeed.
+2024-05-21 22:06:15,382 - INFO - FeatureEngineering - Saved clean 15 minutes (15T) data frame.
+2024-05-21 22:23:33,541 - INFO - FeatureEngineering - There are no clean 15 minutes (15T) for Temperature.
+2024-05-21 22:23:33,569 - INFO - FeatureEngineering - Saved clean 15 minutes (15T) data frame.
+2024-05-21 22:23:33,569 - INFO - FeatureEngineering - Finished generating series of clean 15 minutes (15T) for model training.
+2024-05-21 22:23:33,570 - INFO - FeatureEngineering - Saved clean 15 minutes (15T) data frame.
+2024-05-21 22:23:33,571 - INFO - __main__ - Complete.
+2024-05-21 22:23:33,571 - INFO - __main__ - Total runtime: 01:14:54
+2024-05-21 22:23:33,571 - INFO - __main__ - 
+# ====================================================================== #
+# =============================== New Run ============================== #
+# ====================================================================== #
+2024-05-21 22:27:44,008 - INFO - __main__ - Starting feature engineering...
+2024-05-21 22:27:55,209 - INFO - __main__ - Engineering features using 'Irradiance_compiled_processed.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-05-21 22:27:55,541 - INFO - FeatureEngineering - ------------------ generating clean data series for model training ------------------
+2024-05-21 22:27:56,277 - INFO - FeatureEngineering - Number of 15 minutes (15T) in training data: 1883520
+2024-05-21 22:41:07,746 - INFO - FeatureEngineering - There are no clean 15 minutes (15T) for GlobalIR.
+2024-05-21 22:41:07,749 - INFO - FeatureEngineering - Saved clean 15 minutes (15T) data frame.
+2024-05-21 22:54:32,801 - INFO - FeatureEngineering - There are no clean 15 minutes (15T) for DirectIR.
+2024-05-21 22:54:32,804 - INFO - FeatureEngineering - Saved clean 15 minutes (15T) data frame.
+2024-05-22 01:04:39,722 - INFO - FeatureEngineering - There are no clean 15 minutes (15T) for DiffuseIR.
+2024-05-22 01:04:39,725 - INFO - FeatureEngineering - Saved clean 15 minutes (15T) data frame.
+2024-05-22 01:14:57,960 - INFO - FeatureEngineering - There are no clean 15 minutes (15T) for WindSpeed.
+2024-05-22 01:14:57,967 - INFO - FeatureEngineering - Saved clean 15 minutes (15T) data frame.
+2024-05-22 01:24:52,512 - INFO - FeatureEngineering - There are no clean 15 minutes (15T) for Temperature.
+2024-05-22 01:24:52,521 - INFO - FeatureEngineering - Saved clean 15 minutes (15T) data frame.
+2024-05-22 01:24:52,521 - INFO - FeatureEngineering - Finished generating series of clean 15 minutes (15T) for model training.
+2024-05-22 01:24:52,522 - INFO - FeatureEngineering - Saved clean 15 minutes (15T) data frame.
+2024-05-22 01:24:52,522 - INFO - __main__ - Complete.
+2024-05-22 01:24:52,522 - INFO - __main__ - Total runtime: 02:57:08
+2024-05-22 01:24:52,522 - INFO - __main__ - 
+# ====================================================================== #
+# =============================== New Run ============================== #
+# ====================================================================== #
+2024-05-22 01:26:59,203 - INFO - __main__ - Starting feature engineering...
+2024-05-22 01:27:07,213 - INFO - __main__ - Engineering features using 'Irradiance_compiled_processed.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-05-22 01:27:07,502 - INFO - FeatureEngineering - ------------------ generating clean data series for model training ------------------
+2024-05-22 01:27:08,038 - INFO - FeatureEngineering - Number of 15 minutes (15T) in training data: 1883520
+2024-05-22 01:29:37,344 - INFO - __main__ - Starting feature engineering...
+2024-05-22 01:29:44,791 - INFO - __main__ - Engineering features using 'Irradiance_compiled_processed.csv' (2019-09-01 00:00:00+00:00 - 2023-03-31 23:59:40+00:00).
+2024-05-22 01:29:45,059 - INFO - FeatureEngineering - ------------------ generating clean data series for model training ------------------
+2024-05-22 01:29:45,530 - INFO - FeatureEngineering - Number of 15 minutes (15T) in training data: 1883520
+2024-05-22 01:38:58,787 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for GlobalIR: 773957
+2024-05-22 01:38:58,788 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for GlobalIR: 41.09%
+2024-05-22 01:39:25,034 - INFO - FeatureEngineering - Saved clean 15 minutes (15T) data frame.
+2024-05-22 01:48:35,889 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for DirectIR: 773957
+2024-05-22 01:48:35,891 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for DirectIR: 41.09%
+2024-05-22 01:49:01,590 - INFO - FeatureEngineering - Saved clean 15 minutes (15T) data frame.
+2024-05-22 01:58:02,207 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for DiffuseIR: 773957
+2024-05-22 01:58:02,207 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for DiffuseIR: 41.09%
+2024-05-22 01:58:28,096 - INFO - FeatureEngineering - Saved clean 15 minutes (15T) data frame.
+2024-05-22 02:11:46,399 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for WindSpeed: 1596394
+2024-05-22 02:11:46,402 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for WindSpeed: 84.76%
+2024-05-22 02:12:40,867 - INFO - FeatureEngineering - Saved clean 15 minutes (15T) data frame.
+2024-05-22 02:25:41,076 - INFO - FeatureEngineering - Number of clean 15 minutes (15T) for Temperature: 1596428
+2024-05-22 02:25:41,077 - INFO - FeatureEngineering - Percentage of 15 minute series in total 15 minutes in 15 minute_training_data for Temperature: 84.76%
+2024-05-22 02:26:31,769 - INFO - FeatureEngineering - Saved clean 15 minutes (15T) data frame.
+2024-05-22 02:26:33,211 - INFO - FeatureEngineering - Finished generating series of clean 15 minutes (15T) for model training.
+2024-05-22 02:26:33,214 - INFO - FeatureEngineering - Saved clean 15 minutes (15T) data frame.
+2024-05-22 02:26:33,214 - INFO - __main__ - Complete.
+2024-05-22 02:26:33,214 - INFO - __main__ - Total runtime: 00:56:55
+2024-05-22 02:26:33,214 - INFO - __main__ - 
+# ====================================================================== #
+# =============================== New Run ============================== #
+# ====================================================================== #
+2024-05-22 16:31:44,060 - INFO - __main__ - Starting feature engineering...

@@ -1,0 +1,563 @@
+2024-05-14 05:10:48,688 - INFO - data_compiler - Starting data compiler for Fixed...
+2024-05-14 05:10:52,858 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 05:11:11,898 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 05:11:11,910 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 05:11:11,996 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 05:11:18,792 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 05:11:36,293 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 05:11:36,301 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 05:11:36,362 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 05:11:43,786 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 05:12:03,793 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 05:12:03,800 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 05:12:03,906 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 05:12:08,966 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 05:12:16,438 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 05:12:16,441 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 05:12:18,195 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 05:12:24,902 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 05:12:42,383 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 05:12:42,392 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 05:12:42,456 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 05:12:49,847 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 05:13:08,327 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 05:13:08,337 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 05:13:08,402 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 05:13:15,307 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 05:13:31,416 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 05:13:31,426 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 05:13:31,476 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 05:13:38,200 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 05:13:54,589 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 05:13:54,598 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 05:13:54,726 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 05:14:01,765 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 05:14:20,069 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 05:14:20,078 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 05:14:20,168 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 05:14:27,750 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 05:14:44,796 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 05:14:44,802 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 05:14:44,860 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 05:14:51,876 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 05:15:08,713 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 05:15:08,722 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 05:15:08,804 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 05:15:15,462 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 05:15:32,521 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 05:15:32,531 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 05:15:32,585 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 05:15:39,074 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 05:15:54,685 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 05:15:54,697 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 05:15:54,776 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 05:16:01,629 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 05:16:18,755 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 05:16:18,766 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 05:16:18,851 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 05:16:26,143 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 05:16:42,667 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 05:16:42,675 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 05:16:42,764 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 05:16:49,755 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 05:17:06,945 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 05:17:06,952 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 05:17:07,038 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 05:17:13,598 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 05:17:27,668 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 05:17:27,676 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 05:17:27,751 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 05:17:35,583 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 05:17:55,180 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 05:17:55,192 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 05:17:55,305 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 05:18:02,968 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 05:18:20,678 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 05:18:20,687 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 05:18:20,752 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 05:18:28,334 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 05:18:47,613 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 05:18:47,621 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 05:18:47,687 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 05:18:55,658 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 05:19:14,468 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 05:19:14,482 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 05:19:14,550 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 05:19:22,365 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 05:19:42,113 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 05:19:42,128 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 05:19:42,201 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 05:19:50,442 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 05:20:09,442 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 05:20:09,452 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 05:20:09,519 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 05:20:17,554 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 05:20:36,977 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 05:20:36,989 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 05:20:37,072 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 05:20:45,218 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 05:21:03,965 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 05:21:03,974 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 05:21:04,079 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 05:21:12,039 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 05:21:30,950 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 05:21:30,962 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 05:21:31,021 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 05:21:38,780 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 05:21:56,106 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 05:21:56,117 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 05:21:56,218 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 05:22:04,704 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 05:22:23,264 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 05:22:23,275 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 05:22:23,341 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 05:22:30,475 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 05:22:45,190 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 05:22:45,196 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 05:22:45,709 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 05:22:54,267 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 05:23:11,611 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 05:23:11,619 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 05:23:11,973 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 05:23:18,139 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 05:23:25,667 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 05:23:25,672 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 05:23:25,733 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 05:23:33,755 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 05:23:52,716 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 05:23:52,727 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 05:23:52,798 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 05:23:58,483 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 05:24:01,822 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 05:24:01,827 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 05:24:02,646 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 05:24:10,227 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 05:24:24,977 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 05:24:24,988 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 05:24:25,246 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 05:24:33,196 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 05:24:50,608 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 05:24:50,623 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 05:24:51,010 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 05:24:55,864 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 05:24:58,382 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 05:24:58,388 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 05:25:00,285 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 05:25:08,058 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 05:25:24,322 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 05:25:24,337 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 05:25:24,766 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 05:25:32,465 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 05:25:50,566 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 05:25:50,587 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 05:25:50,710 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 05:26:00,312 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 05:26:20,638 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 05:26:20,654 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 05:26:20,821 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 05:26:25,755 - INFO - DataCompiler - Saving data frame as Fixed_compiled_processed.csv
+2024-05-14 05:28:00,671 - INFO - data_compiler - Complete.
+2024-05-14 05:28:00,671 - INFO - data_compiler - Total runtime: 00:17:11
+2024-05-14 05:28:00,671 - INFO - data_compiler - 
+# ====================================================================== #
+# =============================== New Run ============================== #
+# ====================================================================== #
+2024-05-14 08:12:01,119 - INFO - data_compiler - Starting data compiler for Deger...
+2024-05-14 08:12:05,075 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 08:12:22,499 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 08:12:22,559 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 08:12:22,651 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 08:12:30,050 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 08:12:50,284 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 08:12:50,337 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 08:12:50,439 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 08:12:57,506 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 08:13:15,795 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 08:13:15,846 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 08:13:15,897 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 08:13:20,757 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 08:13:28,786 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 08:13:28,805 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 08:13:30,683 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 08:13:37,767 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 08:13:56,769 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 08:13:56,821 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 08:13:56,877 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 08:14:04,080 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 08:14:23,506 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 08:14:23,557 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 08:14:23,612 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 08:14:30,468 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 08:14:47,352 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 08:14:47,400 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 08:14:47,457 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 08:14:54,239 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 08:15:11,877 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 08:15:11,922 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 08:15:12,055 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 08:15:19,649 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 08:15:39,075 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 08:15:39,124 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 08:15:39,217 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 08:15:46,207 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 08:16:03,674 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 08:16:03,726 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 08:16:03,785 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 08:16:11,134 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 08:16:29,276 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 08:16:29,324 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 08:16:29,425 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 08:16:36,329 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 08:16:54,903 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 08:16:54,955 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 08:16:55,022 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 08:17:01,931 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 08:17:18,424 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 08:17:18,465 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 08:17:18,544 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 08:17:25,537 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 08:17:43,930 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 08:17:43,984 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 08:17:44,048 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 08:17:51,627 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 08:18:09,284 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 08:18:09,335 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 08:18:09,414 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 08:18:16,797 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 08:18:34,997 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 08:18:35,046 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 08:18:35,442 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 08:18:43,284 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 08:19:03,962 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 08:19:04,018 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 08:19:04,144 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 08:19:11,060 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 08:19:26,351 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 08:19:26,393 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 08:19:26,483 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 08:19:34,289 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 08:19:54,916 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 08:19:54,973 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 08:19:55,071 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 08:20:02,986 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 08:20:22,700 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 08:20:22,754 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 08:20:22,812 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 08:20:30,826 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 08:20:51,386 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 08:20:51,444 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 08:20:51,515 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 08:20:59,546 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 08:21:20,010 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 08:21:20,069 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 08:21:20,136 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 08:21:28,734 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 08:21:49,347 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 08:21:49,405 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 08:21:49,472 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 08:21:57,881 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 08:22:18,158 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 08:22:18,221 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 08:22:18,287 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 08:22:26,808 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 08:22:47,549 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 08:22:47,611 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 08:22:47,673 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 08:22:56,279 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 08:23:16,544 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 08:23:16,606 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 08:23:16,725 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 08:23:25,169 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 08:23:45,694 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 08:23:45,751 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 08:23:45,819 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 08:23:53,979 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 08:24:12,270 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 08:24:12,322 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 08:24:12,422 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 08:24:20,168 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 08:24:39,568 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 08:24:39,623 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 08:24:39,682 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 08:24:47,059 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 08:25:02,615 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 08:25:02,657 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 08:25:03,214 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 08:25:10,942 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 08:25:29,088 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 08:25:29,137 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 08:25:29,449 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 08:25:35,508 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 08:25:43,424 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 08:25:43,447 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 08:25:43,495 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 08:25:51,757 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 08:26:11,360 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 08:26:11,411 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 08:26:11,475 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 08:26:16,618 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 08:26:20,077 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 08:26:20,093 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 08:26:20,985 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 08:26:28,563 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 08:26:44,483 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 08:26:44,524 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 08:26:44,807 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 08:26:53,349 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 08:27:13,274 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 08:27:13,329 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 08:27:13,432 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 08:27:18,610 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 08:27:21,258 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 08:27:21,265 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 08:27:23,151 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 08:27:31,888 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 08:27:52,378 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 08:27:52,435 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 08:27:52,539 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 08:28:01,101 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 08:28:20,197 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 08:28:20,250 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 08:28:20,346 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 08:28:29,156 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-14 08:28:49,905 - INFO - PVModules - Cleaning data frame values using .clean_deger_fixed_values().
+2024-05-14 08:28:49,968 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-14 08:28:50,029 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-14 08:28:55,060 - INFO - DataCompiler - Saving data frame as Deger_compiled_processed.csv
+2024-05-14 08:30:40,141 - INFO - data_compiler - Complete.
+2024-05-14 08:30:40,143 - INFO - data_compiler - Total runtime: 00:18:39
+2024-05-14 08:30:40,143 - INFO - data_compiler - 
+# ====================================================================== #
+# =============================== New Run ============================== #
+# ====================================================================== #
+2024-05-22 16:36:03,481 - INFO - data_compiler - Starting data compiler for Irradiance...
+2024-05-22 16:36:04,847 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:36:25,493 - INFO - PVModules - Cleaning data frame values using .clean_irradiance_values().
+2024-05-22 16:36:25,506 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-22 16:36:31,989 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-22 16:36:33,373 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:36:52,854 - INFO - PVModules - Cleaning data frame values using .clean_irradiance_values().
+2024-05-22 16:36:52,869 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-22 16:36:58,626 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-22 16:37:00,184 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:37:21,791 - INFO - PVModules - Cleaning data frame values using .clean_irradiance_values().
+2024-05-22 16:37:21,804 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-22 16:37:27,780 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-22 16:37:29,140 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:37:46,743 - INFO - PVModules - Cleaning data frame values using .clean_irradiance_values().
+2024-05-22 16:37:46,752 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-22 16:37:52,007 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-22 16:37:53,294 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:38:11,362 - INFO - PVModules - Cleaning data frame values using .clean_irradiance_values().
+2024-05-22 16:38:11,372 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-22 16:38:17,166 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-22 16:38:18,608 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:38:37,624 - INFO - PVModules - Cleaning data frame values using .clean_irradiance_values().
+2024-05-22 16:38:37,634 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-22 16:38:43,398 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-22 16:38:44,055 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:38:51,883 - INFO - PVModules - Cleaning data frame values using .clean_irradiance_values().
+2024-05-22 16:38:51,893 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-22 16:38:54,256 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-22 16:38:56,424 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:39:15,448 - INFO - PVModules - Cleaning data frame values using .clean_irradiance_values().
+2024-05-22 16:39:15,457 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-22 16:39:21,255 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-22 16:39:22,721 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:39:41,910 - INFO - PVModules - Cleaning data frame values using .clean_irradiance_values().
+2024-05-22 16:39:41,920 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-22 16:39:47,758 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-22 16:39:49,159 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:40:06,807 - INFO - PVModules - Cleaning data frame values using .clean_irradiance_values().
+2024-05-22 16:40:06,819 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-22 16:40:12,196 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-22 16:40:13,616 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:40:31,251 - INFO - PVModules - Cleaning data frame values using .clean_irradiance_values().
+2024-05-22 16:40:31,263 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-22 16:40:36,471 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-22 16:40:37,839 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:40:54,389 - INFO - PVModules - Cleaning data frame values using .clean_irradiance_values().
+2024-05-22 16:40:54,400 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-22 16:40:59,547 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-22 16:41:00,837 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:41:16,938 - INFO - PVModules - Cleaning data frame values using .clean_irradiance_values().
+2024-05-22 16:41:16,947 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-22 16:41:21,613 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-22 16:41:23,058 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:41:40,732 - INFO - PVModules - Cleaning data frame values using .clean_irradiance_values().
+2024-05-22 16:41:40,744 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-22 16:41:46,084 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-22 16:41:47,469 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:42:06,298 - INFO - PVModules - Cleaning data frame values using .clean_irradiance_values().
+2024-05-22 16:42:06,311 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-22 16:42:12,768 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-22 16:42:14,563 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:42:37,069 - INFO - PVModules - Cleaning data frame values using .clean_irradiance_values().
+2024-05-22 16:42:37,081 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-22 16:42:43,813 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-22 16:42:45,869 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:43:07,644 - INFO - PVModules - Cleaning data frame values using .clean_irradiance_values().
+2024-05-22 16:43:07,656 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-22 16:43:14,221 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-22 16:43:16,461 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:43:39,926 - INFO - PVModules - Cleaning data frame values using .clean_irradiance_values().
+2024-05-22 16:43:39,940 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-22 16:43:46,864 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-22 16:43:49,021 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:44:14,390 - INFO - PVModules - Cleaning data frame values using .clean_irradiance_values().
+2024-05-22 16:44:14,401 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-22 16:44:21,995 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-22 16:44:23,927 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:44:41,794 - INFO - PVModules - Cleaning data frame values using .clean_irradiance_values().
+2024-05-22 16:44:41,803 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-22 16:44:47,151 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-22 16:44:48,826 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:45:08,433 - INFO - PVModules - Cleaning data frame values using .clean_irradiance_values().
+2024-05-22 16:45:08,446 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-22 16:45:14,173 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-22 16:45:15,860 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:45:34,823 - INFO - PVModules - Cleaning data frame values using .clean_irradiance_values().
+2024-05-22 16:45:34,836 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-22 16:45:40,460 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-22 16:45:42,089 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:46:00,756 - INFO - PVModules - Cleaning data frame values using .clean_irradiance_values().
+2024-05-22 16:46:00,769 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-22 16:46:06,510 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-22 16:46:08,208 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:46:28,371 - INFO - PVModules - Cleaning data frame values using .clean_irradiance_values().
+2024-05-22 16:46:28,385 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-22 16:46:34,375 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-22 16:46:36,164 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:46:55,510 - INFO - PVModules - Cleaning data frame values using .clean_irradiance_values().
+2024-05-22 16:46:55,522 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-22 16:47:01,348 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-22 16:47:02,685 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:47:17,229 - INFO - PVModules - Cleaning data frame values using .clean_irradiance_values().
+2024-05-22 16:47:17,237 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-22 16:47:21,372 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-22 16:47:23,127 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:47:39,595 - INFO - PVModules - Cleaning data frame values using .clean_irradiance_values().
+2024-05-22 16:47:39,603 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-22 16:47:44,219 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-22 16:47:45,868 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:48:00,412 - INFO - PVModules - Cleaning data frame values using .clean_irradiance_values().
+2024-05-22 16:48:00,429 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-22 16:48:05,046 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-22 16:48:06,844 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:48:21,930 - INFO - PVModules - Cleaning data frame values using .clean_irradiance_values().
+2024-05-22 16:48:21,942 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-22 16:48:27,405 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-22 16:48:29,393 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:48:43,633 - INFO - PVModules - Cleaning data frame values using .clean_irradiance_values().
+2024-05-22 16:48:43,647 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-22 16:48:48,045 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-22 16:48:49,735 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:49:04,185 - INFO - PVModules - Cleaning data frame values using .clean_irradiance_values().
+2024-05-22 16:49:04,194 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-22 16:49:08,622 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-22 16:49:09,967 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:49:20,785 - INFO - PVModules - Cleaning data frame values using .clean_irradiance_values().
+2024-05-22 16:49:20,799 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-22 16:49:24,147 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-22 16:49:25,876 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:49:38,614 - INFO - PVModules - Cleaning data frame values using .clean_irradiance_values().
+2024-05-22 16:49:38,624 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-22 16:49:42,512 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-22 16:49:43,502 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:49:49,040 - INFO - PVModules - Cleaning data frame values using .clean_irradiance_values().
+2024-05-22 16:49:49,046 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-22 16:49:50,787 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-22 16:49:52,492 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:50:06,181 - INFO - PVModules - Cleaning data frame values using .clean_irradiance_values().
+2024-05-22 16:50:06,190 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-22 16:50:10,434 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-22 16:50:11,087 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:50:13,511 - INFO - PVModules - Cleaning data frame values using .clean_irradiance_values().
+2024-05-22 16:50:13,515 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-22 16:50:14,277 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-22 16:50:16,108 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:50:27,825 - INFO - PVModules - Cleaning data frame values using .clean_irradiance_values().
+2024-05-22 16:50:27,832 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-22 16:50:31,249 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-22 16:50:33,068 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:50:46,775 - INFO - PVModules - Cleaning data frame values using .clean_irradiance_values().
+2024-05-22 16:50:46,786 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-22 16:50:51,045 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-22 16:50:51,728 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:50:53,579 - INFO - PVModules - Cleaning data frame values using .clean_irradiance_values().
+2024-05-22 16:50:53,582 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-22 16:50:54,184 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-22 16:50:57,274 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:51:17,712 - INFO - PVModules - Cleaning data frame values using .clean_irradiance_values().
+2024-05-22 16:51:17,730 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-22 16:51:24,067 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-22 16:51:26,010 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:51:40,577 - INFO - PVModules - Cleaning data frame values using .clean_irradiance_values().
+2024-05-22 16:51:40,585 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-22 16:51:45,065 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-22 16:51:46,835 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:52:00,349 - INFO - PVModules - Cleaning data frame values using .clean_irradiance_values().
+2024-05-22 16:52:00,358 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-22 16:52:04,489 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-22 16:52:06,377 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:52:20,950 - INFO - PVModules - Cleaning data frame values using .clean_irradiance_values().
+2024-05-22 16:52:20,964 - INFO - PVModules - Setting night time data frame values to zero using .set_night_values().
+2024-05-22 16:52:25,400 - INFO - PVModules - Resampling data frame using resample_df() to 20s.
+2024-05-22 16:52:26,019 - INFO - DataCompiler - Saving data frame as Irradiance_compiled_processed.csv
+2024-05-22 16:53:02,769 - INFO - data_compiler - Complete.
+2024-05-22 16:53:02,769 - INFO - data_compiler - Total runtime: 00:16:59
+2024-05-22 16:53:02,769 - INFO - data_compiler - 
+# ====================================================================== #
+# =============================== New Run ============================== #
+# ====================================================================== #
+2024-05-22 16:57:22,778 - INFO - data_compiler - Starting data compiler for Irradiance...
+2024-05-22 16:57:24,051 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:57:38,885 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:57:52,791 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:58:08,059 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:58:22,016 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:58:35,965 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:58:49,986 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:58:56,801 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:59:11,315 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:59:25,932 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:59:39,543 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 16:59:52,749 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 17:00:06,085 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 17:00:18,701 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 17:00:32,365 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 17:00:45,947 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 17:00:59,707 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 17:01:13,609 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 17:01:28,316 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 17:01:44,803 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 17:02:00,674 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 17:02:17,164 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 17:02:33,735 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 17:02:50,993 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 17:03:09,236 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 17:03:25,734 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 17:03:38,233 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 17:03:54,290 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 17:04:10,319 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 17:04:26,369 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 17:04:42,202 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 17:04:58,363 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 17:05:11,164 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 17:05:25,308 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 17:05:32,802 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 17:05:47,468 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 17:05:51,728 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 17:06:04,856 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 17:06:19,680 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 17:06:24,351 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 17:06:46,950 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 17:07:03,303 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 17:07:18,918 - INFO - PVModules - Reshaping data frame using .reshape().
+2024-05-22 17:07:34,059 - INFO - DataCompiler - Saving data frame as Irradiance_compiled_raw.csv
+2024-05-22 17:08:30,638 - INFO - data_compiler - Complete.
+2024-05-22 17:08:30,638 - INFO - data_compiler - Total runtime: 00:11:07
+2024-05-22 17:08:30,638 - INFO - data_compiler - 
+# ====================================================================== #
+# =============================== New Run ============================== #
+# ====================================================================== #
