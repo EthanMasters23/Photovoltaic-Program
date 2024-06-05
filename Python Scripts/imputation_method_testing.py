@@ -122,7 +122,8 @@ class MethodTestingPipeline:
 
 if __name__ == "__main__":
     pipeline = MethodTestingPipeline(
-        GAP_LENGTH = 10, # (seconds)
+        GAP_LENGTH = 80, # (seconds)
+        ITERATIONS = 10, # How many imputation runs with random gaps each iteration
         FILE_TYPE = "Irradiance", # (opt: Irradiance/Deger/Fixed): 
         YEAR = "2022", # (format: YYYY)
         MONTH = "jul" # (format: jul)

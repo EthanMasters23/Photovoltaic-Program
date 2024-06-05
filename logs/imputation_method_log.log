@@ -1809,3 +1809,67 @@ RNN                 mae    2.148602     9.153655   0.415950  6.912400e-02
 # ====================================================================== #
 # =============================== New Run ============================== #
 # ====================================================================== #
+2024-05-30 16:34:46,817 - INFO - __main__ - Starting main script...
+2024-05-30 16:34:46,821 - INFO - ImputationMethodTesting - Starting imputation method testing for gap-size 10 (seconds).
+2024-05-30 16:38:26,409 - INFO - __main__ - Starting main script...
+2024-05-30 16:38:26,410 - INFO - ImputationMethodTesting - Starting imputation method testing for gap-size 10 (seconds).
+2024-05-30 16:38:59,911 - INFO - ImputationMethodTesting - Imputing for 1 gap(s) start : 2022-07-28 08:44:40+00:00 end: 2022-07-28 08:44:40+00:00
+2024-05-30 16:40:50,676 - INFO - ImputationMethodTesting - DirectIR
+2024-05-30 16:40:50,677 - INFO - ImputationMethodTesting - Optimal Imputation Method for DirectIR: Interpolation, R2 score: -1.0
+2024-05-30 16:40:50,678 - INFO - ImputationMethodTesting - Optimal Imputation Method for DirectIR: Interpolation, MAE score: 8.45
+2024-05-30 16:40:50,678 - INFO - ImputationMethodTesting - Optimal Imputation Method for DirectIR: Interpolation, RMSE score: 8.45
+2024-05-30 16:40:50,678 - INFO - ImputationMethodTesting - Optimal Imputation Method for DirectIR: Interpolation, MSE score: 71.4025
+2024-05-30 16:40:50,678 - INFO - ImputationMethodTesting - DiffuseIR
+2024-05-30 16:40:50,679 - INFO - ImputationMethodTesting - Optimal Imputation Method for DiffuseIR: Interpolation, R2 score: -1.0
+2024-05-30 16:40:50,679 - INFO - ImputationMethodTesting - Optimal Imputation Method for DiffuseIR: Interpolation, MAE score: 61.475
+2024-05-30 16:40:50,679 - INFO - ImputationMethodTesting - Optimal Imputation Method for DiffuseIR: Interpolation, RMSE score: 61.475
+2024-05-30 16:40:50,679 - INFO - ImputationMethodTesting - Optimal Imputation Method for DiffuseIR: Interpolation, MSE score: 3779.17562
+2024-05-30 16:40:50,679 - INFO - ImputationMethodTesting - WindSpeed
+2024-05-30 16:40:50,680 - INFO - ImputationMethodTesting - Optimal Imputation Method for WindSpeed: Interpolation, R2 score: -1.0
+2024-05-30 16:40:50,680 - INFO - ImputationMethodTesting - Optimal Imputation Method for WindSpeed: Interpolation, MAE score: 0.025
+2024-05-30 16:40:50,680 - INFO - ImputationMethodTesting - Optimal Imputation Method for WindSpeed: Interpolation, RMSE score: 0.025
+2024-05-30 16:40:50,680 - INFO - ImputationMethodTesting - Optimal Imputation Method for WindSpeed: Interpolation, MSE score: 0.00062
+2024-05-30 16:40:50,680 - INFO - ImputationMethodTesting - Temperature
+2024-05-30 16:40:50,681 - INFO - ImputationMethodTesting - Optimal Imputation Method for Temperature: Interpolation, R2 score: -1.0
+2024-05-30 16:40:50,681 - INFO - ImputationMethodTesting - Optimal Imputation Method for Temperature: Interpolation, MAE score: 0.0
+2024-05-30 16:40:50,681 - INFO - ImputationMethodTesting - Optimal Imputation Method for Temperature: Interpolation, RMSE score: 0.0
+2024-05-30 16:40:50,681 - INFO - ImputationMethodTesting - Optimal Imputation Method for Temperature: Interpolation, MSE score: 0.0
+2024-05-30 16:40:50,681 - INFO - ImputationMethodTesting - Performance DataFrame:
+2024-05-30 16:40:50,692 - INFO - ImputationMethodTesting - 
+                            DirectIR     DiffuseIR  WindSpeed  Temperature
+Interpolation       mae     8.450000     61.475000   0.025000     0.000000
+                    mse    71.402500   3779.175625   0.000625     0.000000
+                    rmse    8.450000     61.475000   0.025000     0.000000
+                    r2     -1.000000     -1.000000  -1.000000    -1.000000
+Interpolation Class mae     8.450000     61.480000   0.025000     0.000000
+                    mse    71.402500   3779.790400   0.000625     0.000000
+                    rmse    8.450000     61.480000   0.025000     0.000000
+                    r2     -1.000000     -1.000000  -1.000000    -1.000000
+ARIMA               mae    15.013900    112.615400   0.135200     2.106900
+                    mse   225.417193  12682.228317   0.018279     4.439028
+                    rmse   15.013900    112.615400   0.135200     2.106900
+                    r2     -1.000000     -1.000000  -1.000000    -1.000000
+RNN                 mae     9.846484     77.235297   0.232394     0.013633
+                    mse    96.953255   5965.291046   0.054007     0.000186
+                    rmse    9.846484     77.235297   0.232394     0.013633
+                    r2     -1.000000     -1.000000  -1.000000    -1.000000
+2024-05-30 16:40:50,692 - INFO - __main__ - Complete.
+2024-05-30 16:40:50,692 - INFO - __main__ - Total runtime: 00:02:24
+2024-05-30 16:40:50,692 - INFO - __main__ - 
+# ====================================================================== #
+# =============================== New Run ============================== #
+# ====================================================================== #
+2024-05-30 16:45:47,988 - INFO - __main__ - Starting main script...
+2024-05-30 16:45:47,990 - INFO - ImputationMethodTesting - Starting imputation method testing for gap-size 80 (seconds).
+2024-05-30 16:46:26,738 - INFO - ImputationMethodTesting - Imputing for 5 gap(s) start : 2022-07-25 05:43:40+00:00 end: 2022-07-25 05:45:00+00:00
+2024-05-30 16:48:45,585 - INFO - ImputationMethodTesting - Imputing for 5 gap(s) start : 2022-07-17 06:12:00+00:00 end: 2022-07-17 06:13:20+00:00
+2024-05-30 16:49:29,493 - WARNING - tensorflow - 5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x7fcb1d453d90> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-05-30 16:49:30,280 - WARNING - tensorflow - 6 out of the last 6 calls to <function Model.make_predict_function.<locals>.predict_function at 0x7fcb1dc7e4d0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-05-30 16:50:07,824 - INFO - ImputationMethodTesting - Imputing for 5 gap(s) start : 2022-07-05 15:35:20+00:00 end: 2022-07-05 15:36:40+00:00
+2024-05-30 16:51:01,210 - INFO - ImputationMethodTesting - Imputing for 5 gap(s) start : 2022-07-26 13:38:40+00:00 end: 2022-07-26 13:40:00+00:00
+2024-05-30 16:53:19,805 - INFO - ImputationMethodTesting - Imputing for 5 gap(s) start : 2022-07-29 09:18:20+00:00 end: 2022-07-29 09:19:40+00:00
+2024-05-30 16:55:51,367 - INFO - ImputationMethodTesting - Imputing for 5 gap(s) start : 2022-07-25 06:59:20+00:00 end: 2022-07-25 07:00:40+00:00
+2024-05-30 16:57:52,556 - INFO - ImputationMethodTesting - Imputing for 5 gap(s) start : 2022-07-13 04:46:20+00:00 end: 2022-07-13 04:47:40+00:00
+2024-05-30 16:59:00,336 - INFO - ImputationMethodTesting - Imputing for 5 gap(s) start : 2022-07-22 16:21:20+00:00 end: 2022-07-22 16:22:40+00:00
+2024-05-30 17:00:47,095 - INFO - ImputationMethodTesting - Imputing for 5 gap(s) start : 2022-07-30 10:29:00+00:00 end: 2022-07-30 10:30:20+00:00
+2024-05-30 19:47:07,201 - INFO - ImputationMethodTesting - Imputing for 5 gap(s) start : 2022-07-06 06:52:40+00:00 end: 2022-07-06 06:54:00+00:00
