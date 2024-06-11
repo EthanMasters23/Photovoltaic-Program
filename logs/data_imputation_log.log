@@ -1,0 +1,14 @@
+2024-06-04 20:58:49,664 - INFO - data_imputer - Starting Data Imputation Program on Irradiance for jul, 2022...
+2024-06-04 20:58:50,824 - INFO - Threader - Starting jul, 2022
+2024-06-04 20:58:50,825 - INFO - Imputer - Reshaping data frame using .reshape().
+2024-06-04 20:59:07,697 - INFO - Imputer - Cleaning data frame values using .clean_irradiance_values().
+2024-06-04 20:59:07,714 - INFO - Imputer - Setting night time data frame values to zero using .set_night_values().
+2024-06-04 20:59:13,479 - INFO - Imputer - Resampling data frame using resample_df() to 20s.
+2024-06-04 20:59:13,518 - INFO - Imputer - Imputing 0.031% of the data for jul, 2022.
+2024-06-04 20:59:29,458 - INFO - Threader - Completed jul, 2022
+2024-06-04 20:59:30,537 - INFO - data_imputer - Complete.
+2024-06-04 20:59:30,537 - INFO - data_imputer - Total runtime: 00:00:40
+2024-06-04 20:59:30,538 - INFO - data_imputer - 
+# ====================================================================== #
+# =============================== New Run ============================== #
+# ====================================================================== #

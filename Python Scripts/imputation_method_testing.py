@@ -35,6 +35,15 @@ class ImputationMethodTesting(ImputationModules):
         self.testing_logger.propagate = propgagate_logger
 
     def run_performance_test(self):
+        """
+        Compiles dataframes to use in evaluating the performance
+        of different imputation techniques. While compiling dataframes
+        this function simulates missing gaps, in time intervals where
+        observations are known.
+
+        Result:
+            updates imputation methods data frame with performance values.
+        """
         self.testing_logger.info(f"Starting imputation method testing for gap-size {self.GAP_LENGTH} (seconds).")
         pv_modules = PVModules(FILE_TYPE = self.FILE_TYPE, YEAR = self.YEAR, MONTH = self.MONTH, propagate_logger=False)
         path_list = pv_modules.get_path_list()
@@ -55,6 +64,14 @@ class ImputationMethodTesting(ImputationModules):
 
 
     def run_imputation_methods(self):
+        """
+        Sub-function used in run_performance_test() to call
+        all the imputation methods on the simulated gaps
+        dataframe.
+
+        Result:
+            Updated imputation methods data frame.
+        """
         super().interpolation()
         super().interpolation_method()
         # super().knn_method()
@@ -63,6 +80,13 @@ class ImputationMethodTesting(ImputationModules):
         self.imputation_methods_data_frame = super().get_imputation_methods_data()
 
     def run_performance_metrics(self):
+        """
+        Sub-function for unpacking performance_data_frame to log
+        performance metrics include: mae, r2, rmse, and mse.
+
+        Result:
+            All performance metrics logged in imputation_method_log.
+        """
         r2_df = pd.DataFrame(self.performance_data_frame.drop(['mae','mse','rmse'], axis = 0, level = 1).max(axis = 0),columns = ['r2'])
         r2_df['Method'] = self.performance_data_frame.drop(['mae','mse','rmse'], axis = 0, level = 1).idxmax(axis = 0).values
         mae_df = pd.DataFrame(self.performance_data_frame.drop(['r2','mse','rmse'], axis = 0, level = 1).min(axis=0),columns = ['mae'])
@@ -83,6 +107,18 @@ class ImputationMethodTesting(ImputationModules):
 
 
 class MethodTestingPipeline:
+    """
+    Imputation Method Pipeline
+
+    Used to streamline the ImputationMethodTesting class
+    for use in the PV Gui application.
+
+    Methods:
+        run:
+            - Connects the log to corresponding log file.
+            - Intiates an instance of ImputationMethodTesting class.
+            - Runs the performance test method.
+    """
     def __init__(self, GAP_LENGTH, ITERATIONS, FILE_TYPE, YEAR, MONTH):
         self.GAP_LENGTH = GAP_LENGTH
         self.ITERATIONS = ITERATIONS

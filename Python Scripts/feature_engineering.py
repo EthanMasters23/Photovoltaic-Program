@@ -27,6 +27,22 @@ import math
 
 
 class FeatureEngineering:
+    """
+    Class used to consildate feature engineering methods
+
+    Attributes:
+        input_data_frame (pandas DataFrame): Input data frame of compiled data
+        propagate_log (bool): Flag to propogate logging information
+        SECONDS_COL (list): Constant, column names of time of day
+        DAY_COL (list): Constant, column names of seasons of the year
+        TIME_PERIODS (dict): Constant, time period parameters.
+        feature_data_frame (pandas DataFrame):
+        training_data_frame (pandas DataFrame):
+        non_nan_index (pandas DataFrame):
+        clean_training_data (pandas DataFrame):
+        feature_logger (logging.logger):
+
+    """
     def __init__(self, input_data_frame = None, propagate_log = True):
         self.SECONDS_COL = ['Morning', 'Noon', 'Evening', 'Night']
         self.DAY_COL = ['Winter', 'Spring', 'Summer', 'Fall']
@@ -49,16 +65,27 @@ class FeatureEngineering:
         self.feature_logger.propagate = propagate_log
 
     def remove_nan_rows(self):
+        """
+        Removes rows in data frame where NaN values are present.
+        """
         self.feature_data_frame = self.feature_data_frame.loc[self.non_nan_index]
         self.training_data_frame = self.training_data_frame.loc[self.non_nan_index]
         self.feature_logger.info("Removed NaN rows.")
 
     def remove_night(self):
+        """
+        Removes any rows that occur while the suns position is
+        over the horizon.
+        """
         self.feature_data_frame = PVModules.remove_nighttime_values(self.feature_data_frame)
         self.training_data_frame = PVModules.remove_nighttime_values(self.training_data_frame)
         self.feature_logger.info("Removed night values.")
 
     def set_night(self):
+        """
+        Sets the irradiance values that occur while the sun is over the horizon
+        to zero instead of removing the night values.
+        """
         self.feature_data_frame = PVModules.set_nighttime_values(self.feature_data_frame)
         self.training_data_frame = PVModules.set_nighttime_values(self.training_data_frame)
         self.feature_logger.info("Set night values to 0.")
@@ -136,6 +163,9 @@ class FeatureEngineering:
         self.feature_logger.info("Generated Solar Position Feature.")
 
     def generate_clean_data(self, period):
+        """
+        Compiles clean periods into a dictionary.
+        """
         self.feature_logger.info("------------------ generating clean data series for model training ------------------")
         midnight = pd.Timestamp('2022-01-01 00:00:00').tz_localize(tz='Etc/UTC').time()
         sunrise_time = pd.Timestamp('2022-01-01 05:43:22').tz_localize(tz='Etc/UTC').time()
@@ -175,6 +205,9 @@ class FeatureEngineering:
         self.feature_logger.info(f"Finished generating series of clean {self.TIME_PERIODS[period]}s ({period}) for model training.")
 
     def graph_time_features_rbf(self):
+        """
+        Plots time feature columns.
+        """
         day_of_year = self.feature_data_frame[self.DAY_COL]
         day_of_year.plot(subplots=True,
                         sharex=True,
@@ -194,6 +227,9 @@ class FeatureEngineering:
         plt.show()
 
     def graph_time_features_cos_sin_trans(self):
+        """
+        Plots cos and sin transformed time features.
+        """
         seconds_of_day = self.feature_data_frame[['sin_seconds_of_day','cos_seconds_of_day']]
         seconds_of_day = seconds_of_day.loc[self.feature_data_frame.index[-1] - pd.Timedelta(1, 'day') : self.feature_data_frame.index[-1], :]
         seconds_of_day.plot(subplots=True, sharex=True, title="Seconds Feature Engineering (Cos & Sin)", legend=True)
@@ -207,18 +243,27 @@ class FeatureEngineering:
         plt.show()
         
     def save_features_data_frame(self):
+        """
+        Saves feature data frame.
+        """
         file = 'feature_data_frame.csv'
         file_path = os.path.join(os.path.dirname(__file__), '..', 'assets', file)
         self.feature_data_frame.to_csv(file_path)
         self.feature_logger.info(f"Saved feature data frame as '{file}'.")
 
     def save_training_data_frame(self):
+        """
+        Saves training data frame.
+        """
         file = 'training_data_frame.csv'
         file_path = os.path.join(os.path.dirname(__file__), '..', 'assets', file)
         self.training_data_frame.to_csv(file_path)
         self.feature_logger.info(f"Saved training data frame as '{file}'.")
 
     def save_clean_training_data(self, period):
+        """
+        Saves clean training data by variable.
+        """
         for var in self.clean_training_data:
             file = f'{var}_training_data_{period.lower()}.json'
             file_path = os.path.join(os.path.dirname(__file__), '..', 'assets', file)
@@ -227,20 +272,31 @@ class FeatureEngineering:
         self.feature_logger.info(f"Saved clean {self.TIME_PERIODS[period]}s ({period}) data frame.")
 
     def load_features_data_frame(self):
+        """
+        Loads feature data frame.
+        """
         file_path = os.path.join(os.path.dirname(__file__), '..', 'assets', 'feature_data_frame.csv')
         self.feature_data_frame = pd.read_csv(file_path, index_col = 0)
         self.feature_data_frame.index = pd.to_datetime(self.feature_data_frame.index)
 
     def load_training_data_frame(self):
+        """
+        Loads training data frame.
+        """
         file_path = os.path.join(os.path.dirname(__file__), '..', 'assets', 'training_data_frame.csv')
         self.training_data_frame = pd.read_csv(file_path, index_col = 0)
         self.training_data_frame.index = pd.to_datetime(self.training_data_frame.index)
 
     def load_clean_training_data(self, period):
+        """
+        Loads clean training data.
+        """
         file = f'training_data_{period.lower()}.csv'
         file_path = os.path.join(os.path.dirname(__file__), '..', 'assets', file)
         with open(file_path, 'r') as f:
             self.clean_training_data = json.load(f)
+
+    # - Getter methods - #
 
     def get_clean_training_data(self):
         return self.clean_training_data
@@ -264,6 +320,20 @@ class FeatureEngineering:
         return self.training_data_frame
     
 class FeatureEngineeringPipeline:
+    """
+    Feature engineering pipeline, used for streamlining the
+    feature engineering class for use in the PV Gui application.
+
+    Attributes:
+        FILE_TYPE (str): file type (Irradiance/Deger/Fixed)
+    
+    Methods:
+        run:
+            runs feature engineering class.
+        run_main: 
+            runs main feature engineering class.
+    """
+    
     def __init__(self, FILE_TYPE):
         self.FILE_TYPE = FILE_TYPE
         self.run()

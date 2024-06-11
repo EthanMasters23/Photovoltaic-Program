@@ -35,9 +35,9 @@ class Imputer(PVModules):
             month (str): Month.
             year (str): Year.
             file (str): File type.
-            data_frame (pd.DataFrame): 
+            data_frame (pandas DataFrame): 
         Child attributes:
-            input_data_frame (pandas.DataFrame): Input DataFrame.
+            input_data_frame (pandas DataFrame): Input DataFrame.
 
     Methods:
         run(): Runs the data imputation and cleaning process.
@@ -74,13 +74,15 @@ class Imputer(PVModules):
 
     def impute_missing_values(self):
         """
-        Finds the index positions of gaps in a DataFrame based on their size and applies appropriate imputation method.
+        Finds the index positions of gaps in a DataFrame based on
+        their size and applies appropriate imputation method.
 
         Args:
             clean_data_frame (pandas.DataFrame): Input DataFrame.
 
         Returns:
-            tuple: Dictionaries containing index positions of NaN values classified based on their gap size.
+            tuple: Dictionaries containing index positions of
+            NaN values classified based on their gap size.
         """
         self.interpolation = {}
         self.arima = {}
@@ -133,14 +135,17 @@ class Imputer(PVModules):
 
     def interpolation_method(self):
         """
-        Performs interpolation on a DataFrame to fill missing values using the 'time' method.
+        Performs interpolation on a DataFrame to fill missing
+        values using the 'time' method.
 
         Args:
             df (pandas.DataFrame): Input DataFrame.
-            nan_gaps (dict): Dictionary containing column names as keys and lists of NaN gap indices as values.
+            nan_gaps (dict): Dictionary containing column names
+            as keys and lists of NaN gap indices as values.
 
         Returns:
-            pandas.DataFrame: DataFrame with filled values using time based linear interpolation.
+            pandas.DataFrame: DataFrame with filled values using
+            time based linear interpolation.
             
         """
         for col in self.interpolation:

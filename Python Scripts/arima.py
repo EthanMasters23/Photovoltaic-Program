@@ -46,7 +46,7 @@ class ARIMA:
         Fit ARIMA model to the given data.
 
         Args:
-            data (numpy.ndarray): Time series data.
+            data (numpy array): Time series data.
 
         """
         self.d = self.adfuller_testing(data)
@@ -71,10 +71,10 @@ class ARIMA:
         Difference the data to make it stationary.
 
         Args:
-            data (numpy.ndarray): Time series data.
+            data (numpy array): Time series data.
 
         Returns:
-            numpy.ndarray: Differenced data.
+            numpy array: Differenced data.
 
         """
         differenced_data = np.diff(data, n = self.d)
@@ -85,10 +85,10 @@ class ARIMA:
         Estimate AR coefficients using ordinary least squares (OLS).
 
         Args:
-            data (numpy.ndarray): Time series data.
+            data (numpy array): Time series.
 
         Returns:
-            numpy.ndarray: Estimated AR coefficients.
+            numpy array: Estimated AR coefficients.
 
         """
         N = len(data)
@@ -110,10 +110,10 @@ class ARIMA:
         Estimate MA coefficients using ordinary least squares (OLS).
 
         Args:
-            data (numpy.ndarray): Time series data.
+            data (numpy array): Time series data.
 
         Returns:
-            numpy.ndarray: Estimated MA coefficients.
+            numpy array: Estimated MA coefficients.
 
         """
         N = len(data)
@@ -141,11 +141,11 @@ class ARIMA:
         Forecast future values using the fitted ARIMA model.
 
         Args:
-            data (numpy.ndarray): Time series data.
+            data (numpy array): Time series.
             steps (int): Number of steps to forecast into the future.
 
         Returns:
-            numpy.ndarray: Forecasted values.
+            numpy array: Forecasted values.
 
         """
         forecast_values = np.zeros(steps)
@@ -194,7 +194,7 @@ class ARIMA:
         Perform augmented Dickey-Fuller test to determine the order of differencing.
 
         Args:
-            data (numpy.ndarray): Time series data.
+            data (numpy array): Time series data.
 
         Returns:
             int: Order of differencing.
@@ -212,7 +212,7 @@ class ARIMA:
         Plot autocorrelation function (ACF) for the given data.
 
         Args:
-            data (numpy.ndarray): Time series data.
+            data (numpy array): Time series data.
 
         """
         plot_acf(data)
@@ -227,7 +227,7 @@ class ARIMA:
         Plot partial autocorrelation function (PACF) for the given data.
 
         Args:
-            data (numpy.ndarray): Time series data.
+            data (numpy array): Time series data.
 
         """
         plot_pacf(data)

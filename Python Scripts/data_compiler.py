@@ -27,7 +27,7 @@ class DataCompiler:
     Attributes:
         FILE_TYPE (str): Type of data to compile.
         FILE_OPTION (str): Option for processing the compiled data.
-        compiled_data (pandas.DataFrame): DataFrame containing compiled data.
+        compiled_data (pandas DataFrame): DataFrame containing compiled data.
         file (str): Name of the compiled CSV file.
         compiler_logger (logging.Logger): Logger for data compilation operations.
         prop_log (bool): Flag to propagate logging messages.
@@ -114,7 +114,7 @@ class DataCompiler:
         Gets the compiled data.
 
         Returns:
-            pandas.DataFrame: Compiled DataFrame.
+            pandas DataFrame: Compiled DataFrame.
 
         """
         return self.compiled_data
@@ -179,7 +179,7 @@ class CompilerPipeline:
         This method loads the compiled data from a CSV file and returns it as a DataFrame.
 
         Returns:
-            pandas.DataFrame: Compiled DataFrame containing the preprocessed data.
+            pandas DataFrame: Compiled DataFrame containing the preprocessed data.
 
         """
         caller = DataCompiler(

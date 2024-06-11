@@ -33,8 +33,8 @@ class DataSummary:
         FILE_TYPE (str): Type of data to summarize.
         YEAR (int): Year for summarizing the data.
         MONTH (int): Month for summarizing the data.
-        data_frame (pandas.DataFrame): DataFrame containing summarized data.
-        data_frame_raw (pandas.DataFrame): Raw DataFrame containing original data.
+        data_frame (pandas DataFrame): DataFrame containing summarized data.
+        data_frame_raw (pandas DataFrame): Raw DataFrame containing original data.
         summary_logger (logging.Logger): Logger for data summarization operations.
 
     """
@@ -231,6 +231,11 @@ class DataSummary:
         px.imshow(corr_matrix, text_auto = True, title = "Correlation Matrix").show()
 
     def observation_times_summary(self):
+        """
+        Generates time observation dictionary at different intervals
+        to visualize the gaps in time of missing observation intervals.
+
+        """
         self.summary_logger.info("------------------------ Observation Times Summary Before Resampling ------------------------")
         index_list = self.data_frame_raw.index
         obs_times_dict = {}
@@ -275,6 +280,9 @@ class DataSummary:
         self.summary_logger.info("Table of monthly time elapsed between observations (NaN included pre resampling): \n" + str(obs_times_df))
         
     def plot_daily_seasonality(self):
+        """
+        Plotting daily seasonality aggregated by the average of daily values.
+        """
         for col in self.data_frame.columns:
             resample_h = self.data_frame[col].resample('1D').mean()
             fig = px.scatter(resample_h, x=resample_h.index, y=f'{col}', title=f'Daily Seasonality of {col}')
@@ -311,6 +319,10 @@ class SummaryPipeline:
         self.MONTH = MONTH
 
     def run(self):
+        """
+        Class method used for streamlining data summary
+        for use in the PV Gui application.
+        """
         file_path = os.path.join(os.path.dirname(__file__), '..', 'logs', 'data_summary_log.log')
         logging.basicConfig(filename = file_path,
                             level = logging.INFO,
@@ -336,6 +348,10 @@ class SummaryPipeline:
                     + "# ====================================================================== #")
 
     def load(self):
+        """
+        Class method used for loading previous compiled
+        data summary.
+        """
         file_path = os.path.join(os.path.dirname(__file__), '..', 'logs', 'data_summary_log.log')
         logging.basicConfig(filename = file_path,
                             level = logging.INFO,
