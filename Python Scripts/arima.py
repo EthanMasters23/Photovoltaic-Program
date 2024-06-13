@@ -21,16 +21,33 @@ import matplotlib.pyplot as plt
 
 
 class ARIMA:
+    """
+    ARIMA Class, used to forecast time series data.
+
+    Attribute:
+        - var_name (str): Name of the variable.
+        - p (int): Order of the autoregressive model.
+        - d (int): Degree of differencing.
+        - q (int): Order of the moving average model.
+        - propagate_log (bool): Flag to propagate logging messages.
+
+    Methods:
+        - fit: Fits the model parameters to the ARIMA equation.
+        - estimate_intercept:
+        - difference:
+        - estimate_ar_coefficients:
+        - estimate_ma_coefficients:
+        - forecast:
+        - invert_difference:
+        - forecast_step:
+        - adfuller_testing:
+        - plot_autocorr:
+        - plot_partial_autocorr:
+
+    """
     def __init__(self, var_name = None, p = None, d = None, q = None, propagate_log = True):
         """
         Initializes ARIMA class with provided parameters.
-
-        Args:
-            var_name (str): Name of the variable.
-            p (int): Order of the autoregressive model.
-            d (int): Degree of differencing.
-            q (int): Order of the moving average model.
-            propagate_log (bool): Flag to propagate logging messages.
 
         """
         self.p = p
@@ -46,7 +63,7 @@ class ARIMA:
         Fit ARIMA model to the given data.
 
         Args:
-            data (numpy array): Time series data.
+            - data (numpy array): Time series data.
 
         """
         self.d = self.adfuller_testing(data)
@@ -61,7 +78,7 @@ class ARIMA:
         Estimate the intercept term of the model.
 
         Returns:
-            float: Estimated intercept value.
+            - float: Estimated intercept value.
 
         """
         return np.mean(self.differenced_data)
@@ -71,10 +88,10 @@ class ARIMA:
         Difference the data to make it stationary.
 
         Args:
-            data (numpy array): Time series data.
+            - data (numpy array): Time series data.
 
         Returns:
-            numpy array: Differenced data.
+            - numpy array: Differenced data.
 
         """
         differenced_data = np.diff(data, n = self.d)
@@ -85,10 +102,10 @@ class ARIMA:
         Estimate AR coefficients using ordinary least squares (OLS).
 
         Args:
-            data (numpy array): Time series.
+            - data (numpy array): Time series.
 
         Returns:
-            numpy array: Estimated AR coefficients.
+            - numpy array: Estimated AR coefficients.
 
         """
         N = len(data)
@@ -110,10 +127,10 @@ class ARIMA:
         Estimate MA coefficients using ordinary least squares (OLS).
 
         Args:
-            data (numpy array): Time series data.
+            - data (numpy array): Time series data.
 
         Returns:
-            numpy array: Estimated MA coefficients.
+            - numpy array: Estimated MA coefficients.
 
         """
         N = len(data)
@@ -141,11 +158,11 @@ class ARIMA:
         Forecast future values using the fitted ARIMA model.
 
         Args:
-            data (numpy array): Time series.
-            steps (int): Number of steps to forecast into the future.
+            - data (numpy array): Time series.
+            - steps (int): Number of steps to forecast into the future.
 
         Returns:
-            numpy array: Forecasted values.
+            - numpy array: Forecasted values.
 
         """
         forecast_values = np.zeros(steps)
@@ -161,11 +178,11 @@ class ARIMA:
         Invert differencing to obtain actual forecasted values.
 
         Args:
-            forecast_value (float): Forecasted value.
-            step (int): Step of the forecast.
+            - forecast_value (float): Forecasted value.
+            - step (int): Step of the forecast.
 
         Returns:
-            float: Inverted forecasted value.
+            - float: Inverted forecasted value.
 
         """
         if self.d == 0: return forecast_value
@@ -178,7 +195,7 @@ class ARIMA:
         Forecast the next single step using the fitted ARIMA model.
 
         Returns:
-            float: Forecasted value for the next step.
+            - float: Forecasted value for the next step.
 
         """
         if len(self.differenced_data) < self.p or len(self.differenced_data) < self.q:
@@ -194,10 +211,10 @@ class ARIMA:
         Perform augmented Dickey-Fuller test to determine the order of differencing.
 
         Args:
-            data (numpy array): Time series data.
+            - data (numpy array): Time series data.
 
         Returns:
-            int: Order of differencing.
+            - int: Order of differencing.
 
         """
         for d in range(4):
@@ -212,7 +229,7 @@ class ARIMA:
         Plot autocorrelation function (ACF) for the given data.
 
         Args:
-            data (numpy array): Time series data.
+            - data (numpy array): Time series data.
 
         """
         plot_acf(data)
@@ -227,7 +244,7 @@ class ARIMA:
         Plot partial autocorrelation function (PACF) for the given data.
 
         Args:
-            data (numpy array): Time series data.
+            - data (numpy array): Time series data.
 
         """
         plot_pacf(data)
@@ -241,7 +258,7 @@ class ARIMA:
         Get the state of the ARIMA model.
 
         Returns:
-            dict: Dictionary containing the model state.
+            - dict: Dictionary containing the model state.
 
         """
         state_dict = {

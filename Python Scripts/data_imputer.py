@@ -32,15 +32,15 @@ class Imputer(PVModules):
 
     Attributes:
         Parent Attributes:
-            month (str): Month.
-            year (str): Year.
-            file (str): File type.
-            data_frame (pandas DataFrame): 
+            - month (str): Month.
+            - year (str): Year.
+            - file (str): File type.
+            - data_frame (pandas DataFrame): 
         Child attributes:
-            input_data_frame (pandas DataFrame): Input DataFrame.
+            - input_data_frame (pandas DataFrame): Input DataFrame.
 
     Methods:
-        run(): Runs the data imputation and cleaning process.
+        - run: Runs the data imputation and cleaning process.
     """
     def __init__(self, FILE_TYPE, YEAR, MONTH, data_frame, propagate_log = True):
         super().__init__(FILE_TYPE = FILE_TYPE, data_frame = data_frame)
@@ -53,6 +53,9 @@ class Imputer(PVModules):
         self.imputer_log.propagate = propagate_log
 
     def run(self):
+        """
+        
+        """
         # === reshaping df for timestap & adjusted headers === #
         super().reshape_df()
         # === Removing Errors === #
@@ -78,11 +81,11 @@ class Imputer(PVModules):
         their size and applies appropriate imputation method.
 
         Args:
-            clean_data_frame (pandas.DataFrame): Input DataFrame.
+            - clean_data_frame (pandas.DataFrame): Input DataFrame.
 
         Returns:
-            tuple: Dictionaries containing index positions of
-            NaN values classified based on their gap size.
+            - tuple: Dictionaries containing index positions of
+              NaN values classified based on their gap size.
         """
         self.interpolation = {}
         self.arima = {}
@@ -139,13 +142,13 @@ class Imputer(PVModules):
         values using the 'time' method.
 
         Args:
-            df (pandas.DataFrame): Input DataFrame.
-            nan_gaps (dict): Dictionary containing column names
-            as keys and lists of NaN gap indices as values.
+            - df (pandas.DataFrame): Input DataFrame.
+            - nan_gaps (dict): Dictionary containing column names
+            - as keys and lists of NaN gap indices as values.
 
         Returns:
-            pandas.DataFrame: DataFrame with filled values using
-            time based linear interpolation.
+            - pandas DataFrame: DataFrame with filled values using
+              time based linear interpolation.
             
         """
         for col in self.interpolation:
@@ -185,11 +188,17 @@ class Threader(threading.Thread):
     Thread worker class for parallel processing.
 
     Attributes:
-        queue (Queue): Queue containing file paths.
-        file (str): File type.
-        lock (threading.Lock): Lock for thread synchronization.
+        - queue (Queue): Queue containing file paths.
+        - file (str): File type.
+        - lock (threading Lock): Lock for thread synchronization.
+        - threading_logger (logging.logger): logger object
+        - propagate (bool): flag indicating whether to propagate messages to logger
     """
     def __init__(self, QUEUE, LOCK, FILE_TYPE, propagate_logger = True):
+        """
+        Threader constructor to initalize threads.
+            
+        """
         threading.Thread.__init__(self)
         self.queue = QUEUE
         self.lock = LOCK
@@ -198,6 +207,9 @@ class Threader(threading.Thread):
         self.threading_logger.propagate = propagate_logger
 
     def run(self):
+        """
+        
+        """
         while True:
             try:
                 file_path = self.queue.get(timeout = 3) # retrieve file path from the queue
@@ -221,12 +233,30 @@ class Threader(threading.Thread):
 
 
 class ImputerPipeline:
+    """
+    Class pipeline for running the imputer program.
+    
+    Attributes:
+        - FILE_TYPE (str): File type (Irradiance/Deger/Fixed)
+        - YEAR (str): Year of file
+        - MONTH (str): Month of file
+    
+    Methods:
+        - run:
+        
+    """
     def __init__(self, FILE_TYPE, YEAR = None, MONTH = None):
+        """
+        ImputerPipeline constructor, used to intialize intance of class.
+        
+        """
         self.FILE_TYPE = FILE_TYPE
         self.YEAR = YEAR
         self.MONTH = MONTH
 
     def run(self):
+        """
+        """
         file_path = os.path.join(os.path.dirname(__file__), '..', 'logs', 'data_imputation_log.log')
         logging.basicConfig(filename = file_path,
                             level = logging.INFO,
