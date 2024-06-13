@@ -54,7 +54,9 @@ class Imputer(PVModules):
 
     def run(self):
         """
-        
+        Wrapper function for loading and preprocessing the data frame
+        for the imputation of missing values.
+
         """
         # === reshaping df for timestap & adjusted headers === #
         super().reshape_df()
@@ -158,6 +160,19 @@ class Imputer(PVModules):
             self.clean_data_frame[col].loc[flattened_list] = imputer.get_imputed_values().loc[flattened_list]
 
     def arima_method(self):
+        """
+        Imputes missing values using the ARIMA Class developed
+        for this project.
+
+        Args:
+            - df (pandas.DataFrame): Input DataFrame.
+            - nan_gaps (dict): Dictionary containing column names
+            - as keys and lists of NaN gap indices as values.
+
+        Returns:
+            - pandas DataFrame: DataFrame with filled values using
+              autoregressive integrated moving average method of imputation.
+        """
         for col in self.arima:
             for gap in self.arima[col]:
                 num_nan_values = len(gap)
@@ -171,6 +186,18 @@ class Imputer(PVModules):
                 self.clean_data_frame[col].loc[gap] = imputed_values
 
     def flatten_list(self, nested_list):
+        """
+        Helper function for the impute_missing_values method. Used
+        to flatten the nested lists that's outputed from finding the
+        different NaN gaps.
+
+        Args:
+            nested_list (list): Nested staggered list of NaN gaps.
+
+        Returns:
+            (list): flattened list 
+        
+        """
         for item in nested_list:
             if isinstance(item, list):
                 yield from self.flatten_list(item)
