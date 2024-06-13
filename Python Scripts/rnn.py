@@ -31,16 +31,35 @@ np.random.seed(42)
 
 
 class RNN:
+    """
+    Recurrent Neural Network
+
+    Attributes:
+        input_data (pandas DataFrame)
+
+    Methods:
+
+
+    """
     def __init__(self, input_data = None, variable_name = None):
         self.input_data = input_data
         self.variable_name = variable_name
         self.rnn_logger = logging.getLogger(type(self).__name__)
 
     def compile(self):
+        """
+        Wrapper function
+
+        Used to compile and build the RNN Model.
+        """
         self.preprocess_data()
         self.build_model()
 
     def preprocess_data_bidirectional(self):
+        """
+        Method used to process training data for bidirectional RNN model.
+        
+        """
         self.X_forward, self.X_backward, self.y = self.create_sequences()
         self.X_train_forward, self.X_val_forward, self.X_train_backward, self.X_val_backward, self.y_train, self.y_val = train_test_split(
             self.X_forward, self.X_backward, self.y, test_size=0.2, random_state=42, shuffle=True)
@@ -54,6 +73,10 @@ class RNN:
         )
 
     def preprocess_data(self):
+        """
+        Method used to process training data for forward directional RNN Model.
+        
+        """
         self.X, self.y = self.create_sequences()
         self.X_train, self.X_val, self.y_train, self.y_val = train_test_split(
             self.X, self.y, test_size=0.2, random_state=42, shuffle=True)
@@ -65,6 +88,10 @@ class RNN:
         )
 
     def create_sequences_bidrectional(self):
+        """
+        Generates sequences for the bidirectional model.
+        
+        """
         input_data = np.array(self.input_data)
         num_samples = input_data[0].shape[0] // 2
         steps_removed = 2 + (input_data[0].shape[0] % 2)
@@ -90,6 +117,10 @@ class RNN:
         return X_forward, X_backward, y
     
     def create_sequences(self):
+        """
+        Generate sequenes for the forward directional model.
+        
+        """
         input_data = np.array(self.input_data)
         print("input: ", input_data.shape)
         self.predicted_steps = 5
@@ -102,6 +133,10 @@ class RNN:
         return X, y
 
     def build_model(self):
+        """
+        Builds and compiles the model for training.
+
+        """
         model = ModelConfig().build_model_v5(self.input_shape, self.predicted_steps)
         optimizer = tf.keras.optimizers.RMSprop(learning_rate=0.001, rho=0.9, momentum=0.0, epsilon=1e-07)
         file_path = os.path.join(os.path.dirname(__file__), '..', 'logs', 'rnn_model', datetime.now().strftime("%Y%m%d-%H%M%S"))
@@ -116,6 +151,10 @@ class RNN:
         self.tensorboard_callback = tensorboard_callback
 
     def fit(self, epochs=50, batch_size=40):
+        """
+        Fits the model and logs all model configurations.
+        
+        """
         pp = pprint.PrettyPrinter(indent=4)
         formatted_config = pp.pformat(self.model.get_config())
         formatted_opt_config = pp.pformat(self.model.optimizer.get_config())
@@ -137,6 +176,10 @@ class RNN:
         return self.history
 
     def predict_bidrectional(self, data_forward, data_backward):
+        """
+        Method for forecasting / predicting bidirectional model outputs given inputs.
+        
+        """
         data_forward = np.array([data_forward])
         data_backward = np.array([data_backward])
         assert data_forward.shape[1] == self.X_train_forward.shape[1], "Input data_forward shape mismatch"
@@ -150,6 +193,10 @@ class RNN:
         return predictions
     
     def predict(self, input_data):
+        """
+        Method for predicting / forecasting forward model inputs / outputs.
+        
+        """
         input_data = np.array([input_data])
         X = self.scale_data(input_data)
         X = X.reshape(X.shape[0], X.shape[1], 1)

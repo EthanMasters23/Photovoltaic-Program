@@ -24,6 +24,9 @@ from pv_constants import COL_NAMES
 
 
 class NaNDataSummaryTable(PVModules):
+    """
+    
+    """
     def __init__(self, FILE_TYPE, propagate_logger = True):
         self.FILE_TYPE = FILE_TYPE
         self.summary_data = pd.DataFrame()
@@ -31,6 +34,9 @@ class NaNDataSummaryTable(PVModules):
         self.logger.propagate = propagate_logger
 
     def run(self):
+        """
+        
+        """
         month_data = []
 
         path_list = PVModules(FILE_TYPE=self.FILE_TYPE,

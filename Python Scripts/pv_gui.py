@@ -32,6 +32,11 @@ from pv_constants import DATA_FILE_OPTIONS, MONTH_DICT
 
 
 class PV_Solar_GUI(QWidget):
+    """
+    PV Gui Application
+
+    
+    """
     def __init__(self):
         super().__init__()
         self.setWindowTitle("PV-Solar Data Imputation Project")
