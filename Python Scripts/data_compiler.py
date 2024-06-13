@@ -22,26 +22,26 @@ from pv_modules import PVModules
 
 class DataCompiler:
     """
-    A class to compile various data types into one CSV file.
+    Class to compile various data types into one CSV file.
 
     Attributes:
-        FILE_TYPE (str): Type of data to compile.
-        FILE_OPTION (str): Option for processing the compiled data.
-        compiled_data (pandas DataFrame): DataFrame containing compiled data.
-        file (str): Name of the compiled CSV file.
-        compiler_logger (logging.Logger): Logger for data compilation operations.
-        prop_log (bool): Flag to propagate logging messages.
+        - FILE_TYPE (str): Type of data to compile.
+        - FILE_OPTION (str): Option for processing the compiled data.
+        - compiled_data (pandas DataFrame): DataFrame containing compiled data.
+        - file (str): Name of the compiled CSV file.
+        - compiler_logger (logging.Logger): Logger for data compilation operations.
+        - prop_log (bool): Flag to propagate logging messages.
 
     """
 
     def __init__(self, FILE_OPTION, FILE_TYPE, propagate_log = True):
         """
-        Initializes DataCompiler class with provided parameters.
+        Class constructor. Initializes DataCompiler class with provided parameters.
 
         Args:
-            FILE_TYPE (str): Type of data to compile.
-            FILE_OPTION (str): Option for processing the compiled data.
-            propagate_log (bool): Flag to propagate logging messages.
+            - FILE_TYPE (str): Type of data to compile.
+            - FILE_OPTION (str): Option for processing the compiled data.
+            - propagate_log (bool): Flag to propagate logging messages.
 
         """
         self.FILE_TYPE = FILE_TYPE
@@ -60,7 +60,7 @@ class DataCompiler:
         preprocesses the data based on the FILE_OPTION, and compiles the preprocessed data into a single DataFrame.
 
         Raises:
-            Exception: If any loaded data file results in an empty DataFrame.
+            - Exception: If any loaded data file results in an empty DataFrame.
 
         """
         pv_modules = PVModules(FILE_TYPE = self.FILE_TYPE, propagate_logger = self.prop_log)
@@ -99,7 +99,7 @@ class DataCompiler:
         This method loads the compiled data from a previously saved CSV file in the 'assets' directory.
 
         Raises:
-            FileNotFoundError: If the specified file is not found.
+            - FileNotFoundError: If the specified file is not found.
 
         """
         file_path = os.path.join(os.path.dirname(__file__), '..', 'assets', self.file)
@@ -114,7 +114,7 @@ class DataCompiler:
         Gets the compiled data.
 
         Returns:
-            pandas DataFrame: Compiled DataFrame.
+            - pandas DataFrame: Compiled DataFrame.
 
         """
         return self.compiled_data
@@ -125,17 +125,17 @@ class CompilerPipeline:
     A class to manage the data compilation pipeline.
 
     Attributes:
-        FILE_TYPE (str): Type of data to compile.
-        FILE_OPTION (str): Option for processing the compiled data.
+        - FILE_TYPE (str): Type of data to compile.
+        - FILE_OPTION (str): Option for processing the compiled data.
 
     """
     def __init__(self, FILE_OPTION, FILE_TYPE):
         """
-        Initializes CompilerPipeline class with provided parameters.
+        Class constructor. Initializes CompilerPipeline class with provided parameters.
 
         Args:
-            FILE_TYPE (str): Type of data to compile.
-            FILE_OPTION (str): Option for processing the compiled data.
+            - FILE_TYPE (str): Type of data to compile.
+            - FILE_OPTION (str): Option for processing the compiled data.
 
         """
         self.FILE_OPTION = FILE_OPTION
@@ -179,7 +179,7 @@ class CompilerPipeline:
         This method loads the compiled data from a CSV file and returns it as a DataFrame.
 
         Returns:
-            pandas DataFrame: Compiled DataFrame containing the preprocessed data.
+            - pandas DataFrame: Compiled DataFrame containing the preprocessed data.
 
         """
         caller = DataCompiler(

@@ -35,7 +35,11 @@ class PV_Solar_GUI(QWidget):
     """
     PV Gui Application
 
-    
+    Graphical user interface to modularlize and provide
+    a user interface for running and visualizing PV Project Programs.
+
+    Methods: 
+        (None)
     """
     def __init__(self):
         super().__init__()

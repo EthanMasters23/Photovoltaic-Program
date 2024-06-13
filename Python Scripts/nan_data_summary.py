@@ -27,9 +27,15 @@ class NaNSummary:
     A class for summarizing NaN values and NaN gaps in data.
 
     Attributes:
-        FILE_TYPE (str): The type of file being analyzed.
-        YEAR (int): The year of the data.
-        MONTH (int): The month of the data.
+        - FILE_TYPE (str): The type of file being analyzed.
+        - YEAR (int): The year of the data.
+        - MONTH (int): The month of the data.
+        - propagate_logger (bool): Flag to propagate logger messages.
+    
+    Methods:
+        - run: Starts the NaN Summary Program by loading all available data for the
+        - given FILE_TYPE attribute.
+        - run_momth: Starts the NaN Summary Program for a given MONTH and FILE_TYPE attribute.
     """
 
     def __init__(self, FILE_TYPE = None, YEAR = None, MONTH = None, propagate_logger = True):
@@ -37,10 +43,10 @@ class NaNSummary:
         Class constructor. Initializes an instance of NaNSummary.
 
         Args:
-            FILE_TYPE (str, optional): The type of file being analyzed. Defaults to None.
-            YEAR (int, optional): The year of the data. Defaults to None.
-            MONTH (int, optional): The month of the data. Defaults to None.
-            propagate_logger (bool, optional): Flag to propagate logging messages. Defaults to True.
+            - FILE_TYPE (str, optional): The type of file being analyzed. Defaults to None.
+            - YEAR (int, optional): The year of the data. Defaults to None.
+            - MONTH (int, optional): The month of the data. Defaults to None.
+            - propagate_logger (bool, optional): Flag to propagate logging messages. Defaults to True.
         """
         self.FILE_TYPE = FILE_TYPE
         self.YEAR = YEAR
@@ -170,16 +176,24 @@ class NaNSummary:
 
 class NaNSummaryPipeline:
     """
-    A pipeline for running the NaN summary program.
+    A Class pipeline for running the NaN summary program.
+
+    Attributes:
+        - FILE_TYPE (str): file type (Irradiance/Deger/Fixed)
+        - YEAR (str): Year of File
+        - MONTH (str): Month of File
+
+    Methods:
+        - run: Runs the NaN Summary Program.
     """
     def __init__(self, FILE_TYPE, YEAR = None, MONTH = None):
         """
         Class constructor. Initializes an instance of NaNSummaryPipeline.
 
         Args:
-            file_type (str): The type of file being analyzed.
-            year (int, optional): The year of the data. Defaults to None.
-            month (int, optional): The month of the data. Defaults to None.
+            - file_type (str): The type of file being analyzed.
+            - year (int, optional): The year of the data. Defaults to None.
+            - month (int, optional): The month of the data. Defaults to None.
         """
         self.FILE_TYPE = FILE_TYPE
         self.YEAR = YEAR

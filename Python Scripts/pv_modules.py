@@ -26,14 +26,14 @@ class PVModules:
     A class to process photovoltaic (PV) module data.
 
     Attributes:
-        FILE_TYPE (str): Type of file to process.
-        YEAR (str): Year of the data to process.
-        MONTH (str): Month of the data to process.
-        data_frame (pandas.DataFrame): DataFrame containing PV module data.
-        propagate_logger (bool): Flag to propagate logging messages.
-        path_list (list): List of file paths matching the given FILE_TYPE, YEAR, and MONTH.
-        clean_path_list (list): List of cleaned file paths.
-        pv_logger (logging.Logger): Logger for PV module operations.
+        - FILE_TYPE (str): Type of file to process.
+        - YEAR (str): Year of the data to process.
+        - MONTH (str): Month of the data to process.
+        - data_frame (pandas.DataFrame): DataFrame containing PV module data.
+        - propagate_logger (bool): Flag to propagate logging messages.
+        - path_list (list): List of file paths matching the given FILE_TYPE, YEAR, and MONTH.
+        - clean_path_list (list): List of cleaned file paths.
+        - pv_logger (logging.Logger): Logger for PV module operations.
 
     """
 
@@ -42,14 +42,14 @@ class PVModules:
         Initializes PVModules class with provided parameters.
 
         Args:
-            FILE_TYPE (str): Type of file to process.
-            YEAR (str): Year of the data to process.
-            MONTH (str): Month of the data to process.
-            data_frame (pandas.DataFrame): DataFrame containing PV module data.
-            propagate_logger (bool): Flag to propagate logging messages.
+            - FILE_TYPE (str): Type of file to process.
+            - YEAR (str): Year of the data to process.
+            - MONTH (str): Month of the data to process.
+            - data_frame (pandas DataFrame): DataFrame containing PV module data.
+            - propagate_logger (bool): Flag to propagate logging messages.
 
         Raises:
-            Exception: If incorrect input parameters are provided.
+            - Exception: If incorrect input parameters are provided.
 
         """
         if FILE_TYPE != None and not [file_i for file_i in ['Irradiance','Deger','Fixed'] if re.search(fr'{FILE_TYPE}',file_i)]:
@@ -83,7 +83,7 @@ class PVModules:
         Retrieves the file paths for a given file name from the data directory.
 
         Returns:
-            list: List of file paths matching the given FILE_TYPE.
+            - list: List of file paths matching the given FILE_TYPE.
 
         """
         file_path = os.path.join(os.path.dirname(__file__), '..', 'data')
@@ -105,7 +105,7 @@ class PVModules:
         Searches for a specific path within the provided path_list based on the given year and month parameters.
 
         Returns:
-            list: A list containing the path(s) that match the specified year and month.
+            - list: A list containing the path(s) that match the specified year and month.
 
         """
         for path in self.path_list:
@@ -119,7 +119,7 @@ class PVModules:
         Reshapes the input DataFrame by manipulating the 'DayID' and 'TimeID' columns.
 
         Returns:
-            pandas.DataFrame: Reshaped DataFrame with the 'date' column as the index.
+            - pandas.DataFrame: Reshaped DataFrame with the 'date' column as the index.
 
         """
         self.pv_logger.info("Reshaping data frame using .reshape().")
@@ -148,7 +148,7 @@ class PVModules:
         Resamples the DataFrame to have a 20-second frequency and checks for missing timestamps edge cases.
 
         Returns:
-            pandas.DataFrame: DataFrame with resampled data and sorted index.
+            - pandas.DataFrame: DataFrame with resampled data and sorted index.
 
         """
         frequency = '20s'
@@ -186,7 +186,7 @@ class PVModules:
         Cleans irradiance values in a DataFrame by removing outliers and negative values.
 
         Returns:
-            pandas.DataFrame: DataFrame with cleaned irradiance values.
+            - pandas.DataFrame: DataFrame with cleaned irradiance values.
 
         """
         self.pv_logger.info("Cleaning data frame values using .clean_irradiance_values().")
@@ -210,7 +210,7 @@ class PVModules:
         Cleans Deger & Fixed values in a DataFrame by removing negative values.
 
         Returns:
-            pandas.DataFrame: DataFrame with cleaned values.
+            - pandas.DataFrame: DataFrame with cleaned values.
 
         """
         self.pv_logger.info("Cleaning data frame values using .clean_deger_fixed_values().")
@@ -225,7 +225,7 @@ class PVModules:
         Extracts day, month, and year features from the index of a DataFrame.
 
         Returns:
-            pandas.DataFrame: Modified DataFrame with 'day', 'month', and 'year' columns added.
+            - pandas.DataFrame: Modified DataFrame with 'day', 'month', and 'year' columns added.
 
         """
         data_frame['day'] = [d.day for d in data_frame.index]
@@ -243,7 +243,7 @@ class PVModules:
         Removes nighttime data from a DataFrame based on solar position information.
 
         Returns:
-            pandas.DataFrame: DataFrame with nighttime data removed.
+            - pandas.DataFrame: DataFrame with nighttime data removed.
 
         """
         lat = 49.102
@@ -263,7 +263,7 @@ class PVModules:
         Sets nighttime data frame values to zero.
 
         Returns:
-            pandas.DataFrame: DataFrame with nighttime values set to zero.
+            - pandas.DataFrame: DataFrame with nighttime values set to zero.
 
         """
         lat = 49.102
@@ -281,10 +281,10 @@ class PVModules:
         Converts seconds to hours, minutes, and seconds.
 
         Args:
-            seconds (int): Number of seconds to convert.
+            - seconds (int): Number of seconds to convert.
 
         Returns:
-            str: Converted time string in HH:MM:SS format.
+            - str: Converted time string in HH:MM:SS format.
 
         """
         hours = seconds // 3600
@@ -299,10 +299,10 @@ class PVModules:
         Starts logging operations.
 
         Args:
-            file_name (str): Name of the log file.
+            - file_name (str): Name of the log file.
 
         Returns:
-            logging.Logger: Logger object for logging operations.
+            - logging.Logger: Logger object for logging operations.
 
         """
         file_path = os.path.join(os.path.dirname(__file__), '..', 'logs', f'{file_name}_log.log')
@@ -318,8 +318,8 @@ class PVModules:
         Stops logging operations and calculates total runtime.
 
         Args:
-            logger (logging.Logger): Logger object for logging operations.
-            start_time (float): Start time of the process.
+            - logger (logging.Logger): Logger object for logging operations.
+            - start_time (float): Start time of the process.
 
         """
         end_time = time.time()
@@ -340,7 +340,7 @@ class PVModules:
         Gets the DataFrame containing PV module data.
 
         Returns:
-            pandas.DataFrame: DataFrame containing PV module data.
+            - pandas.DataFrame: DataFrame containing PV module data.
 
         """
         return self.data_frame
@@ -350,7 +350,7 @@ class PVModules:
         Gets the list of file paths.
 
         Returns:
-            list: List of file paths.
+            - list: List of file paths.
 
         """
         return self.path_list
@@ -360,7 +360,7 @@ class PVModules:
         Gets the type of file to process.
 
         Returns:
-            str: Type of file to process.
+            - str: Type of file to process.
 
         """
         return self.FILE_TYPE
@@ -370,7 +370,7 @@ class PVModules:
         Sets the DataFrame containing PV module data.
 
         Args:
-            data_frame (pandas.DataFrame): DataFrame containing PV module data.
+            - data_frame (pandas.DataFrame): DataFrame containing PV module data.
 
         """
         self.data_frame = data_frame
